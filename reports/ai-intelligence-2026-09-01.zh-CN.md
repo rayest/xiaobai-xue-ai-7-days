@@ -40,6 +40,8 @@
 
 - [Orchestry 发布面向 Microsoft 365 治理的 AI & Agents（Orchestry Launches AI & Agents for Microsoft 365 Governance）](https://www.prnewswire.com/news-releases/orchestry-launches-ai--agents-for-microsoft-365-governance-302865917.html) — 2026-09-01 21:30:00
   - 摘要：Orchestry 在其 Microsoft 365 治理平台中加入 AI & Agents，让 IT 团队查看租户内运行的 Agent、识别风险，并追踪相关环境、策略和连接器。公司称其曾在一个约有 2 万个站点、4 万多名用户的企业租户中发现超过 3,000 个“任何人可访问”的共享链接；该数字属于厂商披露，不能直接外推到其他企业。（Orchestry announced AI & Agents, a feature that helps IT teams see agents running in a Microsoft 365 tenant, understand their risk, and inspect the environments, policies, and connectors behind them. The company says it found more than 3,000 “anyone” links in one enterprise tenant with roughly 20,000 sites and over 40,000 users.）
+  - 证据分类：厂商公告及厂商披露的客户数据，未经独立审计。（Vendor announcement and vendor-reported customer data; not independently audited.）
 
 - [ProcessUnity 发布用于第三方风险管理的 AI Agents（ProcessUnity Launches AI Agents for TPRM）](https://www.processunity.com/resources/press-releases/processunity-launches-ai-agents-for-tprm/) — 抓取时间：2026-09-01 21:58:47；原页面未提供具体发布时间，待核验
   - 摘要：ProcessUnity 推出面向第三方风险管理的专用 Agent，用于自动处理资料收集和初步流程，同时把判断性决策交给人工专家。公司称某早期客户将不完整风险问卷减少 75%、初始受理周期缩短 54%、评估吞吐量提高 43%，并由 Agent 完成 45% 的评估；这些结果属于公司案例，不是独立审计数据。（ProcessUnity launched dedicated AI agents for third-party risk management to automate manual work while routing judgment calls to human experts. The company says one early adopter reduced incomplete questionnaires by 75%, cut intake cycle time by 54%, improved assessment throughput by 43%, and now completes 45% of assessments with agents.）
+  - 证据分类：厂商公告及厂商披露的客户结果，未经独立审计。（Vendor announcement and vendor-reported customer outcomes; not independently audited.）
