@@ -189,7 +189,7 @@ def markdown(items: list[Item], generated_at: dt.datetime, hours: int) -> str:
             meta = " · ".join(value for value in (item.published, item.signal) if value)
             lines.append(f"- [{item.title}]({item.url})" + (f" — {meta}" if meta else ""))
             if item.summary:
-                lines.append(f"  - 摘要：{item.summary[:280]}")
+                lines.append(f"  - 摘要：{item.summary[:280].rstrip()}")
         lines.append("")
     lines += ["## 人工分析提示", "", "- 先核对发布时间和原始来源，再判断是否为当天新增。",
               "- 将官方发布、平台热度、社区观点和事实结果分开记录。",
@@ -217,7 +217,10 @@ def main() -> int:
     all_items: list[Item] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(collectors)) as pool:
         for future in concurrent.futures.as_completed([pool.submit(fn) for fn in collectors]):
-            all_items.extend(future.result())
+            try:
+                all_items.extend(future.result())
+            except Exception as exc:
+                print(f"warning: collector failed: {exc}", file=sys.stderr)
     content = markdown(dedupe(all_items), dt.datetime.now(dt.timezone.utc), args.hours)
     output = os.path.abspath(args.output)
     with open(output, "w", encoding="utf-8") as file:
