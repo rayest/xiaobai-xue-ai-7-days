@@ -405,6 +405,57 @@ Product Hunt 的 AI 产品继续向代码审查、浏览器自动化、HR 合规
 
 ## 逐条情报明细
 
+- [Kilo Code for JetBrains](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Fully native, open-source coding agent built for JetBrains.
+
+- [Computable GPU Index (CGI)](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：The first open-source price index for GPU compute.
+
+- [Creatium Coach](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Your multimedia mentor that takes you from mid to great.
+
+- [Gauth AI Course](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：AI courses you can watch, quiz through, and create.
+
+- [Sider Code](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Reshape any website with plain words via Sider extension.
+
+- [Framer AI Agents](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Design and publish professional sites with AI.
+
+- [Cosmic Agent Plugins](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Connect Cosmic agents to any service with an MCP server.
+
+- [Tovel AI](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：From conversation to action, in three steps.
+
+- [Keiki](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：Build one customer-facing AI agent and launch it everywhere.
+
+- [Naseem](https://www.producthunt.com/) — 抓取时间：2026-09-01 23:42:46；页面未提供具体发布时间，标注为今日
+  - 原始摘要：A native AI agent that does real work on your Mac.
+
+- [VoiceStudio](https://github.com/debpalash/VoiceStudio) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 745 stars
+  - 原始摘要：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+
+- [pdf-inspector](https://github.com/firecrawl/pdf-inspector) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 545 stars
+  - 原始摘要：Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
+
+- [video-use](https://github.com/browser-use/video-use) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 509 stars
+  - 原始摘要：Edit videos with coding agents.
+
+- [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 914 stars
+  - 原始摘要：Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery.
+
+- [patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 502 stars
+  - 原始摘要：中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
+
+- [ECC](https://github.com/affaan-m/ECC) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 621 stars
+  - 原始摘要：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+- [crawl4ai](https://github.com/unclecode/crawl4ai) — 抓取时间：2026-09-01 23:42:46；GitHub 标注今日新增 179 stars
+  - 原始摘要：Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper.
+
 - [Murmell：面向 AI Agent 的 Google Docs 工具（Murmell: Google docs for AI agents, and you can close your laptop）](https://www.productcool.com/archive/2026/09/01) — 抓取时间：2026-09-01 23:42:46；原页面未提供具体发布时间，待核验
   - 原始摘要：Murmell 面向 AI Agent 提供 Google Docs 工具，产品页面称用户可以在离开电脑后继续完成工作。
 
