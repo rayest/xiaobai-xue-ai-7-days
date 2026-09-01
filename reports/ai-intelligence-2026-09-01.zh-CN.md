@@ -405,6 +405,9 @@ Product Hunt 的 AI 产品继续向代码审查、浏览器自动化、HR 合规
 
 ## 逐条情报明细
 
+- [腾讯混元部分接口下线及服务调整（腾讯云官方通知）](https://cloud.tencent.cn/announce/detail/2405) — 2026-09-01 00:00:00
+  - 摘要：腾讯云公告称，混元生图-1.0、文生图轻量版-1.0、混元文生视频、混元图生视频、混元生图多轮会话和混元生3D等历史专项接口自今天 00:00 起停止新购，并计划于 2026-09-30 00:00 终止全量服务；官方建议迁移到 TokenHub 及 HY-Image-3.0、HY-Video-1.5、HY-3D-3.1。
+
 - [Ping Identity 发布 Claude Personal Agents 的发现、授权与运行时控制方案（Ping Identity Secures Claude Personal Agents From Discovery to Action）](https://press.pingidentity.com/2026-09-01-Ping-Identity-Secures-Claude-Personal-Agents-From-Discovery-to-Action) — 抓取时间：2026-09-01 23:30:43；原页面未提供具体发布时间，待核验
   - 摘要：Ping Identity 发布面向个人 AI Agent 的端到端安全方案，覆盖 Agent 发现、无密钥特权访问和运行时控制，重点解决 Agent 访问凭据、权限和执行过程的治理问题。该信息来自厂商公告，文中引用的生产 Agent 安全比例属于厂商引用数据，待进一步核验。
 
