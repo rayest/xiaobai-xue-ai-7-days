@@ -405,6 +405,9 @@ Product Hunt 的 AI 产品继续向代码审查、浏览器自动化、HR 合规
 
 ## 逐条情报明细
 
+- [Ping Identity 发布 Claude Personal Agents 的发现、授权与运行时控制方案（Ping Identity Secures Claude Personal Agents From Discovery to Action）](https://press.pingidentity.com/2026-09-01-Ping-Identity-Secures-Claude-Personal-Agents-From-Discovery-to-Action) — 抓取时间：2026-09-01 23:30:43；原页面未提供具体发布时间，待核验
+  - 摘要：Ping Identity 发布面向个人 AI Agent 的端到端安全方案，覆盖 Agent 发现、无密钥特权访问和运行时控制，重点解决 Agent 访问凭据、权限和执行过程的治理问题。该信息来自厂商公告，文中引用的生产 Agent 安全比例属于厂商引用数据，待进一步核验。
+
 - [Orchestry 发布面向 Microsoft 365 治理的 AI & Agents（Orchestry Launches AI & Agents for Microsoft 365 Governance）](https://www.prnewswire.com/news-releases/orchestry-launches-ai--agents-for-microsoft-365-governance-302865917.html) — 2026-09-01 21:30:00
   - 摘要：Orchestry 在其 Microsoft 365 治理平台中加入 AI & Agents，让 IT 团队查看租户内运行的 Agent、识别风险，并追踪相关环境、策略和连接器。公司称其曾在一个约有 2 万个站点、4 万多名用户的企业租户中发现超过 3,000 个“任何人可访问”的共享链接；该数字属于厂商披露，不能直接外推到其他企业。（Orchestry announced AI & Agents, a feature that helps IT teams see agents running in a Microsoft 365 tenant, understand their risk, and inspect the environments, policies, and connectors behind them. The company says it found more than 3,000 “anyone” links in one enterprise tenant with roughly 20,000 sites and over 40,000 users.）
 
