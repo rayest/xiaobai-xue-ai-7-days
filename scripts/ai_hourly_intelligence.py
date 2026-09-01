@@ -133,7 +133,8 @@ def collect_hugging_face() -> list[Item]:
                 ident = entry.get("id", "")
                 if not ident:
                     continue
-                result.append(Item(ident, f"https://huggingface.co/{kind}/{ident}", f"Hugging Face {kind}",
+                page_kind = "" if kind == "models" else kind
+                result.append(Item(ident, f"https://huggingface.co/{page_kind}/{ident}", f"Hugging Face {kind}",
                                    entry.get("lastModified", ""), entry.get("pipeline_tag", ""),
                                    f"likes={entry.get('likes', 0)}, downloads={entry.get('downloads', 0)}",
                                    float(entry.get("likes", 0))))

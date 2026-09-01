@@ -32,45 +32,45 @@
 
 ## Hugging Face models
 
-- [black-forest-labs/FLUX.1-dev](https://huggingface.co/models/black-forest-labs/FLUX.1-dev) — likes=14348, downloads=724434
+- [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) — likes=14348, downloads=724434
   - 摘要：text-to-image
-- [deepseek-ai/DeepSeek-R1](https://huggingface.co/models/deepseek-ai/DeepSeek-R1) — likes=13600, downloads=2028559
+- [deepseek-ai/DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) — likes=13600, downloads=2028559
   - 摘要：text-generation
-- [Qwen/Qwen3.8-27B](https://huggingface.co/models/Qwen/Qwen3.8-27B) — likes=13478, downloads=4720763
+- [Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) — likes=13478, downloads=4720763
   - 摘要：image-text-to-text
-- [moonshotai/Kimi-K3](https://huggingface.co/models/moonshotai/Kimi-K3) — likes=11118, downloads=2792274
+- [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) — likes=11118, downloads=2792274
   - 摘要：image-text-to-text
-- [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0) — likes=8092, downloads=1720740
+- [stabilityai/stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) — likes=8092, downloads=1720740
   - 摘要：text-to-image
-- [CompVis/stable-diffusion-v1-4](https://huggingface.co/models/CompVis/stable-diffusion-v1-4) — likes=7056, downloads=482396
+- [CompVis/stable-diffusion-v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4) — likes=7056, downloads=482396
   - 摘要：text-to-image
-- [hexgrad/Kokoro-82M](https://huggingface.co/models/hexgrad/Kokoro-82M) — likes=6785, downloads=11651409
+- [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) — likes=6785, downloads=11651409
   - 摘要：text-to-speech
-- [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/models/meta-llama/Llama-3.1-8B-Instruct) — likes=6726, downloads=5861628
+- [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) — likes=6726, downloads=5861628
   - 摘要：text-generation
-- [meta-llama/Meta-Llama-3-8B](https://huggingface.co/models/meta-llama/Meta-Llama-3-8B) — likes=6636, downloads=661978
+- [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) — likes=6636, downloads=661978
   - 摘要：text-generation
-- [openai/whisper-large-v3](https://huggingface.co/models/openai/whisper-large-v3) — likes=6209, downloads=4870548
+- [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) — likes=6209, downloads=4870548
   - 摘要：automatic-speech-recognition
-- [black-forest-labs/FLUX.1-schnell](https://huggingface.co/models/black-forest-labs/FLUX.1-schnell) — likes=5657, downloads=640106
+- [black-forest-labs/FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) — likes=5657, downloads=640106
   - 摘要：text-to-image
-- [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/models/deepseek-ai/DeepSeek-V4-Pro) — likes=5492, downloads=809261
+- [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) — likes=5492, downloads=809261
   - 摘要：text-generation
-- [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2) — likes=5331, downloads=253520473
+- [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) — likes=5331, downloads=253520473
   - 摘要：sentence-similarity
-- [Tongyi-MAI/Z-Image-Turbo](https://huggingface.co/models/Tongyi-MAI/Z-Image-Turbo) — likes=5181, downloads=709520
+- [Tongyi-MAI/Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo) — likes=5181, downloads=709520
   - 摘要：text-to-image
-- [openai/gpt-oss-120b](https://huggingface.co/models/openai/gpt-oss-120b) — likes=5137, downloads=5316895
+- [openai/gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b) — likes=5137, downloads=5316895
   - 摘要：text-generation
-- [zai-org/GLM-5.2](https://huggingface.co/models/zai-org/GLM-5.2) — likes=5064, downloads=1552546
+- [zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) — likes=5064, downloads=1552546
   - 摘要：text-generation
-- [bigscience/bloom](https://huggingface.co/models/bigscience/bloom) — likes=5041, downloads=17580
+- [bigscience/bloom](https://huggingface.co/bigscience/bloom) — likes=5041, downloads=17580
   - 摘要：text-generation
-- [stabilityai/stable-diffusion-3-medium](https://huggingface.co/models/stabilityai/stable-diffusion-3-medium) — likes=5018, downloads=4287
+- [stabilityai/stable-diffusion-3-medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium) — likes=5018, downloads=4287
   - 摘要：text-to-image
-- [openai/gpt-oss-20b](https://huggingface.co/models/openai/gpt-oss-20b) — likes=4973, downloads=6450692
+- [openai/gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) — likes=4973, downloads=6450692
   - 摘要：text-generation
-- [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct) — likes=4876, downloads=1628648
+- [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) — likes=4876, downloads=1628648
   - 摘要：text-generation
 
 ## Hugging Face datasets
