@@ -1,0 +1,7 @@
+interface:
+  display_name: "外部资料阅读入口"
+  short_description: "为外部书籍和资料创建可维护的说明与跳转入口"
+  default_prompt: "使用 $ray-external-reading 为这份外部资料创建一个简洁、可维护的阅读入口。"
+
+policy:
+  allow_implicit_invocation: true

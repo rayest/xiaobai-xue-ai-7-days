@@ -5,6 +5,7 @@
 ## 报告导航
 
 - [其他公司的 AI 与组织方法论](company-methodologies.md)
+- [前线部署工程师（FDE）阅读入口](fde-guidance-book.md)
 - [FDE：从前线工程到企业 AI 部署](fde-trends.md)
 - [企业 AI 数字化与数智化落地报告](enterprise-ai-implementation.md)
 - [AI Native 与 AI 原生组织](ai-native-organizations.md)
