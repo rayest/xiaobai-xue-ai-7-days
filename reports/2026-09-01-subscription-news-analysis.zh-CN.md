@@ -1,6 +1,8 @@
-# 2026-09-01 订阅邮件深度分析
+# 2026-09-01 订阅邮件深度分析（中文版本）
 
-对应中文版本：[2026-09-01-subscription-news-analysis.zh-CN.md](2026-09-01-subscription-news-analysis.zh-CN.md)
+对应原始版本：[2026-09-01-subscription-news-analysis.md](2026-09-01-subscription-news-analysis.md)
+
+> 原报告已经使用中文撰写。本文件作为命名明确的中文对应版本，保留同一结论、数据和来源。
 
 ## 总体判断
 
