@@ -1,6 +1,6 @@
-# AI 每 3 小时情报脚本
+# AI 每小时情报脚本
 
-`ai_hourly_intelligence.py` 是定时任务的可复用采集脚本。它负责抓取和初步归类，不替代人工核验，也不自动断言热度等于质量。当前自动化每 3 小时运行一次。
+`ai_hourly_intelligence.py` 是定时任务的可复用脚本版本。它负责抓取和初步归类，不替代人工核验，也不自动断言热度等于质量。
 
 ## 覆盖来源
 
@@ -18,17 +18,6 @@
 python3 scripts/ai_hourly_intelligence.py --output reports/ai-intelligence.md
 ```
 
-## 双文件发布规范
-
-情报任务生成的每个原始 Markdown，都必须在同一目录生成一个同名中文版本：
-
-- 原始版：`<name>.md`
-- 中文版：`<name>.zh-CN.md`
-
-`.zh-CN.md` 文件本身不再递归生成另一个中文副本。两个文件必须在同一次提交中更新并推送，不能只推送原始版。
-
-中文版本对最终收录的去重条目逐条对应，并保留相同的来源链接、北京时间和热度指标。普通新闻标题及摘要采用“中文（英文原文）”；模型、产品、项目、公司、平台和网页名称保留官方写法。未经模型翻译、核验和去重的采集结果只属于原始候选数据，不能当作中文成品发布。
-
 Product Hunt API Token 是可选的：
 
 ```bash
@@ -37,12 +26,12 @@ PRODUCT_HUNT_TOKEN='[REDACTED]' python3 scripts/ai_hourly_intelligence.py
 
 不要把 Token 写进仓库、命令历史或报告。脚本默认生成最近 24 小时的抓取报告；`--hours` 目前用于报告标注，具体 RSS/API 的时间过滤仍应在人工复核阶段完成。
 
-## 每 3 小时运行示例
+## 每小时运行示例
 
 macOS/Linux 可以使用 cron：
 
 ```cron
-0 */3 * * * cd /path/to/xiaobai-xue-ai-7-days && /usr/bin/python3 scripts/ai_hourly_intelligence.py --output reports/ai-intelligence.md >> /tmp/ai-intelligence.log 2>&1
+0 * * * * cd /path/to/xiaobai-xue-ai-7-days && /usr/bin/python3 scripts/ai_hourly_intelligence.py --output reports/ai-intelligence.md >> /tmp/ai-intelligence.log 2>&1
 ```
 
 如果要提交每小时生成的报告，建议另写一个经过人工审阅的发布流程，不要让脚本自动把未经核验的热度判断推送到公共仓库。
