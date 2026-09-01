@@ -405,6 +405,15 @@ Product Hunt 的 AI 产品继续向代码审查、浏览器自动化、HR 合规
 
 ## 逐条情报明细
 
+- [Murmell：面向 AI Agent 的 Google Docs 工具（Murmell: Google docs for AI agents, and you can close your laptop）](https://www.productcool.com/archive/2026/09/01) — 抓取时间：2026-09-01 23:42:46；原页面未提供具体发布时间，待核验
+  - 原始摘要：Murmell 面向 AI Agent 提供 Google Docs 工具，产品页面称用户可以在离开电脑后继续完成工作。
+
+- [BobVault：面向代码仓库的命令行零知识架构（BobVault: CLI based Zero-Knowledge Architecture for code repositories）](https://www.productcool.com/archive/2026/09/01) — 抓取时间：2026-09-01 23:42:46；原页面未提供具体发布时间，待核验
+  - 原始摘要：BobVault 是面向代码仓库的命令行零知识架构，产品被列入 2026 年 9 月 1 日的 AI、开发者工具和 GitHub 产品发布列表。
+
+- [LLM Benchmarks vs Real Usage](https://tidelines.ai/benchmarks) — 抓取时间：2026-09-01 23:42:46；页面标注数据截至 2026-09-01
+  - 原始摘要：该页面结合 OpenRouter 和 Artificial Analysis 数据，对模型基准成绩、真实使用情况和列表输出价格进行对比，并展示不同对话长度区间的数据。
+
 - [腾讯混元部分接口下线及服务调整（腾讯云官方通知）](https://cloud.tencent.cn/announce/detail/2405) — 2026-09-01 00:00:00
   - 摘要：腾讯云公告称，混元生图-1.0、文生图轻量版-1.0、混元文生视频、混元图生视频、混元生图多轮会话和混元生3D等历史专项接口自今天 00:00 起停止新购，并计划于 2026-09-30 00:00 终止全量服务；官方建议迁移到 TokenHub 及 HY-Image-3.0、HY-Video-1.5、HY-3D-3.1。
 
