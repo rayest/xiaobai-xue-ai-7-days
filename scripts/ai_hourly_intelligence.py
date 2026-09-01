@@ -210,7 +210,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Collect low-frequency AI intelligence from public sources.")
     parser.add_argument("--output", default="ai-intelligence.md")
     parser.add_argument("--hours", type=int, default=DEFAULT_HOURS)
-    parser.add_argument("--max-items", type=int, default=DEFAULT_MAX_ITEMS)
+    parser.add_argument("--max-items", type=int, default=DEFAULT_MAX_ITEMS,
+                        help="Maximum items per source, not across all sources")
     args = parser.parse_args()
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=args.hours)
     feeds = {
@@ -232,7 +233,7 @@ def main() -> int:
                 all_items.extend(future.result())
             except Exception as exc:
                 print(f"warning: collector failed: {exc}", file=sys.stderr)
-    selected = dedupe(all_items)[:max(1, args.max_items)]
+    selected = dedupe(all_items)
     content = markdown(selected, dt.datetime.now(dt.timezone.utc), args.hours, args.max_items)
     output = os.path.abspath(args.output)
     with open(output, "w", encoding="utf-8") as file:

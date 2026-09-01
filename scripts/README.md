@@ -1,6 +1,6 @@
 # AI 每小时情报脚本
 
-`ai_hourly_intelligence.py` 使用 Python 标准库低频抓取公开情报，默认每次只看最近 6 小时，最多保留 30 条。它不把点赞、投票、评论、Star 或下载量直接当成用户规模、产品质量或商业成功。
+`ai_hourly_intelligence.py` 使用 Python 标准库低频抓取公开情报，默认每次只看最近 6 小时，每个来源最多保留 30 条。它不把点赞、投票、评论、Star 或下载量直接当成用户规模、产品质量或商业成功。
 
 ## 覆盖来源
 
@@ -23,7 +23,7 @@ Product Hunt API Token 是可选的，不要把 Token 写进仓库、命令历�
 PRODUCT_HUNT_TOKEN='your-token' python3 scripts/ai_hourly_intelligence.py
 ```
 
-脚本默认只保留最近 6 小时、最多 30 条；可用 `--hours` 和 `--max-items` 调整。
+脚本默认只保留最近 6 小时；每个来源最多 30 条，可用 `--hours` 和 `--max-items` 调整。所有来源合计不设上限。
 
 ## 每 6 小时运行示例
 
