@@ -1,9 +1,11 @@
 # AI 与大模型每小时情报
 
-生成时间：2026-09-01T09:52:13.210327+08:00
+生成时间：2026-09-01 21:33:11
 抓取窗口：最近 24 小时；来源条目：2163
 
 > 热度指标是平台信号，不等于真实用户规模、产品质量或商业成功。公司案例中的结果属于公司自述，需独立验证。
+
+> 格式说明：普通新闻标题、摘要和说明使用中文；模型名、产品名、项目名、公司名和平台名保留官方名称。所有时间均为北京时间，格式为 `YYYY-MM-DD HH:mm:ss`。
 
 ## Hugging Face spaces
 
@@ -260,3 +262,41 @@
 - 先核对发布时间和原始来源，再判断是否为当天新增。
 - 将官方发布、平台热度、社区观点和事实结果分开记录。
 - 继续追踪：是否有真实用户采用、生产部署、收入/成本变化、后续版本和反例。
+
+---
+
+## 本次更新（2026-09-01 21:33:11，北京时间）
+
+### A. 本次新增
+
+- 暂无新的主流厂商旗舰模型或 API 发布。
+- GitHub Trending 仍由 Agent 相关项目占据明显位置：`OpenMAIC`、`archify`、`scientific-agent-skills`。页面显示今日新增 Star 约 2,824、3,991 和 1,980；这是平台热度信号，不代表真实用户规模或产品质量。[GitHub Trending](https://github.com/trending)
+- ACL Anthology 收录 `SafeAgent`：通过自动化风险模拟器拆分指令、上下文和行动风险，用于测试 Agent 的安全失效模式。[SafeAgent](https://aclanthology.org/2026.acl-long.1501/)
+
+### B. 今日持续升温
+
+- Agent 技能库、科研 Agent 和多 Agent 教学系统；
+- Agent 运行时安全、权限边界、沙箱隔离和事故追踪；
+- 企业私有部署、模型可迁移和供应商解耦。
+
+### C. AI 应用与产品方向变化
+
+Product Hunt 本月 AI 产品继续向代码审查、浏览器自动化、HR 合规、教育和营养建议等具体场景集中；平台页面显示本月已有 385 个 AI 产品条目，但榜单数据只能反映平台内热度。[Product Hunt](https://www.producthunt.com/products?parentTopic=development&period=2026-9&topic=artificial-intelligence)
+
+### D. 值得关注
+
+- `OpenMAIC`：多 Agent 互动课堂；
+- `scientific-agent-skills`：科研技能与数据库集成；
+- `archify`：架构、流程和数据流可视化；
+- `SafeAgent`：面向 Agent 风险模拟和自动化安全评测。
+
+### E. 对企业、开发者和产品经理的影响
+
+企业应在 Agent 上线前定义可验收指标，并把工具权限、日志、人工审批、异常终止和回滚机制作为产品功能，而不是上线后的补丁。
+
+### F. 需要继续验证
+
+- GitHub 热门项目的活跃维护、安装量和真实留存；
+- 多 Agent 相比单 Agent 的成本与任务收益；
+- `SafeAgent` 等安全评测方法能否预测真实生产事故；
+- Product Hunt 热度能否转化为长期收入和企业客户。
