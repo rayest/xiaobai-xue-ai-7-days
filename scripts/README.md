@@ -7,6 +7,7 @@
 - 官方官网：Anthropic（News、Research、Engineering Sitemap）、OpenAI Sitemap
 - 官方 RSS：Google AI、Google DeepMind、Meta AI、Mistral、Cohere、NVIDIA、AWS、Microsoft AI、Hugging Face Blog
 - Claude Code：`anthropics/claude-code` GitHub Releases
+- 产品快照：GitHub Trending、There's An AI For That、Futurepedia、Toolify、AIxploria、FutureTools
 - 研究：arXiv cs.AI、cs.CL、cs.LG
 - 产品/开源：Hugging Face Models、Spaces、Datasets，GitHub 新建 AI 项目
 - 产品社区：Product Hunt（需要 `PRODUCT_HUNT_TOKEN`）
@@ -24,7 +25,7 @@ Product Hunt API Token 是可选的，不要把 Token 写进仓库、命令历�
 PRODUCT_HUNT_TOKEN='your-token' python3 scripts/ai_hourly_intelligence.py
 ```
 
-脚本默认只保留最近 6 小时；每个来源最多 30 条，可用 `--hours` 和 `--max-items` 调整。所有来源合计不设上限。
+脚本默认只保留最近 6 小时；每个来源最多 30 条，可用 `--hours` 和 `--max-items` 调整。产品目录和 GitHub Trending 属于当前快照，不伪装成发布时间；所有来源合计不设上限。
 
 ## 每 6 小时运行示例
 

@@ -19,6 +19,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from html.parser import HTMLParser
 from typing import Any, Iterable
 
 
@@ -38,6 +39,7 @@ class Item:
     summary: str = ""
     signal: str = ""
     score: float = 0.0
+    snapshot: bool = False
 
 
 def format_datetime(value: str) -> str:
@@ -77,6 +79,31 @@ def json_request(url: str, **kwargs: Any) -> Any:
 def clean_text(value: str) -> str:
     value = html.unescape(re.sub(r"<[^>]+>", " ", value or ""))
     return re.sub(r"\s+", " ", value).strip()
+
+
+class LinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[tuple[str, str]] = []
+        self.href = ""
+        self.text: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "a":
+            self.href = dict(attrs).get("href") or ""
+            self.text = []
+
+    def handle_data(self, data: str) -> None:
+        if self.href:
+            self.text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "a" and self.href:
+            title = clean_text(" ".join(self.text))
+            if title:
+                self.links.append((self.href, title))
+            self.href = ""
+            self.text = []
 
 
 def is_recent(published: str, cutoff: dt.datetime) -> bool:
@@ -128,6 +155,35 @@ def collect_sitemap(name: str, url: str, cutoff: dt.datetime,
             title = re.sub(r"[-_]+", " ", slug).strip().title() or loc
             result.append(Item(title, loc, name, lastmod))
         return result[:DEFAULT_MAX_ITEMS]
+    except Exception as exc:
+        print(f"warning: {name}: {exc}", file=sys.stderr)
+        return []
+
+
+def collect_html_snapshot(name: str, url: str, base_url: str,
+                          include: tuple[str, ...] = ()) -> list[Item]:
+    """Collect a small current directory snapshot from sites without RSS."""
+    try:
+        parser = LinkParser()
+        parser.feed(request(url).decode("utf-8", errors="replace"))
+        result: list[Item] = []
+        seen: set[str] = set()
+        for href, title in parser.links:
+            if href.startswith("/"):
+                link = base_url.rstrip("/") + href
+            elif href.startswith("http"):
+                link = href
+            else:
+                continue
+            if link in seen or len(title) < 3 or len(title) > 140:
+                continue
+            if include and not any(word.lower() in (title + " " + link).lower() for word in include):
+                continue
+            seen.add(link)
+            result.append(Item(title, link, name, "", "当前产品/项目热度快照", "snapshot", float(len(result)), True))
+            if len(result) >= DEFAULT_MAX_ITEMS:
+                break
+        return result
     except Exception as exc:
         print(f"warning: {name}: {exc}", file=sys.stderr)
         return []
@@ -210,7 +266,7 @@ def dedupe(items: Iterable[Item]) -> list[Item]:
 
 def markdown(items: list[Item], generated_at: dt.datetime, hours: int, max_items: int) -> str:
     lines = ["# AI 与大模型情报", "", f"生成时间：{generated_at.astimezone(BEIJING).strftime('%Y-%m-%d %H:%M:%S')}",
-             f"抓取窗口：最近 {hours} 小时；最多保留 {max_items} 条；来源条目：{len(items)}", "",
+             f"抓取窗口：最近 {hours} 小时；每个来源最多 {max_items} 条；来源条目：{len(items)}", "",
              "> 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。", ""]
     groups: dict[str, list[Item]] = {}
     for item in items:
@@ -219,6 +275,8 @@ def markdown(items: list[Item], generated_at: dt.datetime, hours: int, max_items
         lines += [f"## {source}", ""]
         for item in group[:max_items]:
             meta = " · ".join(value for value in (item.published, item.signal) if value)
+            if item.snapshot:
+                meta = "当前快照" + (f" · {item.signal}" if item.signal and item.signal != "snapshot" else "")
             lines.append(f"- [{item.title}]({item.url})" + (f" — {meta}" if meta else ""))
             if item.summary:
                 lines.append(f"  - 摘要：{item.summary[:280].rstrip()}")
@@ -261,7 +319,14 @@ def main() -> int:
                    lambda: collect_sitemap("OpenAI Official", "https://openai.com/sitemap.xml", cutoff,
                                           ("/research/", "/index/", "/news/", "/engineering/")),
                    lambda: collect_hacker_news(cutoff), lambda: collect_github_releases(cutoff),
-                   lambda: collect_hugging_face(cutoff), lambda: collect_product_hunt(cutoff)]
+                   lambda: collect_hugging_face(cutoff), lambda: collect_product_hunt(cutoff),
+                   lambda: collect_html_snapshot("GitHub Trending", "https://github.com/trending", "https://github.com",
+                                                 ("/",)),
+                   lambda: collect_html_snapshot("There's An AI For That", "https://theresanaiforthat.com/", "https://theresanaiforthat.com"),
+                   lambda: collect_html_snapshot("Futurepedia", "https://www.futurepedia.io/", "https://www.futurepedia.io"),
+                   lambda: collect_html_snapshot("Toolify", "https://www.toolify.ai/", "https://www.toolify.ai"),
+                   lambda: collect_html_snapshot("AIxploria", "https://www.aixploria.com/", "https://www.aixploria.com"),
+                   lambda: collect_html_snapshot("FutureTools", "https://www.futuretools.io/", "https://www.futuretools.io")]
     all_items: list[Item] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(collectors)) as pool:
         for future in concurrent.futures.as_completed([pool.submit(fn) for fn in collectors]):
