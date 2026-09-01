@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文去 AI 味"
+  short_description: "保留事实与作者声音，清理中文文章的模型腔、翻译腔和空泛套话"
+  default_prompt: "请用 ray-chinese-humanize skill 处理这篇文章，保留事实、观点、细节和作者声音，先判断文体与改写幅度，再输出自然、具体的中文稿。"
