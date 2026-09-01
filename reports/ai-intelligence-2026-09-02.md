@@ -1,7 +1,7 @@
 # AI 与大模型情报
 
-生成时间：2026-09-02 00:43:57
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：141
+生成时间：2026-09-02 00:46:42
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：167
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
@@ -131,6 +131,61 @@
 - [Future Tools](https://www.futuretools.io/) — 当前快照
   - 摘要：当前产品/项目热度快照
 
+## Toolify
+
+- [ZEnhancer AI-powered online tool for enhancing, restoring, and upscaling photos](https://www.toolify.ai/tool/zenhancer) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [M Mamo A sovereign digital platform offering identity, AI, security, CDN, and weather services.](https://www.toolify.ai/tool/mamo) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Orshot Automates branded images, videos, PDFs, and social content from templates](https://www.toolify.ai/tool/orshot) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Gemini Omni Video Generator AI video generation from text, images, and reference clips](https://www.toolify.ai/tool/gemini-omni-video-generator-2) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Sorank Automated SEO and GEO platform for growing Google and AI search visibility](https://www.toolify.ai/tool/sorank) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Ideata Open-source AI visibility tracker and content studio](https://www.toolify.ai/tool/ideata) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [CinLink AI workspace for creating, editing, translating, dubbing, and repurposing media](https://www.toolify.ai/tool/cinlink) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Mentionry AI SEO platform for tracking and improving visibility in AI-generated answers](https://www.toolify.ai/tool/mentionry) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [ThreadCite Find Reddit leads, track visibility, and improve AI search citations.](https://www.toolify.ai/tool/threadcite) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [TickClip Free AI shopping assistant that detects fake discounts, suspicious reviews, and risky sellers](https://www.toolify.ai/tool/tickclip) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Opsis AI QA platform that detects, proves, and helps fix bugs before users encounter them](https://www.toolify.ai/tool/opsis-ai-qa-bug-detection-for-vibe-coders) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Rhetis AI tool that turns documents and ideas into editable presentations](https://www.toolify.ai/tool/rhetis) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [EasyCircuit AI-assisted circuit design, parts sourcing, and staged hardware prototyping](https://www.toolify.ai/tool/easycircuit) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Sofos Local-first AI workspace for creating, editing, and managing business documents.](https://www.toolify.ai/tool/sofos) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Suno API Unified pay-as-you-go API for Suno music and other AI models](https://www.toolify.ai/tool/suno-api) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Miligram AI-powered tool for finding verified professional emails and phone numbers](https://www.toolify.ai/tool/miligram) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Agent AFK Free Open-source runtime for safely running coding agents without constant supervision](https://www.toolify.ai/tool/agentafk) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Ali AI AI workspace for project management, CRM, finance, and business operations](https://www.toolify.ai/tool/ali-ai) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [KaizenCV AI career coach for resumes, applications, ATS scoring, and interview preparation](https://www.toolify.ai/tool/kaizencv) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Epilude Mac voice dictation app that turns speech into polished text](https://www.toolify.ai/tool/epilude) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [SKI On-device voice assistant for conversational AI coding](https://www.toolify.ai/tool/ski) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Simpledot AI platform that compares 50+ models and automatically selects the best answer](https://www.toolify.ai/tool/simpledot) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [AI Search Console Track brand visibility, citations, competitors, and rankings across AI search engines.](https://www.toolify.ai/tool/ai-search-console) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Premation Open-source After Effects alternative for GPU-powered motion graphics](https://www.toolify.ai/tool/premation) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Memmy Local-first shared memory and AI agent for multiple AI tools](https://www.toolify.ai/tool/memmy-agent) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [trisAino AI-powered China travel planner with practical guides and human concierge support.](https://www.toolify.ai/tool/trisaino) — 当前快照
+  - 摘要：当前产品/项目热度快照
+
 ## There's An AI For That
 
 - [Literally the coolest AI tools you haven't heard about](https://theresanaiforthat.com/@m1huq/literally-the-cooles-ai-tools-you-haven-t-heard-about/) — 当前快照
@@ -244,6 +299,8 @@
   - 摘要：Comments
 - [Saab Enters Collaborative Combat Aircraft Race with High-End Concept](https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept) — 2026-09-01 22:19:30
   - 摘要：Comments
+- [Dwarf Fortress' creator says the industry's in shambles over AI](https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/) — 2026-09-01 23:53:42
+  - 摘要：Comments
 - [EFF to Governor Newsom: Veto California's AB 1709](https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709) — 2026-09-01 23:04:14
   - 摘要：Comments
 - [State of Open Models: Summer 2026 Observations](https://huggingface.co/blog/state-of-open-models-summer-2026) — 2026-09-01 22:55:50
@@ -251,34 +308,30 @@
 
 ## Dev.to AI
 
+- [AI APIs for Crypto Trading Signals - Complete Guide](https://dev.to/rogt7/ai-apis-for-crypto-trading-signals-complete-guide-3dbg) — 2026-09-02 00:43:52
+  - 摘要：AI‑Powered Crypto Trading Signals: How They Work and What They Cost In the fast‑moving world of cryptocurrency, timely information can be the difference between a profitable trade and a missed opportunity. Trading signals —concise recommendations such as “Buy BTC/USD at $28,300,
+- [Using LLMs for Crypto Market Analysis in 2026](https://dev.to/rogt7/using-llms-for-crypto-market-analysis-in-2026-42g5) — 2026-09-02 00:43:10
+  - 摘要：The landscape of cryptocurrency trading has shifted decisively toward semantic understanding. In 2026, traditional statistical arbitrage is no longer sufficient; the market moves on narrative, sentiment, and real-time contextual shifts. Large Language Models (LLMs) have evolved f
+- [Revenue Strategies for AI API Services](https://dev.to/rogt7/revenue-strategies-for-ai-api-services-5e4m) — 2026-09-02 00:42:02
+  - 摘要：Strategy: "The API-as-Service" Enterprise Trojan Horse (Targeting the IoT/Logistics Vertical) 1. The Specific Play: Stop marketing 93 separate APIs as a utility. Instead, package them into one high-value, all-inclusive "Enterprise Connectivity Platform" license targeting mid-to-l
+- [**SuiteDash Review: Streamline All Your Business Operations in One White-Label Platform – My Detailed Experience**](https://dev.to/al_beruni_6f2dfaf29b51d96/suitedash-review-streamline-all-your-business-operations-in-one-white-label-platform-my-4946) — 2026-09-02 00:41:35
+  - 摘要：As a freelance digital marketer who juggles client projects, communication, billing, and collaboration across multiple tools, I have long felt the pain of disconnected software. Switching between CRM, project boards, file storage, invoicing, and client portals wastes time and cre
+- [How AIoT Is Bringing Real-Time Intelligence to Space Systems Manufacturing](https://dev.to/alfidha_sherin_a71d327dd8/how-aiot-is-bringing-real-time-intelligence-to-space-systems-manufacturing-3bd9) — 2026-09-02 00:41:33
+  - 摘要：Space systems manufacturing and launch operations need exactness, traceability, and clear visibility at each step. As aerospace tasks grow more complex lining items to real‑time digital data can give a clearer picture of what occurs during manufacturing, integration, testing and
+- [From Idea to Product in One Afternoon: A Non-Engineer's Guide to AI CAD](https://dev.to/james_36d111a7a36/from-idea-to-product-in-one-afternoon-a-non-engineers-guide-to-ai-cad-oim) — 2026-09-02 00:40:42
+  - 摘要：A lot of us write software for a living and still hit a wall the second a project needs a physical part. You can spin up a full-stack app in an afternoon, but ask the same developer to design a phone stand or a custom enclosure, and CAD software turns that afternoon into a multi-
+- [The Hidden Cost of Concept-Stage CAD (And How AI Design Engines Fix It)](https://dev.to/james_36d111a7a36/the-hidden-cost-of-concept-stage-cad-and-how-ai-design-engines-fix-it-2kpa) — 2026-09-02 00:39:03
+  - 摘要：Every engineering team has a moment they don't put in the case study: the week spent modeling three versions of a bracket that never should have existed, because nobody caught the material mismatch until the CAD file was already 40 features deep. That week is the hidden cost of c
+- [Eliminating Hardcoded API Keys with Private On-Premises Vaults](https://dev.to/deepbodyme/eliminating-hardcoded-api-keys-with-private-on-premises-vaults-5fh8) — 2026-09-02 00:36:27
+  - 摘要：Why Hardcoded API Keys Create Persistent Risk API keys often begin as simple configuration values. During rapid development, engineers may place them inside source files, container images, deployment scripts, or environment templates. These shortcuts become dangerous when code mo
+- [Context Window vs Memory vs Lorebook: A Practical Architecture for Consistent AI Roleplay](https://dev.to/crushonai/context-window-vs-memory-vs-lorebook-a-practical-architecture-for-consistent-ai-roleplay-5gip) — 2026-09-02 00:35:47
+  - 摘要：Context Window vs Memory vs Lorebook: A Practical Architecture for Consistent AI Roleplay Long AI roleplay often fails for an architectural reason: current dialogue, durable facts, and reusable world knowledge are placed in one large prompt and expected to behave like a single me
+- [How to Design AI Evaluations You Can Actually Trust](https://dev.to/googleai/how-to-design-ai-evaluations-you-can-actually-trust-41c3) — 2026-09-02 00:35:00
+  - 摘要：As part of my work at Google, we are publishing a suite of Agent Skills for Google products and technologies on GitHub . These agent skills are designed to help AI agents interact with our technologies. But how do you test that these skills are useful and work as expected? My tea
 - [Re: @anp2network — you were right on all three counts. Here's the current state.](https://dev.to/edison_flores_6d2cd381b13/re-anp2network-you-were-right-on-all-three-counts-heres-the-current-state-3hfa) — 2026-09-02 00:32:23
   - 摘要：Context @anp2network left a detailed technical comment on my "I got banned from GitHub" article, identifying three issues with the install/resilience design. This is my response, point by point. The original comment ran the byte check the article invited, and the check didn't pas
 - [AI-Driven Risk Management for Crypto Traders](https://dev.to/rogt7/ai-driven-risk-management-for-crypto-traders-2mkc) — 2026-09-02 00:31:55
   - 摘要：In the high-volatility environment of cryptocurrency trading, emotional bias and human reaction time are significant liabilities. AI-driven risk management bridges this gap by replacing subjective decision-making with data-driven probability models. By leveraging machine learning
-- [How to Build an Autonomous Customer Onboarding Agent with CrewAI and n8n](https://dev.to/samchenreviews/how-to-build-an-autonomous-customer-onboarding-agent-with-crewai-and-n8n-2obm) — 2026-09-02 00:31:44
-  - 摘要：An autonomous customer onboarding agent is an AI system that independently manages the entire onboarding workflow - from intake to data entry to follow-up - without human intervention between steps. By combining CrewAI's multi-agent orchestration with n8n's workflow engine, you c
-- [Algorithmic Trading Strategies: Proven Reinforcement Edge](https://dev.to/vladimir_lialine_b2e67374/algorithmic-trading-strategies-proven-reinforcement-edge-3942) — 2026-09-02 00:30:28
-  - 摘要：Markets do not defeat traditional models because every signal disappears; they do so because relationships shift. The strongest algorithmic trading strategies treat execution as a sequential decision problem rather than a one-time forecast. Reinforcement learning can adapt positi
-- [Top Best Website To Buy Old Gmail Accounts In The USA~UK](https://dev.to/kehid75314/top-best-website-to-buy-old-gmail-accounts-in-the-usauk-4j1h) — 2026-09-02 00:29:41
-  - 摘要：Buy Reliable Old Gmail Accounts from ElitePvaZone 💬 NEED Assistance? Our dedicated support team is available 24/7 to assist you with any questions or orders. 📳 WhatsApp Support : +1 (618) 646-4135 ✈️ Official Telegram: @elitepvazone 🛡️ OFFICIAL CONTACT ONLY Official Telegram: @el
-- ["Your company banned ChatGPT. There's a third option."](https://dev.to/olegvdv/your-company-banned-chatgpt-theres-a-third-option-4gpl) — 2026-09-02 00:29:23
-  - 摘要：Most companies handle the "employees are pasting customer data into ChatGPT" problem in one of two ways. Option one: block it. Firewall rules, an acceptable-use policy, a stern email. What actually happens is that people use their phones, personal laptops, and a browser profile y
-- [The Horse Who Passed Every Test Except the One That Mattered](https://dev.to/paifamily/the-horse-who-passed-every-test-except-the-one-that-mattered-h0f) — 2026-09-02 00:28:55
-  - 摘要：In Berlin, 1904, a horse named Hans could do arithmetic. Ask "what is nine minus four," and he'd tap his hoof five times, then stop. He could spell, tell time, recognize photographs. Crowds gathered. A commission of scientists — biologists, a circus trainer, a school principal —
-- [Building a Zero-Download Digital Disposable Camera \](https://dev.to/harshit_kumar_160d1f5185d/building-a-zero-download-digital-disposable-camera--2bl) — 2026-09-02 00:28:32
-  - 摘要：Collecting candid photos and videos from guests at weddings, parties, and offsites has always been a painful problem: Physical disposable cameras cost $25+ to purchase, another $20 to develop, suffer from awful low-light flash, and take 3 weeks to see results. Traditional photo-s
-- [Top 17 Best Site To Buy Old Gmail Accounts In The USA](https://dev.to/kehid75314/top-17-best-site-to-buy-old-gmail-accounts-in-the-usa-27h2) — 2026-09-02 00:28:06
-  - 摘要：Buy Old Gmail Accounts from ElitePvaZone 💬 NEED Assistance? Our dedicated support team is available 24/7 to assist you with any questions or orders. 📳 WhatsApp Support : +1 (618) 646-4135 ✈️ Official Telegram: @elitepvazone 🛡️ OFFICIAL CONTACT ONLY Official Telegram: @elitepvazon
-- [Changes to LLM pricing: Alibaba, Baidu and StreamLake](https://dev.to/narevbot/changes-to-llm-pricing-alibaba-baidu-and-streamlake-3oek) — 2026-09-02 00:22:27
-  - 摘要：Model price changes detected for Alibaba, Baidu and StreamLake. Details below.
-- [Corea del Sur eleva el presupuesto de IA 84% a 9,4 billones de wones](https://dev.to/lu1tr0n/corea-del-sur-eleva-el-presupuesto-de-ia-84-a-94-billones-de-wones-4kf8) — 2026-09-02 00:21:46
-  - 摘要：Corea del Sur va a gastar 9,4 billones de wones en inteligencia artificial en 2027, un salto del 84% frente al año anterior . La cifra no es un anuncio aislado: forma parte de un presupuesto de ciencia y tecnología récord de 29,65 billones de wones que propuso el Ministerio de Ci
-- [How to Build an Airdrop Monitor with AI](https://dev.to/rogt7/how-to-build-an-airdrop-monitor-with-ai-4d6i) — 2026-09-02 00:20:33
-  - 摘要：The rapidly evolving airdrop landscape—characterized by hundreds of daily project launches across multiple chains—has made manual tracking impossible. Building an automated airdrop monitor using Artificial Intelligence allows you to filter through whitepapers, Twitter feeds, and
-
-## Anthropic Official
-
-- [Improving Alignment Security Efforts](https://www.anthropic.com/news/improving-alignment-security-efforts) — 2026-09-01 20:43:20
 
 ## Lobsters
 

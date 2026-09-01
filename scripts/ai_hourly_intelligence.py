@@ -171,6 +171,7 @@ def collect_html_snapshot(name: str, url: str, base_url: str,
         parser.feed(request(url).decode("utf-8", errors="replace"))
         result: list[Item] = []
         seen: set[str] = set()
+        captured_at = dt.datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M:%S")
         for href, title in parser.links:
             if href.startswith("/"):
                 link = base_url.rstrip("/") + href
@@ -192,7 +193,7 @@ def collect_html_snapshot(name: str, url: str, base_url: str,
             if include and not any(word.lower() in (title + " " + link).lower() for word in include):
                 continue
             seen.add(link)
-            result.append(Item(title, link, name, "", "当前产品/项目热度快照", "snapshot", float(len(result)), True))
+            result.append(Item(title, link, name, captured_at, "当前产品/项目热度快照", "snapshot", float(len(result)), True))
             if len(result) >= DEFAULT_MAX_ITEMS:
                 break
         return result
@@ -277,11 +278,12 @@ def dedupe(items: Iterable[Item]) -> list[Item]:
 
 
 def markdown(items: list[Item], generated_at: dt.datetime, hours: int, max_items: int) -> str:
+    display_items = [item for item in items if item.published and item.summary]
     lines = ["# AI 与大模型情报", "", f"生成时间：{generated_at.astimezone(BEIJING).strftime('%Y-%m-%d %H:%M:%S')}",
-             f"抓取窗口：最近 {hours} 小时；每个来源最多 {max_items} 条；来源条目：{len(items)}", "",
+             f"抓取窗口：最近 {hours} 小时；每个来源最多 {max_items} 条；来源条目：{len(display_items)}", "",
              "> 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。", ""]
     groups: dict[str, list[Item]] = {}
-    for item in items:
+    for item in display_items:
         groups.setdefault(item.source, []).append(item)
     for source, group in groups.items():
         lines += [f"## {source}", ""]
