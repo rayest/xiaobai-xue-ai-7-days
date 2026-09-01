@@ -40,7 +40,8 @@
 ├── README.md
 ├── 小白学AI-7天自学与授课书稿.md
 ├── docs/       课程导航与分章资料
-└── examples/   提示词、办公案例与 Agent 模板
+├── examples/   提示词、办公案例与 Agent 模板
+└── skills/     可复用的 Codex skills
 ```
 
 ## 使用说明
