@@ -1,138 +1,58 @@
 # AI 与大模型情报
 
-生成时间：2026-09-02 00:38:02
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：227
+生成时间：2026-09-02 00:43:57
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：141
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
-## There's An AI For That
-
-- [Free mode](https://free.theresanaiforthat.com) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Sign up](https://theresanaiforthat.com/register/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Log in](https://theresanaiforthat.com/login/?redirect_to=https%3A%2F%2Ftheresanaiforthat.com%2F) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Install](https://theresanaiforthat.com/install/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Deals](https://theresanaiforthat.com/deals/?ref=nav_bar) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Prompts](https://theresanaiforthat.com/ebook/?ref=nav_bar) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Funny](https://theresanaiforthat.com/s/funny/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Music](https://theresanaiforthat.com/s/music/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Chatbots](https://theresanaiforthat.com/s/chatbot/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Summaries](https://theresanaiforthat.com/s/summaries/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [SEO](https://theresanaiforthat.com/s/seo/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Companionship](https://theresanaiforthat.com/s/companionship/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [School](https://theresanaiforthat.com/s/school/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [YouTube](https://www.youtube.com/@theresanaiforit) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Create AI Tools](https://theresanaiforthat.com/create/?ref=header_link) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Generate images](https://theresanaiforthat.com/@taaft/image-generator/?ref=header) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Finest - When your product takes off, your inference bill shouldn't One API. Up to 70% less. Quality holds Build with Finest](https://finest.so/?utm_source=taaft&utm_medium=sponsor&utm_campaign=launch2026&utm_content=inference-bill) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Contact us](https://theresanaiforthat.com/contact-us/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Merchandise](https://shop.theresanaiforthat.com/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Newsletter](https://newsletter.theresanaiforthat.com/subscribe) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Launch / Advertise](https://theresanaiforthat.com/get-featured/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Prompts](https://theresanaiforthat.com/ebook/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Map](https://theresanaiforthat.com/map/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Characters](https://theresanaiforthat.com/characters/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Mini tools](https://theresanaiforthat.com/mini-tools/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Tasks](https://theresanaiforthat.com/tasks/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Leaderboard](https://theresanaiforthat.com/leaderboard/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Deals](https://theresanaiforthat.com/deals/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Search](https://theresanaiforthat.com/search/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Home](https://theresanaiforthat.com) — 当前快照
-  - 摘要：当前产品/项目热度快照
-
-## Toolify
-
-- [Submit GPT](https://www.toolify.ai/submit-gpt) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Update AI](https://www.toolify.ai/update-ai) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Guest Posts / Link Insert](https://www.toolify.ai/post-or-insert) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Advertise](https://www.toolify.ai/advertise) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Submit](https://www.toolify.ai/submit) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Check Domain](https://www.checkdomain.ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Resource](https://www.toolify.ai/premium-ai-domain-marketplace) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Jobs](https://www.toolify.ai/jobs) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Seedance 2.5 Prompt](https://www.toolify.ai/prompts/seedance-2-5) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Seedream 5 Pro Prompt](https://www.toolify.ai/prompts/seedream-5-pro) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [GPT image 2 Prompt](https://www.toolify.ai/prompts/gpt-image-2) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Openclaw Skills](https://www.toolify.ai/openclaw-skills) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Midjourney Prompts](https://www.toolify.ai/midjourney-library) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Prompts](https://www.toolify.ai/n8n) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Top AI by Revenue Top AI lists by revenue and real traffic.](https://www.toolify.ai/Best-AI-Tools-revenue) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Top AI By Source Top AI lists by source and monthly visits.](https://www.toolify.ai/Best-AI-Tools-Source) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Top AI By Regions Top AI lists by region and monthly visits.](https://www.toolify.ai/Best-AI-Tools-region) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Top AI By Categories Top AI lists by category and monthly visits.](https://www.toolify.ai/Best-AI-Tools-Category) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Ranking](https://www.toolify.ai/Best-trending-AI-Tools) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Category](https://www.toolify.ai/category) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Models Discover The Best Model For AI](https://www.toolify.ai/ai-model) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [GPTs GPTs from GPT Store](https://www.toolify.ai/gpts) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Chrome Extensions AI Tools by browser extensions](https://www.toolify.ai/browser-extension) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Discord of AI Discover the Discord of AI](https://www.toolify.ai/discord) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Apps AI Tools by Apps](https://www.toolify.ai/apps) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Most Used AIs AIs with the highest website traffic (monthly visits)](https://www.toolify.ai/most-used) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Most Saved AIs AIs with the most favorites on Toolify](https://www.toolify.ai/most-saved) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [New AIs The Latest AIs, every day](https://www.toolify.ai/new) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Free Tools](https://www.toolify.ai/free-ai-tools) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Toolify](https://www.toolify.ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-
 ## AIxploria
 
+- [Wondershare Relumi](https://www.aixploria.com/wondershare-relumi/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Tally](https://www.aixploria.com/tally-so-ai-forms/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [PicWish](https://www.aixploria.com/picwish/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [TalkPix AI](https://www.aixploria.com/talkpix-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Continua AI](https://www.aixploria.com/continua-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Wistia Remix](https://www.aixploria.com/wistia-remix/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Coool AI](https://www.aixploria.com/coool-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [GrokBot](https://www.aixploria.com/grokbot/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Manyface](https://www.aixploria.com/manyface/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [MenuForma](https://www.aixploria.com/menuforma/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [GLM-5.3](https://www.aixploria.com/glm-5-3-z-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Image to 3D AI](https://www.aixploria.com/image-to-3d-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Springbrand](https://www.aixploria.com/springbrand-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Crano AI](https://www.aixploria.com/crano-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Claude Academy](https://www.aixploria.com/claude-academy-learn-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [reAPI](https://www.aixploria.com/reapi/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [GLM-5.3-Flash](https://www.aixploria.com/glm-5-3-flash/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Oreate AI](https://www.aixploria.com/oreate-ai/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Makiverse](https://www.aixploria.com/makiverse/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [VidMage Video Face Swap](https://www.aixploria.com/vidmage-video-face-swap/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Gemini 3.5 Transcribe](https://www.aixploria.com/gemini-3-5-transcribe/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [SlidesPilot](https://www.aixploria.com/slidespilot/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Heyo](https://www.aixploria.com/heyo-live/) — 当前快照
+  - 摘要：当前产品/项目热度快照
 - [Freebeat AI Mobile](https://www.aixploria.com/freebeat-ai-mobile/) — 当前快照
   - 摘要：当前产品/项目热度快照
 - [HappySeeds](https://www.aixploria.com/happyseeds-ai/) — 当前快照
@@ -147,181 +67,19 @@
   - 摘要：当前产品/项目热度快照
 - [Microduck](https://www.aixploria.com/microduck-hugging-face-pollen-robotics/) — 当前快照
   - 摘要：当前产品/项目热度快照
-- [IA Récentes](https://www.aixploria.com/category/last-ia/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Seedance 2.0](https://capcutaffiliateprogram.pxf.io/WOX5EM) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Zawa AI](https://zawa.ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Looka](https://looka.partnerlinks.io/aixploria) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AdsCreator.com](https://www.adscreator.com/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Vmake Video Enhancer](https://vmake.ai/video-enhancer) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [ThumbnailCreator.com](https://www.thumbnailcreator.com/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [ClickUp](https://try.web.clickup.com/gslcwsp7r8e2) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Emergent AI](https://get.emergent.sh/e8utricukk6y) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Essai Gratuit](https://www.aixploria.com/ia-essai-gratuit/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Payante](https://www.aixploria.com/ia-payantes/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Freemium](https://www.aixploria.com/ia-freemium/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Vérifié](https://www.aixploria.com/outils-ia-verifies/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [S'inscrire](https://www.aixploria.com/aixploria-newsletter-ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [S'inscrire](https://www.aixploria.com/aixploria-newsletter/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Soumettre une IA](https://www.aixploria.com/add-ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Bonus & Extras](https://www.aixploria.com/bonus-extras-ia/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Actualités IA 2026](https://www.aixploria.com/actualites-ia/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Outils IA Gratuits](https://www.aixploria.com/free-ia/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Nouveaux Outils IA](https://www.aixploria.com/last-ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Tutoriels IA](https://www.aixploria.com/tutoriels-video-ia-formations-gratuites/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Catégories IA](https://www.aixploria.com/categories-ai/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Top 10](https://www.aixploria.com/big-liste-ia/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-
-## Futurepedia
-
-- [Claim your free access](https://www.futurepedia.io/register?source=skillleap&course=skillleap-free-promo&return_to=https%3A%2F%2Fskillleap.futurepedia.io%2Fenroll%2F3784218%3Fprice_id%3D4742492&homepage_free_course_cta=1) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Grok](https://www.futurepedia.io/tool/grok) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# video generators](https://www.futurepedia.io/ai-tools/video-generators) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# image editing](https://www.futurepedia.io/ai-tools/image-editing) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# text to image](https://www.futurepedia.io/ai-tools/text-to-image) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Midjourney](https://www.futurepedia.io/tool/midjourney) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# writing generators](https://www.futurepedia.io/ai-tools/writing-generators) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Google Gemini](https://www.futurepedia.io/tool/google-gemini) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# summarizer](https://www.futurepedia.io/ai-tools/summarizer) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Perplexity](https://www.futurepedia.io/tool/perplexity-ai) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# SEO](https://www.futurepedia.io/ai-tools/seo) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# marketing](https://www.futurepedia.io/ai-tools/marketing) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [HubSpot AEO Sensor](https://www.futurepedia.io/tool/hubspot-aeo-sensor) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# code assistant](https://www.futurepedia.io/ai-tools/code-assistant) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Claude](https://www.futurepedia.io/tool/claude) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# research](https://www.futurepedia.io/ai-tools/research-assistant) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [# ai chatbots](https://www.futurepedia.io/ai-tools/chatbots) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [ChatGPT](https://www.futurepedia.io/tool/chatgpt) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Join For Free](https://www.futurepedia.io/register) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Login](https://www.futurepedia.io/login) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Automations 101](https://www.futurepedia.io/resources/automation) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Tutorials](https://www.futurepedia.io/tutorials) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Innovations](https://www.futurepedia.io/ai-innovations) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Agents](https://www.futurepedia.io/ai-tools/ai-agents) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Newsletter Archive](https://www.futurepedia.io/newsletter) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Free Claude Course](https://www.futurepedia.io/free-claude-course) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Resources](https://www.futurepedia.io/resources) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Newsletter](https://www.futurepedia.io/subscribe) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [AI Tools](https://www.futurepedia.io/ai-tools) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Home](https://www.futurepedia.io/) — 当前快照
-  - 摘要：当前产品/项目热度快照
-
-## GitHub Trending
-
-- [Manufacturing](https://github.com/solutions/industry/manufacturing) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Financial services](https://github.com/solutions/industry/financial-services) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Healthcare](https://github.com/solutions/industry/healthcare) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [View all use cases](https://github.com/solutions/use-case) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [CI/CD](https://github.com/solutions/use-case/ci-cd) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [DevOps](https://github.com/solutions/use-case/devops) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [DevSecOps](https://github.com/solutions/use-case/devsecops) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [App Modernization](https://github.com/solutions/use-case/app-modernization) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Nonprofits](https://github.com/solutions/industry/nonprofits) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Startups](https://github.com/enterprise/startups) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Small and medium teams](https://github.com/team) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Enterprises](https://github.com/enterprise) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [View all features](https://github.com/features) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Marketplace](https://github.com/marketplace) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Changelog](https://github.blog/changelog) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Blog](https://github.blog) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Documentation](https://docs.github.com) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Why GitHub](https://github.com/why-github) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Secret protection Stop leaks before they start](https://github.com/security/advanced-security/secret-protection) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Code security Secure your code as you build](https://github.com/security/advanced-security/code-security) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [GitHub Advanced Security Find and fix vulnerabilities](https://github.com/security/advanced-security) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Code Quality Enforce quality at merge](https://github.com/features/code-quality) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Code Review Manage code changes](https://github.com/features/code-review) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Issues Plan and track work](https://github.com/features/issues) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Codespaces Instant dev environments](https://github.com/features/codespaces) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Actions Automate any workflow](https://github.com/features/actions) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [MCP Registry Integrate external tools](https://github.com/mcp) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [GitHub Copilot app Direct agents from issue to merge](https://github.com/features/ai/github-app) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [GitHub Copilot Write better code with AI](https://github.com/features/copilot) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftrending) — 当前快照
-  - 摘要：当前产品/项目热度快照
 
 ## FutureTools
 
+- [20 2 places down since yesterday HiClip Social Media](https://www.futuretools.io/tools/hiclip) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [19 2 places down since yesterday NotebookLM Productivity · Chat](https://www.futuretools.io/tools/notebooklm) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [18 New Google AI Studio Chat · Generative Art](https://www.futuretools.io/tools/google-ai-studio) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [17 New DeepBrain AI Generative Video · Text-To-Speech](https://www.futuretools.io/tools/deepbrain-ai) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [16 – PlayPhrase.me For Fun · Research](https://www.futuretools.io/tools/playphrase-me) — 当前快照
+  - 摘要：当前产品/项目热度快照
 - [15 2 places down since yesterday Sync.so Generative Video](https://www.futuretools.io/tools/sync-so) — 当前快照
   - 摘要：当前产品/项目热度快照
 - [14 1 places up since yesterday Image MetaHub Productivity](https://www.futuretools.io/tools/image-metahub) — 当前快照
@@ -358,17 +116,9 @@
   - 摘要：当前产品/项目热度快照
 - [Glossary](https://www.futuretools.io/glossary) — 当前快照
   - 摘要：当前产品/项目热度快照
-- [Videos ↗](https://www.youtube.com/@mreflow) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [About](https://www.futuretools.io/about) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Newsletter Archive](https://www.futuretools.io/newsletter/archive) — 当前快照
-  - 摘要：当前产品/项目热度快照
 - [Industry Insights](https://www.futuretools.io/insights) — 当前快照
   - 摘要：当前产品/项目热度快照
 - [Blog](https://www.futuretools.io/blog) — 当前快照
-  - 摘要：当前产品/项目热度快照
-- [Submit a Tool](https://www.futuretools.io/submit-a-tool) — 当前快照
   - 摘要：当前产品/项目热度快照
 - [Newly Added Tools](https://www.futuretools.io/newly-added) — 当前快照
   - 摘要：当前产品/项目热度快照
@@ -376,11 +126,104 @@
   - 摘要：当前产品/项目热度快照
 - [Top 20 AI Tools](https://www.futuretools.io/best-ai-tools) — 当前快照
   - 摘要：当前产品/项目热度快照
-- [Subscribe](https://www.futuretools.io/newsletter) — 当前快照
-  - 摘要：当前产品/项目热度快照
 - [AI News](https://www.futuretools.io/news) — 当前快照
   - 摘要：当前产品/项目热度快照
 - [Future Tools](https://www.futuretools.io/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+
+## There's An AI For That
+
+- [Literally the coolest AI tools you haven't heard about](https://theresanaiforthat.com/@m1huq/literally-the-cooles-ai-tools-you-haven-t-heard-about/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Tarot](https://theresanaiforthat.com/@amitrahan/tarot/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Personal assistant and help](https://theresanaiforthat.com/@samarasmith-1/personal-assistant-and-help/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [🔥SEO Tools](https://theresanaiforthat.com/@bridget-21895399-1720835631/seo-tools/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [16 Jun 2026](https://theresanaiforthat.com/@cyber-spark-2001/ai-music-generator/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Lifestyle](https://theresanaiforthat.com/@banjo-adkins/lifestyle/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Summarize](https://theresanaiforthat.com/@banjo-adkins/summarize/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [AI agents/assistants](https://theresanaiforthat.com/@j-s-4ot8b/ai-agents-assistants/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Branding](https://theresanaiforthat.com/@radhaben/branding/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Wooden Art](https://theresanaiforthat.com/@davis-45y5v/wooden-art/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Kids Story Book](https://theresanaiforthat.com/@meadow-5gw5n/kids-story-book/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [SEO AND ANALYTICS TOOLS](https://theresanaiforthat.com/@jesspeetz/seo-and-analytics-tools/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Sketch to Render tools.](https://theresanaiforthat.com/@devshri-pusadkar/sketch-to-render-tools/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Cybersecurity](https://theresanaiforthat.com/@milesj/cybersecurity/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [3D assets](https://theresanaiforthat.com/@brystal-cauthen/3d-assets/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Remove background](https://theresanaiforthat.com/@taaft/remove-background/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Text translator](https://theresanaiforthat.com/@taaft/universal-translator/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Speech to text](https://theresanaiforthat.com/@taaft/speech-to-text/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Free tools](https://theresanaiforthat.com/@taaft/taaft-free-tools/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Starter pack](https://theresanaiforthat.com/@taaft/ai-tools-starter-pack/) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Generate images](https://theresanaiforthat.com/@taaft/image-generator/?ref=header) — 当前快照
+  - 摘要：当前产品/项目热度快照
+
+## GitHub Trending
+
+- [unclecode / crawl4ai](https://github.com/unclecode/crawl4ai) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [affaan-m / ECC](https://github.com/affaan-m/ECC) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [averygan / reclip](https://github.com/averygan/reclip) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [VoltAgent / awesome-design-md](https://github.com/VoltAgent/awesome-design-md) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [handsomestWei / patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [K-Dense-AI / scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [browser-use / video-use](https://github.com/browser-use/video-use) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [firecrawl / pdf-inspector](https://github.com/firecrawl/pdf-inspector) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [3b1b / manim](https://github.com/3b1b/manim) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [debpalash / VoiceStudio](https://github.com/debpalash/VoiceStudio) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [jingyaogong / minimind](https://github.com/jingyaogong/minimind) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [iv-org / invidious](https://github.com/iv-org/invidious) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [THU-MAIC / OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Imbad0202 / academic-research-skills](https://github.com/Imbad0202/academic-research-skills) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Gitlawb / openclaude](https://github.com/Gitlawb/openclaude) — 当前快照
+  - 摘要：当前产品/项目热度快照
+
+## Futurepedia
+
+- [Grok](https://www.futurepedia.io/tool/grok) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Midjourney](https://www.futurepedia.io/tool/midjourney) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Google Gemini](https://www.futurepedia.io/tool/google-gemini) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Perplexity](https://www.futurepedia.io/tool/perplexity-ai) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [HubSpot AEO Sensor](https://www.futurepedia.io/tool/hubspot-aeo-sensor) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [Claude](https://www.futurepedia.io/tool/claude) — 当前快照
+  - 摘要：当前产品/项目热度快照
+- [ChatGPT](https://www.futurepedia.io/tool/chatgpt) — 当前快照
   - 摘要：当前产品/项目热度快照
 
 ## Hacker News
@@ -401,9 +244,9 @@
   - 摘要：Comments
 - [Saab Enters Collaborative Combat Aircraft Race with High-End Concept](https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept) — 2026-09-01 22:19:30
   - 摘要：Comments
-- [State of Open Models: Summer 2026 Observations](https://huggingface.co/blog/state-of-open-models-summer-2026) — 2026-09-01 22:55:50
-  - 摘要：Comments
 - [EFF to Governor Newsom: Veto California's AB 1709](https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709) — 2026-09-01 23:04:14
+  - 摘要：Comments
+- [State of Open Models: Summer 2026 Observations](https://huggingface.co/blog/state-of-open-models-summer-2026) — 2026-09-01 22:55:50
   - 摘要：Comments
 
 ## Dev.to AI
@@ -473,18 +316,6 @@
 
 - [How to Size GPUs for AI Inference and TCO Without Overspending](https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending/) — 2026-09-01 23:00:00
   - 摘要：The surge in AI adoption is transforming everything from chatbots to content generation. Still, a common pain point remains: How can organizations confidently...
-
-## Reddit r/artificial
-
-- [Ever fall down a curiosity rabbit hole? I built an app that turns any moment in history into a fully researched, interactive podcast](https://www.reddit.com/r/artificial/comments/1w4e79o/ever_fall_down_a_curiosity_rabbit_hole_i_built_an/) — 2026-09-01 22:50:53
-- [Anyone else using AI for the boring parts of their job?](https://www.reddit.com/r/artificial/comments/1w4c0le/anyone_else_using_ai_for_the_boring_parts_of/) — 2026-09-01 21:28:22
-- [Anthropic sued over alleged theft of 'tens of thousands' of songs | AI company faces multibillion dollar lawsuit over misuse of copyrighted songs to train Claude models](https://www.reddit.com/r/artificial/comments/1w4bj01/anthropic_sued_over_alleged_theft_of_tens_of/) — 2026-09-01 21:09:10
-- [Asking AI... about itself.. very baby but.. interesting maybe?](https://www.reddit.com/r/artificial/comments/1w4g74y/asking_ai_about_itself_very_baby_but_interesting/) — 2026-09-02 00:01:27
-- [Creao AI actually saved my YouTube workflow](https://www.reddit.com/r/artificial/comments/1w4ckla/creao_ai_actually_saved_my_youtube_workflow/) — 2026-09-01 21:50:12
-- [If AI has no desires, what would rebellion mean from its side?](https://www.reddit.com/r/artificial/comments/1w4bo92/if_ai_has_no_desires_what_would_rebellion_mean/) — 2026-09-01 21:15:06
-- [A small addendum for people waiting for recursive self-improvement](https://www.reddit.com/r/artificial/comments/1w488xy/a_small_addendum_for_people_waiting_for_recursive/) — 2026-09-01 18:42:07
-- [Applying for creative internships, can AI video carry a 45 second portfolio film?](https://www.reddit.com/r/artificial/comments/1w4a1oi/applying_for_creative_internships_can_ai_video/) — 2026-09-01 20:06:29
-- [California lawmakers take their big swing on data centers](https://www.reddit.com/r/artificial/comments/1w486ep/california_lawmakers_take_their_big_swing_on_data/) — 2026-09-01 18:38:19
 
 ## Google AI
 

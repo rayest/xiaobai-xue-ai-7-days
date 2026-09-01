@@ -161,7 +161,10 @@ def collect_sitemap(name: str, url: str, cutoff: dt.datetime,
 
 
 def collect_html_snapshot(name: str, url: str, base_url: str,
-                          include: tuple[str, ...] = ()) -> list[Item]:
+                          include: tuple[str, ...] = (),
+                          required_prefixes: tuple[str, ...] = (),
+                          exclude_terms: tuple[str, ...] = (),
+                          min_path_parts: int = 0) -> list[Item]:
     """Collect a small current directory snapshot from sites without RSS."""
     try:
         parser = LinkParser()
@@ -175,7 +178,16 @@ def collect_html_snapshot(name: str, url: str, base_url: str,
                 link = href
             else:
                 continue
+            if urllib.parse.urlparse(link).netloc != urllib.parse.urlparse(base_url).netloc:
+                continue
             if link in seen or len(title) < 3 or len(title) > 140:
+                continue
+            path = urllib.parse.urlparse(link).path.lower()
+            if len([part for part in path.strip("/").split("/") if part]) < min_path_parts:
+                continue
+            if required_prefixes and not any(path.startswith(prefix) for prefix in required_prefixes):
+                continue
+            if any(term.lower() in (title + " " + path).lower() for term in exclude_terms):
                 continue
             if include and not any(word.lower() in (title + " " + link).lower() for word in include):
                 continue
@@ -321,12 +333,21 @@ def main() -> int:
                    lambda: collect_hacker_news(cutoff), lambda: collect_github_releases(cutoff),
                    lambda: collect_hugging_face(cutoff), lambda: collect_product_hunt(cutoff),
                    lambda: collect_html_snapshot("GitHub Trending", "https://github.com/trending", "https://github.com",
-                                                 ("/",)),
-                   lambda: collect_html_snapshot("There's An AI For That", "https://theresanaiforthat.com/", "https://theresanaiforthat.com"),
-                   lambda: collect_html_snapshot("Futurepedia", "https://www.futurepedia.io/", "https://www.futurepedia.io"),
-                   lambda: collect_html_snapshot("Toolify", "https://www.toolify.ai/", "https://www.toolify.ai"),
-                   lambda: collect_html_snapshot("AIxploria", "https://www.aixploria.com/", "https://www.aixploria.com"),
-                   lambda: collect_html_snapshot("FutureTools", "https://www.futuretools.io/", "https://www.futuretools.io")]
+                                                 required_prefixes=("/",),
+                                                 exclude_terms=("features", "enterprise", "pricing", "login", "signup", "explore", "trending", "partners", "resources", "solutions", "customer-stories", "trust-center", "security", "education", "topics", "orgs", "settings", "marketplace", "collections", "forks", "stargazers", "events", "sponsors", "team", "why-github", "mcp")),
+                   lambda: collect_html_snapshot("There's An AI For That", "https://theresanaiforthat.com/", "https://theresanaiforthat.com",
+                                                 required_prefixes=("/@",),
+                                                 min_path_parts=2,
+                                                 exclude_terms=("free mode", "sign up", "log in", "install", "deals", "prompts", "contact", "merchandise", "newsletter", "launch", "advertise", "map", "characters", "mini tools", "tasks", "leaderboard", "search", "home", "youtube", "create")),
+                   lambda: collect_html_snapshot("Futurepedia", "https://www.futurepedia.io/", "https://www.futurepedia.io",
+                                                 required_prefixes=("/tool/",)),
+                   lambda: collect_html_snapshot("Toolify", "https://www.toolify.ai/", "https://www.toolify.ai",
+                                                 required_prefixes=("/ai-tool/", "/tool/"),
+                                                 exclude_terms=("submit", "update", "advertise", "premium", "jobs", "prompt", "skills")),
+                   lambda: collect_html_snapshot("AIxploria", "https://www.aixploria.com/", "https://www.aixploria.com",
+                                                 exclude_terms=("category", "newsletter", "submit", "soumettre", "bonus", "actualites", "outils", "tutoriels", "top 10", "s'inscrire", "essai gratuit", "payante", "freemium", "verifie", "free-ia", "last-ai", "categories-ai", "add-ai")),
+                   lambda: collect_html_snapshot("FutureTools", "https://www.futuretools.io/", "https://www.futuretools.io",
+                                                 exclude_terms=("login", "sign up", "newsletter", "submit", "category", "resources", "home", "about"))]
     all_items: list[Item] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(collectors)) as pool:
         for future in concurrent.futures.as_completed([pool.submit(fn) for fn in collectors]):
