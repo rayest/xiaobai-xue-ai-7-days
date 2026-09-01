@@ -4,12 +4,13 @@
 
 ## 覆盖来源
 
-- 官方：OpenAI、Anthropic Newsroom、Google AI、Microsoft AI、Hugging Face Blog
+- 官方官网：Anthropic（News、Research、Engineering Sitemap）、OpenAI Sitemap
+- 官方 RSS：Google AI、Google DeepMind、Meta AI、Mistral、Cohere、NVIDIA、AWS、Microsoft AI、Hugging Face Blog
 - Claude Code：`anthropics/claude-code` GitHub Releases
-- 研究：arXiv cs.AI
+- 研究：arXiv cs.AI、cs.CL、cs.LG
 - 产品/开源：Hugging Face Models、Spaces、Datasets，GitHub 新建 AI 项目
 - 产品社区：Product Hunt（需要 `PRODUCT_HUNT_TOKEN`）
-- 开发者社区：Hacker News、Reddit r/artificial
+- 开发者社区：Hacker News、Lobsters、Dev.to、Reddit r/artificial
 
 ## 运行
 

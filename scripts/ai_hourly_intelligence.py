@@ -110,6 +110,29 @@ def parse_feed(payload: bytes, source: str) -> list[Item]:
     return items
 
 
+def collect_sitemap(name: str, url: str, cutoff: dt.datetime,
+                    path_prefixes: tuple[str, ...] = ()) -> list[Item]:
+    """Collect recently changed pages directly from an organization's sitemap."""
+    try:
+        root = ET.fromstring(request(url))
+        namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+        result: list[Item] = []
+        for node in root.findall(f".//{namespace}url"):
+            loc = node.findtext(f"{namespace}loc", "").strip()
+            lastmod = format_datetime(node.findtext(f"{namespace}lastmod", ""))
+            if not loc or (path_prefixes and not any(prefix in loc for prefix in path_prefixes)):
+                continue
+            if not is_recent(lastmod, cutoff):
+                continue
+            slug = urllib.parse.urlparse(loc).path.rstrip("/").split("/")[-1]
+            title = re.sub(r"[-_]+", " ", slug).strip().title() or loc
+            result.append(Item(title, loc, name, lastmod))
+        return result[:DEFAULT_MAX_ITEMS]
+    except Exception as exc:
+        print(f"warning: {name}: {exc}", file=sys.stderr)
+        return []
+
+
 def collect_rss(name: str, url: str, cutoff: dt.datetime, limit: int = DEFAULT_MAX_ITEMS) -> list[Item]:
     try:
         items = parse_feed(request(url), name)
@@ -216,15 +239,28 @@ def main() -> int:
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=args.hours)
     feeds = {
         "OpenAI": "https://openai.com/news/rss.xml",
-        "Anthropic Newsroom": "https://www.anthropic.com/rss.xml",
         "Google AI": "https://blog.google/technology/ai/rss/",
         "Microsoft AI": "https://blogs.microsoft.com/ai/feed/",
         "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
         "arXiv AI": "https://export.arxiv.org/rss/cs.AI",
+        "arXiv Language": "https://export.arxiv.org/rss/cs.CL",
+        "arXiv Machine Learning": "https://export.arxiv.org/rss/cs.LG",
         "Reddit r/artificial": "https://www.reddit.com/r/artificial/hot/.rss",
+        "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+        "Meta AI": "https://ai.meta.com/blog/rss/",
+        "Mistral AI": "https://mistral.ai/rss",
+        "Cohere": "https://txt.cohere.com/rss/",
+        "NVIDIA Developer": "https://developer.nvidia.com/blog/feed/",
+        "AWS Machine Learning": "https://aws.amazon.com/blogs/machine-learning/feed/",
+        "Lobsters": "https://lobste.rs/rss",
+        "Dev.to AI": "https://dev.to/feed/tag/ai",
     }
     collectors = [lambda name=name, url=url: collect_rss(name, url, cutoff) for name, url in feeds.items()]
-    collectors += [lambda: collect_hacker_news(cutoff), lambda: collect_github_releases(cutoff),
+    collectors += [lambda: collect_sitemap("Anthropic Official", "https://www.anthropic.com/sitemap.xml", cutoff,
+                                          ("/news/", "/research/", "/engineering/")),
+                   lambda: collect_sitemap("OpenAI Official", "https://openai.com/sitemap.xml", cutoff,
+                                          ("/research/", "/index/", "/news/", "/engineering/")),
+                   lambda: collect_hacker_news(cutoff), lambda: collect_github_releases(cutoff),
                    lambda: collect_hugging_face(cutoff), lambda: collect_product_hunt(cutoff)]
     all_items: list[Item] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(collectors)) as pool:
