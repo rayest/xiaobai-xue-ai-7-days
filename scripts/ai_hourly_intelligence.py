@@ -25,6 +25,7 @@ from typing import Any, Iterable
 
 USER_AGENT = "ray-ai-hourly-intelligence/1.0 (+https://github.com/rayest/xiaobai-xue-ai-7-days)"
 TIMEOUT = 20
+BEIJING = dt.timezone(dt.timedelta(hours=8))
 
 
 @dataclass
@@ -36,6 +37,27 @@ class Item:
     summary: str = ""
     signal: str = ""
     score: float = 0.0
+
+
+def format_datetime(value: str) -> str:
+    """Normalize epoch, ISO-8601, and RSS dates to Beijing time."""
+    value = (value or "").strip()
+    if not value:
+        return ""
+    try:
+        if value.isdigit():
+            parsed = dt.datetime.fromtimestamp(int(value), dt.timezone.utc)
+        else:
+            normalized = value.replace("Z", "+00:00")
+            try:
+                parsed = dt.datetime.fromisoformat(normalized)
+            except ValueError:
+                parsed = dt.datetime.strptime(value.replace(" GMT", " +0000"), "%a, %d %b %Y %H:%M:%S %z")
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=dt.timezone.utc)
+        return parsed.astimezone(BEIJING).strftime("%Y-%m-%d %H:%M:%S")
+    except ValueError:
+        return value
 
 
 def request(url: str, *, method: str = "GET", data: bytes | None = None,
@@ -71,7 +93,7 @@ def parse_feed(payload: bytes, source: str) -> list[Item]:
         if not link:
             atom_link = node.find("{http://www.w3.org/2005/Atom}link")
             link = atom_link.attrib.get("href", "") if atom_link is not None else ""
-        published = text("pubDate") or text("published") or text("{http://www.w3.org/2005/Atom}published")
+        published = format_datetime(text("pubDate") or text("published") or text("{http://www.w3.org/2005/Atom}published"))
         summary = text("description") or text("summary") or text("{http://www.w3.org/2005/Atom}summary")
         if title and link:
             items.append(Item(title, link, source, published, summary))
@@ -96,7 +118,7 @@ def collect_hacker_news() -> list[Item]:
             text = clean_text(story.get("text", ""))
             if title and any(word in (title + " " + text).lower() for word in ("ai", "llm", "model", "agent", "gpu")):
                 result.append(Item(title, story.get("url", f"https://news.ycombinator.com/item?id={story_id}"),
-                                   "Hacker News", str(story.get("time", "")), text,
+                                   "Hacker News", format_datetime(str(story.get("time", ""))), text,
                                    f"score={story.get('score', 0)}, comments={story.get('descendants', 0)}",
                                    float(story.get("score", 0))))
         return result
@@ -112,7 +134,7 @@ def collect_github() -> list[Item]:
     try:
         data = json_request(url, headers={"Accept": "application/vnd.github+json"})
         return [Item(repo["full_name"], repo["html_url"], "GitHub",
-                     repo.get("created_at", ""), clean_text(repo.get("description", "")),
+                     format_datetime(repo.get("created_at", "")), clean_text(repo.get("description", "")),
                      f"stars={repo.get('stargazers_count', 0)}, forks={repo.get('forks_count', 0)}",
                      float(repo.get("stargazers_count", 0))) for repo in data.get("items", [])]
     except Exception as exc:
@@ -133,9 +155,9 @@ def collect_hugging_face() -> list[Item]:
                 ident = entry.get("id", "")
                 if not ident:
                     continue
-                page_kind = "" if kind == "models" else kind
-                result.append(Item(ident, f"https://huggingface.co/{page_kind}/{ident}", f"Hugging Face {kind}",
-                                   entry.get("lastModified", ""), entry.get("pipeline_tag", ""),
+                page_url = f"https://huggingface.co/{ident}" if kind == "models" else f"https://huggingface.co/{kind}/{ident}"
+                result.append(Item(ident, page_url, f"Hugging Face {kind}",
+                                   format_datetime(entry.get("lastModified", "")), entry.get("pipeline_tag", ""),
                                    f"likes={entry.get('likes', 0)}, downloads={entry.get('downloads', 0)}",
                                    float(entry.get("likes", 0))))
         return result
@@ -157,7 +179,7 @@ def collect_product_hunt() -> list[Item]:
                             headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
         posts = data.get("data", {}).get("posts", {}).get("edges", [])
         return [Item(post["node"]["name"], post["node"]["url"], "Product Hunt",
-                     post["node"].get("createdAt", ""), post["node"].get("tagline", ""),
+                     format_datetime(post["node"].get("createdAt", "")), post["node"].get("tagline", ""),
                      f"votes={post['node'].get('votesCount', 0)}, comments={post['node'].get('commentsCount', 0)}",
                      float(post["node"].get("votesCount", 0))) for post in posts]
     except Exception as exc:
@@ -178,9 +200,9 @@ def dedupe(items: Iterable[Item]) -> list[Item]:
 
 
 def markdown(items: list[Item], generated_at: dt.datetime, hours: int) -> str:
-    lines = ["# AI 与大模型每小时情报", "", f"生成时间：{generated_at.astimezone().isoformat()}",
+    lines = ["# AI 与大模型情报", "", f"生成时间：{generated_at.astimezone(BEIJING).strftime('%Y-%m-%d %H:%M:%S')}",
              f"抓取窗口：最近 {hours} 小时；来源条目：{len(items)}", "",
-             "> 热度指标是平台信号，不等于真实用户规模、产品质量或商业成功。公司案例中的结果属于公司自述，需独立验证。", ""]
+             "> 新闻标题、摘要和分析应使用中文；模型、产品、项目、公司和平台名称保留官方名称。热度指标是平台信号，不等于真实用户规模、产品质量或商业成功。", ""]
     groups: dict[str, list[Item]] = {}
     for item in items:
         groups.setdefault(item.source, []).append(item)
