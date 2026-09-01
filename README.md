@@ -43,7 +43,8 @@
 ├── 小白学AI-7天自学与授课书稿.md
 ├── docs/       课程导航与分章资料
 ├── examples/   提示词、办公案例与 Agent 模板
-└── skills/     可复用的 Codex skills
+├── skills/     可复用的 Codex skills
+└── scripts/    AI 情报采集与自动化脚本
 ```
 
 ## 使用说明
