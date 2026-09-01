@@ -1,10 +1,10 @@
 # AI 每小时情报脚本
 
-`ai_hourly_intelligence.py` 使用 Python 标准库抓取公开情报，供每小时定时任务调用。它不把点赞、投票、评论、Star 或下载量直接当成用户规模、产品质量或商业成功。
+`ai_hourly_intelligence.py` 使用 Python 标准库低频抓取公开情报，默认每次只看最近 6 小时，最多保留 30 条。它不把点赞、投票、评论、Star 或下载量直接当成用户规模、产品质量或商业成功。
 
 ## 覆盖来源
 
-- 官方：OpenAI、Anthropic Newsroom、Anthropic API Release Notes、Claude Code Docs、Google AI、Microsoft AI、Hugging Face Blog
+- 官方：OpenAI、Anthropic Newsroom、Google AI、Microsoft AI、Hugging Face Blog
 - Claude Code：`anthropics/claude-code` GitHub Releases
 - 研究：arXiv cs.AI
 - 产品/开源：Hugging Face Models、Spaces、Datasets，GitHub 新建 AI 项目
@@ -23,12 +23,12 @@ Product Hunt API Token 是可选的，不要把 Token 写进仓库、命令历�
 PRODUCT_HUNT_TOKEN='your-token' python3 scripts/ai_hourly_intelligence.py
 ```
 
-脚本默认标注最近 24 小时窗口；各 RSS/API 的时间过滤仍应在人工复核阶段完成。
+脚本默认只保留最近 6 小时、最多 30 条；可用 `--hours` 和 `--max-items` 调整。
 
-## 每小时运行示例
+## 每 6 小时运行示例
 
 ```cron
-0 * * * * cd /path/to/xiaobai-xue-ai-7-days && /usr/bin/python3 scripts/ai_hourly_intelligence.py --output reports/ai-intelligence.md >> /tmp/ai-intelligence.log 2>&1
+0 */6 * * * cd /path/to/xiaobai-xue-ai-7-days && /usr/bin/python3 scripts/ai_hourly_intelligence.py --output reports/ai-intelligence.md >> /tmp/ai-intelligence.log 2>&1
 ```
 
 建议人工审阅后再提交每小时生成的报告，不要把未经核验的热度判断自动推送到公共仓库。

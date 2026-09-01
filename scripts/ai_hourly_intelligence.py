@@ -25,6 +25,8 @@ from typing import Any, Iterable
 USER_AGENT = "ray-ai-hourly-intelligence/1.1 (+https://github.com/rayest/xiaobai-xue-ai-7-days)"
 TIMEOUT = 20
 BEIJING = dt.timezone(dt.timedelta(hours=8))
+DEFAULT_HOURS = 6
+DEFAULT_MAX_ITEMS = 30
 
 
 @dataclass
@@ -77,6 +79,16 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def is_recent(published: str, cutoff: dt.datetime) -> bool:
+    if not published:
+        return False
+    try:
+        value = dt.datetime.strptime(published, "%Y-%m-%d %H:%M:%S").replace(tzinfo=BEIJING)
+        return value >= cutoff.astimezone(BEIJING)
+    except ValueError:
+        return False
+
+
 def parse_feed(payload: bytes, source: str) -> list[Item]:
     root = ET.fromstring(payload)
     items: list[Item] = []
@@ -98,58 +110,29 @@ def parse_feed(payload: bytes, source: str) -> list[Item]:
     return items
 
 
-def collect_rss(name: str, url: str) -> list[Item]:
+def collect_rss(name: str, url: str, cutoff: dt.datetime, limit: int = DEFAULT_MAX_ITEMS) -> list[Item]:
     try:
-        return parse_feed(request(url), name)
+        items = parse_feed(request(url), name)
+        return [item for item in items if is_recent(item.published, cutoff)][:limit]
     except Exception as exc:
         print(f"warning: {name}: {exc}", file=sys.stderr)
         return []
 
 
-def collect_hacker_news() -> list[Item]:
-    try:
-        ids = json_request("https://hacker-news.firebaseio.com/v0/newstories.json")[:60]
-        result: list[Item] = []
-        for story_id in ids:
-            story = json_request(f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json")
-            title = story.get("title", "")
-            text = clean_text(story.get("text", ""))
-            if title and any(word in (title + " " + text).lower() for word in ("ai", "llm", "model", "agent", "gpu", "claude", "anthropic")):
-                result.append(Item(title, story.get("url", f"https://news.ycombinator.com/item?id={story_id}"),
-                                   "Hacker News", format_datetime(str(story.get("time", ""))), text,
-                                   f"score={story.get('score', 0)}, comments={story.get('descendants', 0)}",
-                                   float(story.get("score", 0))))
-        return result
-    except Exception as exc:
-        print(f"warning: Hacker News: {exc}", file=sys.stderr)
-        return []
+def collect_hacker_news(cutoff: dt.datetime) -> list[Item]:
+    return collect_rss("Hacker News", "https://news.ycombinator.com/rss", cutoff)
 
 
-def collect_github() -> list[Item]:
-    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
-    query = urllib.parse.quote(f"topic:artificial-intelligence created:>={today}")
-    url = f"https://api.github.com/search/repositories?q={query}&sort=stars&order=desc&per_page=30"
-    try:
-        data = json_request(url, headers={"Accept": "application/vnd.github+json"})
-        return [Item(repo["full_name"], repo["html_url"], "GitHub", format_datetime(repo.get("created_at", "")),
-                     clean_text(repo.get("description", "")),
-                     f"stars={repo.get('stargazers_count', 0)}, forks={repo.get('forks_count', 0)}",
-                     float(repo.get("stargazers_count", 0))) for repo in data.get("items", [])]
-    except Exception as exc:
-        print(f"warning: GitHub: {exc}", file=sys.stderr)
-        return []
-
-
-def collect_github_releases() -> list[Item]:
+def collect_github_releases(cutoff: dt.datetime) -> list[Item]:
     """Track official Claude Code release notes without requiring GitHub auth."""
-    return collect_rss("Claude Code GitHub Releases", "https://github.com/anthropics/claude-code/releases.atom")
+    return collect_rss("Claude Code GitHub Releases", "https://github.com/anthropics/claude-code/releases.atom", cutoff)
 
 
-def collect_hugging_face() -> list[Item]:
+def collect_hugging_face(cutoff: dt.datetime) -> list[Item]:
     result: list[Item] = []
-    endpoints = [("models", "https://huggingface.co/api/models?sort=likes&direction=-1&limit=30"),
-                 ("spaces", "https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=30"),
-                 ("datasets", "https://huggingface.co/api/datasets?sort=likes&direction=-1&limit=30")]
+    endpoints = [("models", "https://huggingface.co/api/models?sort=likes&direction=-1&limit=10"),
+                 ("spaces", "https://huggingface.co/api/spaces?sort=likes&direction=-1&limit=10"),
+                 ("datasets", "https://huggingface.co/api/datasets?sort=likes&direction=-1&limit=10")]
     try:
         for kind, url in endpoints:
             for entry in json_request(url):
@@ -157,22 +140,25 @@ def collect_hugging_face() -> list[Item]:
                 if not ident:
                     continue
                 page_url = f"https://huggingface.co/{ident}" if kind == "models" else f"https://huggingface.co/{kind}/{ident}"
-                result.append(Item(ident, page_url, f"Hugging Face {kind}", format_datetime(entry.get("lastModified", "")),
+                published = format_datetime(entry.get("lastModified", ""))
+                if not is_recent(published, cutoff):
+                    continue
+                result.append(Item(ident, page_url, f"Hugging Face {kind}", published,
                                    entry.get("pipeline_tag", ""),
                                    f"likes={entry.get('likes', 0)}, downloads={entry.get('downloads', 0)}",
                                    float(entry.get("likes", 0))))
-        return result
+        return result[:DEFAULT_MAX_ITEMS]
     except Exception as exc:
         print(f"warning: Hugging Face: {exc}", file=sys.stderr)
         return result
 
 
-def collect_product_hunt() -> list[Item]:
+def collect_product_hunt(cutoff: dt.datetime) -> list[Item]:
     token = os.getenv("PRODUCT_HUNT_TOKEN")
     if not token:
         print("info: Product Hunt skipped; set PRODUCT_HUNT_TOKEN to enable its API.", file=sys.stderr)
         return []
-    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)).isoformat()
+    since = cutoff.astimezone(dt.timezone.utc).isoformat()
     query = f'''query {{ posts(first: 30, order: VOTES, postedAfter: "{since}") {{ edges {{ node {{ name tagline url votesCount commentsCount createdAt }} }} }} }}'''
     try:
         data = json_request("https://api.producthunt.com/v2/api/graphql", method="POST",
@@ -199,16 +185,16 @@ def dedupe(items: Iterable[Item]) -> list[Item]:
     return sorted(result, key=lambda item: item.score, reverse=True)
 
 
-def markdown(items: list[Item], generated_at: dt.datetime, hours: int) -> str:
+def markdown(items: list[Item], generated_at: dt.datetime, hours: int, max_items: int) -> str:
     lines = ["# AI 与大模型情报", "", f"生成时间：{generated_at.astimezone(BEIJING).strftime('%Y-%m-%d %H:%M:%S')}",
-             f"抓取窗口：最近 {hours} 小时；来源条目：{len(items)}", "",
+             f"抓取窗口：最近 {hours} 小时；最多保留 {max_items} 条；来源条目：{len(items)}", "",
              "> 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。", ""]
     groups: dict[str, list[Item]] = {}
     for item in items:
         groups.setdefault(item.source, []).append(item)
     for source, group in groups.items():
         lines += [f"## {source}", ""]
-        for item in group[:20]:
+        for item in group[:max_items]:
             meta = " · ".join(value for value in (item.published, item.signal) if value)
             lines.append(f"- [{item.title}]({item.url})" + (f" — {meta}" if meta else ""))
             if item.summary:
@@ -221,23 +207,24 @@ def markdown(items: list[Item], generated_at: dt.datetime, hours: int) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Collect hourly AI intelligence from public sources.")
+    parser = argparse.ArgumentParser(description="Collect low-frequency AI intelligence from public sources.")
     parser.add_argument("--output", default="ai-intelligence.md")
-    parser.add_argument("--hours", type=int, default=24)
+    parser.add_argument("--hours", type=int, default=DEFAULT_HOURS)
+    parser.add_argument("--max-items", type=int, default=DEFAULT_MAX_ITEMS)
     args = parser.parse_args()
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=args.hours)
     feeds = {
         "OpenAI": "https://openai.com/news/rss.xml",
         "Anthropic Newsroom": "https://www.anthropic.com/rss.xml",
-        "Anthropic API Release Notes": "https://docs.anthropic.com/en/release-notes/api",
-        "Claude Code Docs": "https://docs.anthropic.com/en/docs/claude-code/changelog",
         "Google AI": "https://blog.google/technology/ai/rss/",
         "Microsoft AI": "https://blogs.microsoft.com/ai/feed/",
         "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
         "arXiv AI": "https://export.arxiv.org/rss/cs.AI",
         "Reddit r/artificial": "https://www.reddit.com/r/artificial/hot/.rss",
     }
-    collectors = [lambda name=name, url=url: collect_rss(name, url) for name, url in feeds.items()]
-    collectors += [collect_hacker_news, collect_github, collect_github_releases, collect_hugging_face, collect_product_hunt]
+    collectors = [lambda name=name, url=url: collect_rss(name, url, cutoff) for name, url in feeds.items()]
+    collectors += [lambda: collect_hacker_news(cutoff), lambda: collect_github_releases(cutoff),
+                   lambda: collect_hugging_face(cutoff), lambda: collect_product_hunt(cutoff)]
     all_items: list[Item] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(collectors)) as pool:
         for future in concurrent.futures.as_completed([pool.submit(fn) for fn in collectors]):
@@ -245,7 +232,8 @@ def main() -> int:
                 all_items.extend(future.result())
             except Exception as exc:
                 print(f"warning: collector failed: {exc}", file=sys.stderr)
-    content = markdown(dedupe(all_items), dt.datetime.now(dt.timezone.utc), args.hours)
+    selected = dedupe(all_items)[:max(1, args.max_items)]
+    content = markdown(selected, dt.datetime.now(dt.timezone.utc), args.hours, args.max_items)
     output = os.path.abspath(args.output)
     with open(output, "w", encoding="utf-8") as file:
         file.write(content)
