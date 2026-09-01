@@ -288,9 +288,10 @@ def markdown(items: list[Item], generated_at: dt.datetime, hours: int, max_items
     for source, group in groups.items():
         lines += [f"## {source}", ""]
         for item in group[:max_items]:
-            meta = " · ".join(value for value in (item.published, item.signal) if value)
             if item.snapshot:
-                meta = "当前快照" + (f" · {item.signal}" if item.signal and item.signal != "snapshot" else "")
+                lines.append(f"- [{item.title}]({item.url})")
+                continue
+            meta = " · ".join(value for value in (item.published, item.signal) if value)
             lines.append(f"- [{item.title}]({item.url})" + (f" — {meta}" if meta else ""))
             if item.summary:
                 lines.append(f"  - 摘要：{item.summary[:280].rstrip()}")
