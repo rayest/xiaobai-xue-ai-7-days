@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ray 信息图"
+  short_description: "生成可公开分享的中文文字型信息图与品牌二维码素材模板"
+  default_prompt: "使用 $ray-haitun-infographic 将这份内容整理为可公开分享的中文文字型信息图。"
