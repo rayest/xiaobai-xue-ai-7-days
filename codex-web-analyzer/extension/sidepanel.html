@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex 网页分析</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">C</span><span>Codex <em>Web Analyzer</em></span></div>
+      <span id="status" class="status status-idle"><i></i>未连接</span>
+    </header>
+
+    <section class="intro">
+      <div class="eyebrow">网页智能阅读器</div>
+      <h1>把网页内容，<br><span>读成你的答案。</span></h1>
+      <p>提取当前网页的重点，交给 Codex 深入分析。</p>
+    </section>
+
+    <section class="settings-card">
+      <div class="section-heading"><div><span class="section-number">01</span><h2>选择分析方式</h2></div><span class="section-hint">可随时调整</span></div>
+      <label class="field-label" for="preset">分析模板</label>
+      <div class="select-wrap"><select id="preset">
+        <option value="请用中文总结这篇网页，提炼 5 个核心观点。">快速总结</option>
+        <option value="请用中文深度分析这篇网页：提炼主旨、事实、作者观点、证据、限制和对企业的影响。">深度分析</option>
+        <option value="请将这篇网页整理成结构化学习笔记，包含概念、案例、关键数据和行动建议。">学习笔记</option>
+        <option value="请提取这篇网页中可执行的行动项，按优先级、负责人和预期结果整理。">行动项</option>
+      </select><span class="chevron">⌄</span></div>
+      <label class="field-label" for="instruction">自定义要求 <span>可选</span></label>
+      <textarea id="instruction" rows="3" placeholder="告诉 Codex 你还想知道什么…"></textarea>
+      <label class="field-label" for="token">Bridge Token <span>本地连接凭证</span></label>
+      <div class="token-wrap"><input id="token" type="password" placeholder="输入本地 Bridge Token"><button id="toggle-token" class="icon-btn" type="button" aria-label="显示或隐藏 Token">◉</button></div>
+      <div class="actions"><button id="analyze" class="primary-btn" type="button"><span class="spark">✦</span> 分析当前网页</button><button id="stop" class="stop-btn" type="button" disabled>停止</button></div>
+    </section>
+
+    <section id="page-card" class="page-card is-hidden">
+      <div class="page-icon">↗</div><div class="page-copy"><span>当前分析页面</span><strong id="page-title">—</strong><small id="page-meta">—</small></div>
+    </section>
+
+    <section id="result-card" class="result-card is-hidden">
+      <div class="result-top"><div><span class="result-kicker">ANALYSIS RESULT</span><h2>分析结果</h2></div><span id="result-count">0 字</span></div>
+      <div id="result-preview" class="markdown-body preview"></div>
+      <div class="result-actions"><button id="open-result" class="text-btn" type="button">查看完整结果 <span>→</span></button><button id="copy-result" class="copy-btn" type="button">复制内容</button></div>
+    </section>
+    <div id="empty-state" class="empty-state"><div class="empty-icon">✦</div><strong>准备好开始了吗？</strong><span>分析结果会显示在这里</span></div>
+  </main>
+
+  <div id="result-modal" class="modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-panel"><div class="modal-head"><div><span class="result-kicker">ANALYSIS RESULT</span><h2 id="modal-title">分析结果</h2></div><div class="modal-tools"><button id="modal-copy" class="copy-btn" type="button">复制内容</button><button id="close-result" class="close-btn" type="button" aria-label="关闭">×</button></div></div>
+      <div class="view-tabs"><button id="render-tab" class="active" type="button">阅读视图</button><button id="raw-tab" type="button">Markdown</button></div><div id="modal-rendered" class="markdown-body"></div><pre id="modal-raw" class="raw-output is-hidden"></pre>
+    </div>
+  </div>
+  <script src="sidepanel.js"></script>
+</body>
+</html>
