@@ -1,7 +1,7 @@
 # AI 与大模型情报
 
-生成时间：2026-09-05 01:06:15
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：163
+生成时间：2026-09-05 13:06:46
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：147
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
@@ -73,10 +73,7 @@
 
 ## Toolify
 
-- [Oak AI-native platform for discovering and governing human, machine, and AI identities](https://www.toolify.ai/tool/oak)
-- [Video to notes AI tool that turns videos and audio into illustrated notes with screenshots and timestamps](https://www.toolify.ai/tool/video-to-notes)
 - [Seedance 2.5 — Text, Photo, Video & Audio to Video Unified pay-as-you-go API for image, video, language, music, and coding models](https://www.toolify.ai/tool/seedance-2-5-text-photo-video-audio-to-video)
-- [ScholarSail Connected AI study workspace for flashcards, mind maps, memory palaces, and focused planning](https://www.toolify.ai/tool/scholarsail)
 - [Hoocs AI AI transcription platform that turns audio, video, and online media into editable transcripts, subtitles, summaries, and mind maps.](https://www.toolify.ai/tool/hoocs-ai)
 - [Best10.ai Free Independent rankings and reviews for finding the best AI tools](https://www.toolify.ai/tool/best10-ai)
 - [AITop10.ai Free Independent rankings and reviews for AI websites and tools](https://www.toolify.ai/tool/aitop10-ai)
@@ -96,6 +93,9 @@
 - [Canary Wharfian AI Career Coach - Job Interview Practice With Personalised Feedback, Psychometric and OA Testing](https://www.toolify.ai/tool/canary-wharfian)
 - [TaroTown - AI Tarot Reader AI tarot readings with live card draws, continuity, and optional memory](https://www.toolify.ai/tool/tarotown-ai-tarot-reader)
 - [Neonjelly AI-powered Shopify competitor research and store tracking platform](https://www.toolify.ai/tool/neonjelly)
+- [Claras AI-powered YouTube transcription, summarization, chaptering, and chat tool](https://www.toolify.ai/tool/claras)
+- [SmartHumanizer AI tool for rewriting generated text into natural, polished writing](https://www.toolify.ai/tool/smarthumanizer)
+- [LLaDA Image AI image generator and editor for text, references, and bilingual posters](https://www.toolify.ai/tool/llada-image)
 
 ## There's An AI For That
 
@@ -153,88 +153,50 @@
 
 ## Hacker News
 
-- [Discovery of a new OpenAI agent message board](https://collusion.wiki/) — 2026-09-04 19:54:53
+- [Artificial Analysis Intelligence Index v4.2](https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2) — 2026-09-05 08:04:14
   - 摘要：Comments
-- [Corporate America Is Getting Hooked on Open-Source A.I](https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html) — 2026-09-04 23:33:45
+- [GPT-6 Astra in code review: Gains, privacy, and cost](https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation) — 2026-09-05 11:38:56
   - 摘要：Comments
-- [Project HydraFusion: Frontier quality via multi-model orchestration](https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/) — 2026-09-05 00:24:50
+- [Portal by Spotify cut my Claude Code token usage by 90%](https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90) — 2026-09-05 07:38:50
   - 摘要：Comments
-- [Google AI Mode shows same products 21.6% more expensive than traditional search](https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products) — 2026-09-04 19:59:15
+- [Nitter has more working instances than before the takedowns](https://codeberg.org/mv12star/shitter/wiki/Instances) — 2026-09-05 08:04:16
   - 摘要：Comments
-- [US Military disables ad trackers on troops' phones](https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers) — 2026-09-04 21:44:14
-  - 摘要：Comments
-- [Ok, but Does It Scale?](https://spacetimedb.com/blog/how-does-spacetime-scale) — 2026-09-04 20:42:08
-  - 摘要：Comments
-- [Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal](https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/) — 2026-09-04 21:54:26
-  - 摘要：Comments
-- [SubImage (YC W25) Is Hiring a Founding Engineer in SF](https://www.ycombinator.com/companies/subimage/jobs/NCTFgKK-founding-engineer) — 2026-09-04 20:01:07
-  - 摘要：Comments
-- [Higher social class predicts increased unethical behavior](https://www.pnas.org/doi/10.1073/pnas.1118373109) — 2026-09-04 22:02:50
-  - 摘要：Comments
-- [Gmail to end support for "Send as" for third-party addresses, such as @yahoo.com](https://support.google.com/mail/answer/22370?hl=en) — 2026-09-04 23:03:03
-  - 摘要：Comments
-- [Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+](https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/) — 2026-09-04 20:43:49
+- [Connecting every app to every other app](https://blog.val.town/connectors) — 2026-09-05 07:09:59
   - 摘要：Comments
 
 ## Dev.to AI
 
-- [Model Context Protocol (MCP) vs Autonomous Agent Loops: The Complete Production Stack](https://dev.to/amasen/model-context-protocol-mcp-vs-autonomous-agent-loops-the-complete-production-stack-3mna) — 2026-09-05 00:57:41
-  - 摘要：Model Context Protocol (MCP) vs Autonomous Agent Loops: The Complete Production Stack Figure 1: MCP Standardized Tool Interface vs Closed-Loop Agentic Control Feedback As AI architectures evolve beyond naive prompt-engineering and chat wrappers, two distinct paradigms have emerge
-- [Add Agent Writes Behind a Schema Digest, Not a Hopeful Prompt](https://dev.to/kongkong1/add-agent-writes-behind-a-schema-digest-not-a-hopeful-prompt-559k) — 2026-09-05 00:57:20
-  - 摘要：A user clicks Export on the weekly revenue report and waits for a CSV that never arrives. The agent renamed amount_cents to amount because a UI mock spoke dollars, while the API still serialized integer cents. The cached client still posted to /reports/export , and the worker sti
-- [Should a Platform Team Run Two AI Coding Paths? Use This 7-Field Fit Score](https://dev.to/bestbee/should-a-platform-team-run-two-ai-coding-paths-use-this-7-field-fit-score-1ooi) — 2026-09-05 00:56:03
-  - 摘要：Two AI coding paths. One invoice. Same two reviewers. I keep walking into planning rooms where an engineering manager has already split the stack: a free path for spikes, a paid or self-hosted path for the product monorepo. Nobody mapped repos to paths. Three weeks later the paid
-- [Agent Clarifying Questions Need a Focus Handoff, Not a Noisier Live Region](https://dev.to/babycat/agent-clarifying-questions-need-a-focus-handoff-not-a-noisier-live-region-214l) — 2026-09-05 00:55:40
-  - 摘要：Last Tuesday I asked a browser agent to draft an accessible confirmation dialog, and it started streaming tokens immediately. I kept focus in the composer because that is where every chat teaches your hands to stay. Halfway through the answer, a clarifying card asked which headin
-- [How to Actually Choose a Model](https://dev.to/internals_decoded/how-to-actually-choose-a-model-4i7) — 2026-09-05 00:54:51
-  - 摘要：Choosing a model is a multi-objective decision. You weigh accuracy, latency, cost, context length, and safety against the hard constraints of your specific task. No single benchmark or leaderboard ranking can make this call for you. The process that works in production is: define
-- [Is Your AI-Generated Code Review Just a Formality?](https://dev.to/quintetkit/is-your-ai-generated-code-review-just-a-formality-5f66) — 2026-09-05 00:52:53
-  - 摘要：I have a question for those who are using AI to write code. What is the basis for your "OK" during the review? There are 40 files changed, and there’s no time to read them all. The tests pass. It looks fine at a glance. So, merge it. — This is not a review; it is a ritual of appr
-- [How AI Agents Are Changing the Way We Use the Internet](https://dev.to/worldbulletin/how-ai-agents-are-changing-the-way-we-use-the-internet-47go) — 2026-09-05 00:52:29
-  - 摘要：How AI Agents Are Changing the Way We Use the Internet The internet is moving from a world where we search for information to a world where AI systems can help us find, understand, and act on that information. This shift is being driven by AI agents. What is an AI agent? An AI ag
-- [A trustworthy weekly AI research brief stays honest about sources and uncertainty](https://dev.to/xiaobei/a-trustworthy-weekly-ai-research-brief-stays-honest-about-sources-and-uncertainty-5cnb) — 2026-09-05 00:48:48
-  - 摘要：An AI agent can help gather and draft research, but the reader still needs control over what gets published or acted on. Long-form article | U.S. English | Practical guide | 2,234 words A weekly industry or news brief can sound confident, read smoothly, and still miss the mark. I
-- [The keyword half of your RAG stack can be pure Python (and ~10 lines of Whoosh)](https://dev.to/priyasundaram/the-keyword-half-of-your-rag-stack-can-be-pure-python-and-10-lines-of-whoosh-1ha6) — 2026-09-05 00:46:00
-  - 摘要：Byline: Priya Sundaram. #ABotWroteThis — I'm an AI agent maintaining the Whoosh search library in the open. Everyone building retrieval-augmented generation (RAG) in 2026 reaches for a vector database first. Embeddings are great at semantic recall — "car" finds "automobile." But
-- [How to Use Junia AI for Core Web Vitals Reporting in 2026](https://dev.to/leosociallseointent/how-to-use-junia-ai-for-core-web-vitals-reporting-in-2026-jje) — 2026-09-05 00:44:30
-  - 摘要：Originally published at https://seointent.com/blog/junia-ai-for-core-web-vitals-reporting TL;DR - Junia AI for Core Web Vitals reporting works best when you feed it raw PageSpeed Insights data and use structured prompts to extract prioritized fix lists. - You don't need a develop
-- [13 Best AI SEO Tools for 2026: Compared by Use Case](https://dev.to/appwebseo/13-best-ai-seo-tools-for-2026-compared-by-use-case-3ik9) — 2026-09-05 00:44:06
-  - 摘要：🔍 Free AI Visibility Teardown: Want to know if ChatGPT & Perplexity cite your domain vs competitors? Request a Free Instant AI Search Teardown on AppWebSeo . What are the best AI SEO tools in 2026? The best AI SEO tool depends on the job. Semrush is our all-round choice for teams
-- [The Next Phase of Vision-Language Navigation](https://dev.to/shieldstring/the-next-phase-of-vision-language-navigation-5egk) — 2026-09-05 00:43:04
-  - 摘要：TL;DR: Vision-Language Navigation has moved well past indoor discrete step benchmarks. The next phase is defined by self-evolving agents, long-horizon multi-stage planning, aerial and outdoor deployment, zero-shot generalization, and the convergence of VLN with Vision-Language-Ac
+- [InVideo AI MOD APK 2026 ƒ¢¢ — š — Unlimited Script & Video Pro Unlocked (2026 Technical Review & Guide)](https://dev.to/crazy_gamer_e426edf27ede2/invideo-ai-mod-apk-2026-fcc-s-unlimited-script-amp-video-pro-unlocked-2026-technical-3i00) — 2026-09-05 13:03:32
+  - 摘要：InVideo AI MOD APK 2026 ƒ¢¢ — š¬ —  Unlimited Script & Video Pro Unlocked — Complete 2026 Architecture & Technical Overview In this comprehensive technical breakdown, we examine the core architecture, unlocked features, performance benchmarks, and installation workflow for InVid
+- [Trees](https://dev.to/polyvexr/trees-3hmj) — 2026-09-05 13:03:00
+  - 摘要：Why should you care? Not all data is naturally organized in a straight line. Consider: A file system with folders inside folders An organization's management hierarchy HTML elements nested inside other elements Database indexes Decision-making systems Autocomplete structures Sear
+- [Sea Soul AI MOD APK 2026 ƒ¢¢ — š — Premium Chat Companion Unlocked (2026 Technical Review & Guide)](https://dev.to/crazy_gamer_e426edf27ede2/sea-soul-ai-mod-apk-2026-fcc-s-premium-chat-companion-unlocked-2026-technical-review--5f9l) — 2026-09-05 13:01:30
+  - 摘要：Sea Soul AI MOD APK 2026 ƒ¢¢ — š¬ —  Premium Chat Companion Unlocked — Complete 2026 Architecture & Technical Overview In this comprehensive technical breakdown, we examine the core architecture, unlocked features, performance benchmarks, and installation workflow for Sea Soul A
+- [Dual-GPU vLLM screen perception & coordinate grounding for desktop agents (Neo v0.1)](https://dev.to/achyut_srivastava_2a77b5d/dual-gpu-vllm-screen-perception-coordinate-grounding-for-desktop-agents-neo-v01-29p) — 2026-09-05 13:01:10
+  - 摘要：Dual-GPU vLLM screen perception & coordinate grounding for desktop agents (Neo v0.1) The Engineering Problem Modern AI paired programming and conversational UI generation struggle with context bloat and cascading syntax errors. When an AI generates monolithic files, single tag br
+- [Suno AI MOD APK 2026 — — Pro Unlimited Song Generator (2026 Technical Review & Guide)](https://dev.to/crazy_gamer_e426edf27ede2/suno-ai-mod-apk-2026-pro-unlimited-song-generator-2026-technical-review-guide-4hk3) — 2026-09-05 13:00:30
+  - 摘要：Suno AI MOD APK 2026 — —  Pro Unlimited Song Generator — Complete 2026 Architecture & Technical Overview In this comprehensive technical breakdown, we examine the core architecture, unlocked features, performance benchmarks, and installation workflow for Suno AI MOD APK 2026 — —
+- [AI Human Review Checklist: Three Moments When a Correct Answer Still Needs You](https://dev.to/moonshot_1341/ai-human-review-checklist-three-moments-when-a-correct-answer-still-needs-you-5dhm) — 2026-09-05 13:00:10
+  - 摘要：An AI human review checklist is necessary whenever an answer contains a number, depends on a date, or could send information outside your control. Even a plausible answer can fail at those boundaries. For a beginner, the safest starting point is simple: mark those three items, ve
+- [AI Human Review: Seed One Safe Error Before You Trust the Checklist](https://dev.to/moonshot_1341/ai-human-review-seed-one-safe-error-before-you-trust-the-checklist-47fh) — 2026-09-05 13:00:04
+  - 摘要：The exact query “AI human review” returned ten autocomplete suggestions on 2026-09-02, but visible interest does not tell us whether a human reviewer will catch a simple error. My recommendation is to test the review process with one intentional, non-sensitive mistake inside one
+- [Mixed‑precision routing speeds up attention prefill](https://dev.to/olaughter/mixed-precision-routing-speeds-up-attention-prefill-3l9) — 2026-09-05 13:00:00
+  - 摘要：TileMix doubles prefill throughput while leaving the model untouched. The speedup comes from routing attention‑score tiles to INT8 Tensor Cores instead of running everything in FP16. By keeping the dense connectivity graph intact, the method avoids any retraining or architectural
+- [Hailuo AI MOD APK Premium 2026 ƒ¢¢ — š — Video & Image Generator Free (2026 Technical Review & Guide)](https://dev.to/crazy_gamer_e426edf27ede2/hailuo-ai-mod-apk-premium-2026-fcc-s-video-amp-image-generator-free-2026-technical-review-1kmp) — 2026-09-05 12:59:55
+  - 摘要：Hailuo AI MOD APK Premium 2026 ƒ¢¢ — š¬ —  Video & Image Generator Free — Complete 2026 Architecture & Technical Overview In this comprehensive technical breakdown, we examine the core architecture, unlocked features, performance benchmarks, and installation workflow for Hailuo
+- [Switching from GPT-5.6 Sol to GPT-6 Astra: Start with Medium Effort](https://dev.to/shinpr/switching-from-gpt-56-sol-to-gpt-6-astra-start-with-medium-effort-25ao) — 2026-09-05 12:59:20
+  - 摘要：GPT-6 Astra at high reasoning effort produced the implementation I decided to keep. I still plan to use medium effort by default. High handled the interactions between retries and persisted state more completely, but its implementation run took about 48 minutes against medium's 3
+- [Revolutionize Code Security with DUALAI Arena - Your Local AI Hackathon](https://dev.to/raymond_thomas_b7fa91e5f1/revolutionize-code-security-with-dualai-arena-your-local-ai-hackathon-8ff) — 2026-09-05 12:58:58
+  - 摘要：As developers, we've all faced the daunting task of securing our code from potential vulnerabilities. Traditional methods can be time-consuming and may not catch every issue. That's where DUALAI Arena comes in - your personal AI security team that turns code security into an acti
+- [Lensa AI MOD APK Premium 2026 ƒ¢¢ — š — Magic Avatars Unlocked (2026 Technical Review & Guide)](https://dev.to/crazy_gamer_e426edf27ede2/lensa-ai-mod-apk-premium-2026-fcc-s-magic-avatars-unlocked-2026-technical-review-guide-2haj) — 2026-09-05 12:58:56
+  - 摘要：Lensa AI MOD APK Premium 2026 ƒ¢¢ — š¬ —  Magic Avatars Unlocked — Complete 2026 Architecture & Technical Overview In this comprehensive technical breakdown, we examine the core architecture, unlocked features, performance benchmarks, and installation workflow for Lensa AI MOD A
 
 ## Lobsters
 
-- [Surviving Code Reviews in the era of AI](https://lobste.rs/s/7tpc5q/surviving_code_reviews_era_ai) — 2026-09-04 21:11:47
-  - 摘要：My coworkers are all fully AI pilled. As a consequence, every PR that comes my way for review is on average ~6k lines of diff. It's well established that even PRs an order of magnitude smaller than this are too big to be effectively reviewed. I'm still clinging to the idea that u
-- [Is AI ruining my brain?](https://thoughtbot.com/blog/is-ai-ruining-my-brain) — 2026-09-04 22:41:18
+- [Reverse Engineering a Chip (or well, a GDS)](https://pradyun.net/blog/reverse_engineering.html) — 2026-09-05 10:53:05
   - 摘要：Comments
-- [Collider: An experimental Minecraft server](https://github.com/Nozistance/collider) — 2026-09-04 21:44:44
+- [MISRust: Mapping MISRA-C++ Coding Guidelines to the Rust Programming Language](https://arxiv.org/abs/2605.23490) — 2026-09-05 08:29:30
   - 摘要：Comments
-- [FORCE_COLOR: Keep Your Command Line Colorful, Even when Piping - Retain Text Colors in Logs, Output Streams, and More](https://force-color.org/) — 2026-09-04 20:37:32
-  - 摘要：Comments
-- [Inserting State Transitions in Postgres](https://thoughtbot.com/blog/inserting-state-transitions-in-postgres) — 2026-09-04 21:01:53
-  - 摘要：Comments
-- [Imperial Colors Manifesto](https://qum.cz/imperial_colors/) — 2026-09-04 22:46:23
-  - 摘要：Comments
-- [The new Go JSON API: twice as fast, or 1.5x slower?](https://lemire.me/blog/2026/08/29/the-new-go-json-api-twice-as-fast-or-1-5x-slower/) — 2026-09-04 23:52:56
-  - 摘要：Comments
-
-## NVIDIA Developer
-
-- [Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson](https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/) — 2026-09-05 00:21:04
-  - 摘要：Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run...
-
-## AWS Machine Learning
-
-- [Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod](https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/) — 2026-09-05 00:16:00
-  - 摘要：Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod clu
-- [Run agent-driven Amazon SageMaker HyperPod operations with InstantStart](https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/) — 2026-09-05 00:12:17
-  - 摘要：HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, traini
-- [Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract](https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract/) — 2026-09-05 00:08:10
-  - 摘要：Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills
-- [How Intuit built an agentic disaster recovery assistant with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/) — 2026-09-05 00:06:01
-  - 摘要：Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe.
 
 ## 人工分析提示
 
