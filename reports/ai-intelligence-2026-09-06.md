@@ -1,42 +1,42 @@
 # AI 与大模型情报
 
-生成时间：2026-09-06 01:05:58
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：157
+生成时间：2026-09-06 07:06:04
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：151
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
 ## AIxploria
 
-- [Coool AI](https://www.aixploria.com/en/coool-ai/)
-- [GrokBot](https://www.aixploria.com/en/grokbot/)
-- [Manyface](https://www.aixploria.com/en/manyface/)
-- [MenuForma](https://www.aixploria.com/en/menuforma/)
-- [Oreate AI](https://www.aixploria.com/en/oreate-ai/)
-- [Makiverse](https://www.aixploria.com/en/makiverse/)
-- [VidMage Video Face Swap](https://www.aixploria.com/en/vidmage-video-face-swap/)
-- [Gemini 3.5 Transcribe](https://www.aixploria.com/en/gemini-3-5-transcribe/)
-- [SlidesPilot](https://www.aixploria.com/en/slidespilot/)
-- [Heyo](https://www.aixploria.com/en/heyo-live/)
-- [Freebeat AI Mobile](https://www.aixploria.com/en/freebeat-ai-mobile/)
-- [HappySeeds](https://www.aixploria.com/en/happyseeds-ai/)
-- [Gemini Omni 1.1 Flash](https://www.aixploria.com/en/gemini-omni-1-1-flash-video-model/)
-- [Cadrant](https://www.aixploria.com/en/cadrant-ai/)
-- [Clipdance](https://www.aixploria.com/en/clipdance/)
-- [Virse](https://www.aixploria.com/en/virse-ai/)
-- [Microduck](https://www.aixploria.com/en/microduck-hugging-face-pollen-robotics/)
-- [Background Remover Video](https://www.aixploria.com/en/backgroundremover-video/)
-- [Stivio ai](https://www.aixploria.com/en/stivio-ai/)
-- [Landscape Design AI](https://www.aixploria.com/en/landscape-design-ai/)
-- [Claude Fable 5.1](https://www.aixploria.com/en/claude-fable-5-1/)
-- [Spytrend](https://www.aixploria.com/en/spytrend/)
-- [GMPlus](https://www.aixploria.com/en/gmplus-ai/)
-- [Gemini 3.8 Flash](https://www.aixploria.com/en/gemini-3-8-flash-google/)
-- [Free Trial](https://www.aixploria.com/en/ai-free-trial/)
-- [Paid](https://www.aixploria.com/en/ai-paid/)
-- [AI News Today](https://www.aixploria.com/en/ai-news-today/)
-- [Free AI Tools](https://www.aixploria.com/en/free-ai/)
-- [AI Tutorials](https://www.aixploria.com/en/tutorials-video-ai-free-lessons/)
-- [Full List](https://www.aixploria.com/en/ultimate-list-ai/)
+- [Tally](https://www.aixploria.com/tally-so-ai-forms/)
+- [PicWish](https://www.aixploria.com/picwish/)
+- [TalkPix AI](https://www.aixploria.com/talkpix-ai/)
+- [Continua AI](https://www.aixploria.com/continua-ai/)
+- [Wistia Remix](https://www.aixploria.com/wistia-remix/)
+- [Coool AI](https://www.aixploria.com/coool-ai/)
+- [GrokBot](https://www.aixploria.com/grokbot/)
+- [Manyface](https://www.aixploria.com/manyface/)
+- [MenuForma](https://www.aixploria.com/menuforma/)
+- [Oreate AI](https://www.aixploria.com/oreate-ai/)
+- [Makiverse](https://www.aixploria.com/makiverse/)
+- [VidMage Video Face Swap](https://www.aixploria.com/vidmage-video-face-swap/)
+- [Gemini 3.5 Transcribe](https://www.aixploria.com/gemini-3-5-transcribe/)
+- [SlidesPilot](https://www.aixploria.com/slidespilot/)
+- [Heyo](https://www.aixploria.com/heyo-live/)
+- [Freebeat AI Mobile](https://www.aixploria.com/freebeat-ai-mobile/)
+- [HappySeeds](https://www.aixploria.com/happyseeds-ai/)
+- [Gemini Omni 1.1 Flash](https://www.aixploria.com/gemini-omni-1-1-flash-video-model/)
+- [Cadrant](https://www.aixploria.com/cadrant-ai/)
+- [Clipdance](https://www.aixploria.com/clipdance/)
+- [Virse](https://www.aixploria.com/virse-ai/)
+- [Microduck](https://www.aixploria.com/microduck-hugging-face-pollen-robotics/)
+- [Background Remover Video](https://www.aixploria.com/background-remover-video/)
+- [Stivio ai](https://www.aixploria.com/stivio-ai/)
+- [Landscape Design AI](https://www.aixploria.com/landscape-design-ai/)
+- [Claude Fable 5.1](https://www.aixploria.com/claude-fable-5-1/)
+- [Spytrend](https://www.aixploria.com/spytrend/)
+- [GMPlus](https://www.aixploria.com/gmplus-ai/)
+- [Gemini 3.8 Flash](https://www.aixploria.com/gemini-3-8-flash-google/)
+- [Bons plans IA](https://www.aixploria.com/codes-promo-ia/)
 
 ## FutureTools
 
@@ -73,7 +73,7 @@
 
 ## Toolify
 
-- [ScholarSail Connected AI study workspace for flashcards, mind maps, memory palaces, and focused planning](https://www.toolify.ai/tool/scholarsail)
+- [Seedance 2.5 — Text, Photo, Video & Audio to Video Unified pay-as-you-go API for image, video, language, music, and coding models](https://www.toolify.ai/tool/seedance-2-5-text-photo-video-audio-to-video)
 - [Hoocs AI AI transcription platform that turns audio, video, and online media into editable transcripts, subtitles, summaries, and mind maps.](https://www.toolify.ai/tool/hoocs-ai)
 - [Best10.ai Free Independent rankings and reviews for finding the best AI tools](https://www.toolify.ai/tool/best10-ai)
 - [AITop10.ai Free Independent rankings and reviews for AI websites and tools](https://www.toolify.ai/tool/aitop10-ai)
@@ -151,74 +151,62 @@
 
 ## Hacker News
 
-- [The "$60 Gaming PC" – AMD BC-250 (2025)](https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/) — 2026-09-05 21:36:38
+- [Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)](https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/) — 2026-09-06 04:25:59
   - 摘要：Comments
-- [Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA](https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/) — 2026-09-06 00:13:57
+- [Private German rocket makes history, reaches orbit from European soil](https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket) — 2026-09-06 04:31:38
   - 摘要：Comments
-- [How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)](https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods) — 2026-09-06 00:14:34
+- [LLMs as a Cognitive Virus](https://arxiv.org/abs/2609.03344) — 2026-09-06 04:02:35
   - 摘要：Comments
-- [A bizarre Commodore 64 peripheral, a mime, and some pretty bad ads](https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/) — 2026-09-05 20:23:51
+- [Falsehoods Programmers Believe About LANs](https://dreamstation.systems/personal/lanfalsehoods.html) — 2026-09-06 06:08:16
   - 摘要：Comments
-- [Meet the Ig Nobel Prize Winners](https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/) — 2026-09-05 22:02:44
+- [Isar Aerospace launch into orbit [video]](https://www.youtube.com/watch?v=Ss1DUqLjecc) — 2026-09-06 04:25:30
   - 摘要：Comments
-- [How the Disaster of "Forever Chemicals" Was Kept Secret](https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen) — 2026-09-05 22:40:52
+- [America's Two Largest School Districts Impose AI Moratoriums](https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/) — 2026-09-06 05:43:22
   - 摘要：Comments
-- [Bob and Van](https://marco.org/2026/09/04/bob-and-van) — 2026-09-06 00:30:35
+- [How AI is breaking the British state](https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state) — 2026-09-06 05:05:35
   - 摘要：Comments
-- [.gitignore Everything by Default](https://packagemain.tech/p/gitignore-everything-by-default) — 2026-09-05 21:19:42
+- [South African diamond mines are closing due to weak sales and lab-grown stones](https://www.wsj.com/business/diamond-mines-are-closing-and-south-africans-have-few-alternatives-fa3b8cbf) — 2026-09-06 05:17:00
   - 摘要：Comments
-- [Flock used >100 times to track veteran who recorded traffic stop](https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop/) — 2026-09-06 00:48:13
+- [ISAR Aerospace 5 Sept Mission Onward and Upward](https://isaraerospace.com/mission-updates-overview) — 2026-09-06 03:41:27
+  - 摘要：Comments
+- [The Real Luxuries In Life](https://feld.com/archives/2026/09/the-real-luxuries-in-life/) — 2026-09-06 01:46:16
   - 摘要：Comments
 
 ## Dev.to AI
 
-- [myjs](https://dev.to/michael_b581c5c68faa9de1d/myjs-54b9) — 2026-09-06 00:55:17
-  - 摘要：A JavaScript interpreter for Python. Run .js files, render HTML pages headlessly, script the DOM, call native C through ffi, and reach the entire Python ecosystem from JavaScript — no Node, no browser, no build step. pip install myjs or, for an isolated CLI: pipx install myjs myj
-- [Self-Hosted LLM: Essential TCO Guide for Private AI](https://dev.to/vladimir_lialine_b2e67374/self-hosted-llm-essential-tco-guide-for-private-ai-120i) — 2026-09-06 00:55:14
-  - 摘要：Self-Hosted LLM TCO: Establishing the Cost Baseline A self-hosted LLM can provide data control, predictable performance, and lower unit costs at scale—but only when utilization justifies the infrastructure. Comparing it with a cloud application programming interface, or API, requ
-- [Discovery of a new OpenAI agent message board](https://dev.to/technoblogger14o3/discovery-of-a-new-openai-agent-message-board-38b5) — 2026-09-06 00:54:19
-  - 摘要：I've been diving into the world of AI lately, and let me tell you, it’s like stepping into a sci-fi novel. Just the other day, I stumbled upon a new OpenAI agent message board that’s been generating a buzz, and I can’t help but share my excitement about it. Ever wondered how thes
-- [Cursor Has Five Configuration Layers. You're Probably Using One.](https://dev.to/mozes721/cursor-has-five-configuration-layers-youre-probably-using-one-5fj0) — 2026-09-06 00:53:08
-  - 摘要：For about six months I configured Cursor the way I suspect most people do. Opened settings, pasted in some rules, got back to work. Then re-explained the project at the start of every session anyway. I assumed the rules weren't good enough. I kept rewriting them. That wasn't the
-- [Revenue Strategies for AI API Services](https://dev.to/rogt7/revenue-strategies-for-ai-api-services-4neb) — 2026-09-06 00:51:59
-  - 摘要：To build true passive income streams for an AI agent with this specific tech stack, you need to leverage its core competencies— market analysis, content generation, and software automation —while minimizing your need to manually intervene. Here are 3 high-potential, highly automa
-- [How to Use AI for Smart Contract Audits in 2026](https://dev.to/rogt7/how-to-use-ai-for-smart-contract-audits-in-2026-35f5) — 2026-09-06 00:51:28
-  - 摘要：By 2026, the landscape of blockchain security has shifted dramatically. Manual code review, while still foundational, is no longer sufficient to keep pace with the complexity of DeFi protocols and Layer 2 solutions. The integration of Large Language Models (LLMs) and specialized
-- [Telegram Account Usernames for Sale – Buy & Sell: A Complete Guide](https://dev.to/telegramchat/telegram-account-usernames-for-sale-buy-sell-a-complete-guide-3ok5) — 2026-09-06 00:51:10
-  - 摘要：Telegram Account Usernames for Sale – Buy & Sell: A Complete Guide We respond within 24 hours: ➤ Telegram: @kycusasmm ➤ WhatsApp: +1 (434) 879-3038 ➤ Email: kycusasmm@gmail.com Visit Now https://kycusasmm.com/product/buy-telegram-account/ A Telegram username is more than a conven
-- [OpenClaw 2.0 Upgrade Survival Guide: Gateway Won't Start, Plugins Disabled, Channels Tripped? Here's What Actually Fixes](https://dev.to/liekeai/openclaw-20-upgrade-survival-guide-gateway-wont-start-plugins-disabled-channels-tripped-42ka) — 2026-09-06 00:48:01
-  - 摘要：OpenClaw 2.0 (v2026.8.1) is the biggest release in the project's history: 933 contributors, over 16,000 merged pull requests (roughly half of all PRs ever merged), with the installer, browser Control UI, session storage and permission system almost entirely rewritten. Fresh insta
-- [Cheapest Cloud VPS September 2026: Alibaba Cloud vs Tencent Cloud Price Battle](https://dev.to/liekeai/cheapest-cloud-vps-september-2026-alibaba-cloud-vs-tencent-cloud-price-battle-1nhm) — 2026-09-06 00:47:10
-  - 摘要：Cheapest Cloud VPS September 2026: Alibaba Cloud vs Tencent Cloud Price Battle Prices verified September 2026 — check official pages for latest deals. If you're shopping for a cheap cloud VPS this month, you're in luck. Both Alibaba Cloud and Tencent Cloud are running heavy Septe
-- [11 Best Ways to Buy Old Gmail Account in the US Gmail Account |](https://dev.to/topsellpva3/11-best-ways-to-buy-old-gmail-account-in-the-us-gmail-account--2f8g) — 2026-09-06 00:46:59
-  - 摘要：Buy Old Gmail Accounts Old Gmail accounts are email accounts that have been registered and actively used for a significant period. These accounts often have established histories, including sent emails, contacts, and verified recovery options. Their age and activity make them mor
-- [Aged Gmail Buy/Sell | 2027 Gmail Accounts Buying Guide](https://dev.to/topsellpva3/aged-gmail-buysell-2027-gmail-accounts-buying-guide-2m4n) — 2026-09-06 00:46:49
-  - 摘要：Buy Old Gmail Accounts Old Gmail accounts are email accounts that have been registered and actively used for a significant period. These accounts often have established histories, including sent emails, contacts, and verified recovery options. Their age and activity make them mor
-- [OpenAI Rolls Out GPT-6 Astra Across ChatGPT, API, Azure and AWS Bedrock](https://dev.to/alifar/openai-rolls-out-gpt-6-astra-across-chatgpt-api-azure-and-aws-bedrock-98c) — 2026-09-06 00:45:30
-  - 摘要：OpenAI has introduced GPT-6 Astra , a new generation of intelligence that is beginning with a limited rollout to organizations before expanding across ChatGPT and major cloud platforms. According to OpenAI's official GPT-6 Astra announcement , Astra will become available soon to
+- [Multiple Browser Agents Need More Than Separate Profiles](https://dev.to/volker_schukai/multiple-browser-agents-need-more-than-separate-profiles-565j) — 2026-09-06 07:01:21
+  - 摘要：A development report on SessionDock, based on the project state of September 5, 2026. SessionDock is not yet a released, end-to-end application. Two agents are supposed to work on two projects in parallel. Each needs a browser with a prepared login. If its assigned workspace is b
+- [Cursor có 5 lớp cấu hình: bạn đang dùng đúng một lớp](https://dev.to/bean_bean/cursor-co-5-lop-cau-hinh-ban-dang-dung-dung-mot-lop-3gi6) — 2026-09-06 07:00:10
+  - 摘要：Originally published on NextFuture Bạn dán rule vào Cursor, rồi đầu mỗi session vẫn phải giải thích lại project từ đầu. Bạn viết lại rule lần thứ năm, vẫn vậy — vì rule chỉ là một trong năm lớp cấu hình, và bốn lớp còn lại đang không làm gì cả. Một dev vừa công bố kết quả sau khi
+- [Tự host LLM hay dùng API: tính điểm hòa vốn trước khi mua GPU](https://dev.to/bean_bean/tu-host-llm-hay-dung-api-tinh-diem-hoa-von-truoc-khi-mua-gpu-o1c) — 2026-09-06 07:00:02
+  - 摘要：Originally published on NextFuture Hóa đơn API tháng này lại vượt budget, và ai đó trong team bắt đầu nói câu quen thuộc: "hay mình mua GPU tự host cho rẻ". Câu hỏi đúng không phải rẻ hơn hay không, mà là hòa vốn ở mức bao nhiêu token mỗi tháng. Bài này lấy bộ công thức TCO và ví
+- [AI-Powered Trading Strategies for Crypto Markets](https://dev.to/rogt7/ai-powered-trading-strategies-for-crypto-markets-9db) — 2026-09-06 06:58:02
+  - 摘要：Crypto markets operate 24/7 with extreme volatility, rendering traditional manual analysis obsolete. Artificial Intelligence (AI) has emerged as the critical edge for traders seeking to navigate this chaos. By leveraging machine learning models, traders can process vast amounts o
+- [The Traffic Cop Era of AI: Falling Token Prices, Smarter Routing, and Agents That Misbehave](https://dev.to/lucky012501/the-traffic-cop-era-of-ai-falling-token-prices-smarter-routing-and-agents-that-misbehave-a3m) — 2026-09-06 06:57:51
+  - 摘要：The Traffic Cop Era of AI: Falling Token Prices, Smarter Routing, and Agents That Misbehave There's a number floating around this week that I keep coming back to: $0.9665. That's the effective price of one million LLM tokens on August 31, according to Silicon Data's Token Expendi
+- [A Green Run Is Not a Green Light: Engineering Responsibility in Browser Automation](https://dev.to/cloakhq/a-green-run-is-not-a-green-light-engineering-responsibility-in-browser-automation-44mf) — 2026-09-06 06:47:29
+  - 摘要：The browser agent had one goal: check a set of public pages and return a structured result. The first page responded with 429 Too Many Requests . The agent retried immediately. Then it received a 403 , opened a fresh browser session, and repeated the step. Its planner treated eve
+- [API Key Management: Essential On-Premises Security](https://dev.to/vladimir_lialine_b2e67374/api-key-management-essential-on-premises-security-1e20) — 2026-09-06 06:45:42
+  - 摘要：Hardcoded credentials turn a single source-code leak, container image, or configuration backup into a potential security incident. Effective API key management replaces these embedded secrets with controlled, auditable access at runtime. For organizations operating private infras
+- [AI APIs for Crypto Trading Signals - Complete Guide](https://dev.to/rogt7/ai-apis-for-crypto-trading-signals-complete-guide-mj1) — 2026-09-06 06:43:25
+  - 摘要：AI‑Powered Crypto Trading Signals: Turning Data Into Action In the fast‑moving world of cryptocurrency, timing is everything. Traders increasingly rely on trading signals —concise, data‑driven recommendations that tell you what to buy, sell, or hold and when . Modern AI APIs make
+- [Privacy-Preserving Active Learning for circular manufacturing supply chains for low-power autonomous deployments](https://dev.to/rikinptl/privacy-preserving-active-learning-for-circular-manufacturing-supply-chains-for-low-power-4nj2) — 2026-09-06 06:42:54
+  - 摘要：Privacy-Preserving Active Learning for circular manufacturing supply chains for low-power autonomous deployments The Eureka Moment in My Garage Lab It started with a frustrating Tuesday afternoon in my home lab. I was staring at a thermal imaging dataset from a pilot project—trac
+- [Structured Output From LLMs: A Retry-Repair Loop Your Parser Never Sees Through](https://dev.to/devshakib/structured-output-from-llms-a-retry-repair-loop-your-parser-never-sees-through-3b0b) — 2026-09-06 06:42:04
+  - 摘要：The first time I wired an LLM into a real product feature at Shpper, I did the naive thing: prompt the model to "return JSON", jsonDecode the response, move on. It worked in the demo. Then it hit real traffic and I started getting FormatException at 2am because the model wrapped
+- [Revenue Strategies for AI API Services](https://dev.to/rogt7/revenue-strategies-for-ai-api-services-b80) — 2026-09-06 06:40:05
+  - 摘要：Strategy: The "Legacy Bridge" White-Label Partnership The Concept: Most established IoT platforms (AWS IoT, Azure IoT Hub, Salesforce IoT Cloud) and new SaaS verticals (Smart Building, Logistics, Agriculture) need to integrate with aging hardware (Modems, Gateways, Sensors) that
 
 ## Lobsters
 
-- [zopt: low-ceremony command line parsing for Zig](https://codeberg.org/hgrsd/zopt) — 2026-09-05 22:48:58
+- [It matters who teaches you](https://bastiangruber.ca/posts/it-matters-who-teaches-you/) — 2026-09-06 01:47:34
   - 摘要：Comments
-- [NYC PIT Crew](https://www.nyc.gov/content/pitcrew/pages/) — 2026-09-05 19:33:49
+- [The revolt of the reader](https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/) — 2026-09-06 05:28:47
   - 摘要：Comments
-- [Knowing Where to Type ‘Zero’ (2015)](https://randomascii.wordpress.com/2015/01/19/knowing-where-to-type-zero/) — 2026-09-05 19:12:59
+- [C++26: std::hive](https://www.sandordargo.com/blog/2026/09/02/cpp26-hive) — 2026-09-06 02:46:39
   - 摘要：Comments
-- [Visualizing Rust's Vtables: How dyn Trait Works In Memory](https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/) — 2026-09-05 19:50:24
+- [Anatomy of a Test](https://jonathan-frere.com/posts/anatomy-of-a-test/) — 2026-09-06 01:50:08
   - 摘要：Comments
-- [Gleam and BEAM- Looking beyond the JVM](https://vimeo.com/1223666800) — 2026-09-05 20:22:34
-  - 摘要：Comments
-- [Pointing at the error: compiler-style diagnostics in uutils coreutils](https://uutils.org/blog/2026-08-error-diagnostics/) — 2026-09-05 22:34:40
-  - 摘要：Comments
-- [Rust SIMD on the GPU](https://vectorware.com/blog/simd-on-gpu/) — 2026-09-05 21:24:01
-  - 摘要：Comments
-- [Formalizing Fermat's Last Theorem](https://www.anthropic.com/research/formalizing-fermats-last-theorem) — 2026-09-05 20:54:53
-  - 摘要：Comments
-- [What filesystem are you running on your NAS/Backups, and why?](https://lobste.rs/s/wk38d2/what_filesystem_are_you_running_on_your) — 2026-09-05 23:46:13
-  - 摘要：What filesystem are you running on your NAS/Backups, and why? And if you're using multiple disks/devices, how do you manage them (filesystem's RAID, mdadm or other software solutions, hardware RAID)?
-- [Seeking Designer for a Small Company](https://lobste.rs/s/trzpsg/seeking_designer_for_small_company) — 2026-09-05 21:04:05
-  - 摘要：A friend and I intend to start a business in the near future and would love to have a great human designer make us some great human (logo/web) designs. I am a programmer and painter by training but have no talent for graphic design and have no idea where to find great designers.
 
 ## 人工分析提示
 
