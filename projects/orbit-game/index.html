@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#050e10" />
+    <meta name="description" content="驾驶飞船穿越星环，收集能量并躲避陨石。一个使用 Three.js 制作的 3D 太空街机游戏。" />
+    <title>ORBIT · 星环穿越</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050e10'/%3E%3Cellipse cx='32' cy='32' rx='15' ry='25' transform='rotate(30 32 32)' fill='none' stroke='%23d3f434' stroke-width='5'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="space" aria-label="3D 太空飞行场景"></div>
+    <header>
+      <a class="brand" href="./" aria-label="ORBIT 首页">ORBIT <span>星环穿越</span></a>
+      <div class="toolbar">
+        <button id="sound" class="icon-button" aria-label="开启音效" aria-pressed="false" title="开启音效">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4 6 8H3v8h3l5 4V4Z"/><path class="sound-waves" d="M15 8q4 4 0 8m3-11q7 7 0 14"/><path class="sound-off" d="m16 9 6 6m0-6-6 6"/></svg>
+        </button>
+        <button id="pause" class="icon-button" aria-label="暂停游戏" title="暂停 / 空格" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></button>
+      </div>
+    </header>
+    <main>
+      <section id="intro" class="overlay intro">
+        <h1>星环穿越</h1>
+        <p class="description">驾驶飞船，穿过星环。<br class="mobile-break" />迎战外星舰队，把能量带回家。</p>
+        <button id="start" class="primary" disabled><span>引擎启动中…</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        <p class="best"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v6a5 5 0 0 1-10 0V3Zm0 2H3v3a4 4 0 0 0 4 4m10-7h4v3a4 4 0 0 1-4 4m-5 2v6m-4 1h8"/></svg>最佳成绩 <strong id="best">0</strong></p>
+      </section>
+      <section id="hud" hidden aria-label="飞行数据">
+        <div><span class="label">飞行得分</span><strong id="score">000000</strong></div>
+        <div class="hud-right"><span class="label">护盾 <b id="lives">● ● ●</b></span><span class="label">速度 <b id="speed">180</b> km/s</span><span class="label">击毁 <b id="kills">0</b> · 自动开火</span><span class="label">航道 <b id="lane">中</b></span></div>
+      </section>
+      <div id="boss-bar" hidden><span>外星母舰 <b id="boss-hp">24 / 24</b></span><progress id="boss-health" max="24" value="24" aria-label="外星母舰剩余生命"></progress></div>
+      <section id="dialog" class="overlay dialog" hidden aria-live="polite">
+        <p id="dialog-caption" class="dialog-caption">FLIGHT PAUSED</p>
+        <h2 id="dialog-title">航行已暂停</h2>
+        <p id="dialog-description">星海会等你。准备好就继续出发。</p>
+        <div id="results" hidden><div><span>本次得分</span><strong id="final-score">0</strong></div><div><span>收集能量</span><strong id="final-energy">0</strong></div><div><span>飞行时间</span><strong id="final-time">0s</strong></div></div>
+        <p class="kill-summary">击毁敌舰 <strong id="final-kills">0</strong></p>
+        <button id="resume" class="primary">继续飞行</button>
+        <button id="home" class="text-button">返回起点</button>
+      </section>
+      <button id="boost" hidden aria-label="切换加速" aria-pressed="false">加速 · Shift / W</button>
+      <div id="toast" role="status"></div>
+      <div id="touch-controls" hidden><button id="left" aria-label="向左移动"><svg viewBox="0 0 24 24"><path d="M20 12H4m7-7-7 7 7 7"/></svg></button><span>切换航道 · 躲避陨石</span><button id="right" aria-label="向右移动"><svg viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></button></div>
+    </main>
+    <footer><div><kbd>A</kbd><kbd>D</kbd><span class="slash">/</span><kbd>←</kbd><kbd>→</kbd><span>移动</span></div><div><kbd class="space-key">空格</kbd><span>暂停</span><kbd>Shift</kbd><span>加速</span></div><div class="collect-hint"><span class="diamond">◇</span><span>收集能量 <b>+100</b></span></div></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

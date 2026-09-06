@@ -35,6 +35,8 @@
 
 企业 AI 延伸阅读：查看[企业 AI 研究资料](docs/enterprise-ai/README.md)，了解 Ontology、FDE、AI 数字化和 AI 原生组织。
 
+自然语言编程实践：查看[独立项目目录](projects/README.md)，运行 Three.js 游戏「星环穿越」及后续应用项目。
+
 ## 仓库结构
 
 ```text
@@ -43,6 +45,7 @@
 ├── 小白学AI-7天自学与授课书稿.md
 ├── docs/       课程导航与分章资料
 ├── examples/   提示词、办公案例与 Agent 模板
+├── projects/   独立应用、网页游戏与交互工具
 ├── skills/     可复用的 Codex skills
 └── scripts/    AI 情报采集与自动化脚本
 ```
