@@ -1,7 +1,7 @@
 # AI 与大模型情报
 
-生成时间：2026-09-06 13:05:51
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：146
+生成时间：2026-09-06 19:06:31
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：147
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
@@ -42,17 +42,17 @@
 
 - [20 – YoFont Inspiration](https://www.futuretools.io/tools/yofont-bsvdws)
 - [19 – HiClip Social Media](https://www.futuretools.io/tools/hiclip)
-- [18 1 places down since yesterday Image MetaHub Productivity](https://www.futuretools.io/tools/image-metahub)
-- [17 1 places down since yesterday DeepBrain AI Generative Video · Text-To-Speech](https://www.futuretools.io/tools/deepbrain-ai)
-- [16 1 places down since yesterday PlayPhrase.me For Fun · Research](https://www.futuretools.io/tools/playphrase-me)
-- [15 3 places up since yesterday Sync.so Generative Video](https://www.futuretools.io/tools/sync-so)
-- [14 – NotebookLM Productivity · Chat](https://www.futuretools.io/tools/notebooklm)
-- [13 – Grok Chat · Generative Art](https://www.futuretools.io/tools/grok-ai)
+- [18 – Image MetaHub Productivity](https://www.futuretools.io/tools/image-metahub)
+- [17 4 places down since yesterday Grok Chat · Generative Art](https://www.futuretools.io/tools/grok-ai)
+- [16 1 places up since yesterday DeepBrain AI Generative Video · Text-To-Speech](https://www.futuretools.io/tools/deepbrain-ai)
+- [15 1 places up since yesterday PlayPhrase.me For Fun · Research](https://www.futuretools.io/tools/playphrase-me)
+- [14 1 places up since yesterday Sync.so Generative Video](https://www.futuretools.io/tools/sync-so)
+- [13 1 places up since yesterday NotebookLM Productivity · Chat](https://www.futuretools.io/tools/notebooklm)
 - [12 – Google AI Studio Chat · Generative Art](https://www.futuretools.io/tools/google-ai-studio)
-- [11 – Motionleap Image Improvement](https://www.futuretools.io/tools/motionleap)
-- [10 – Humva Avatar](https://www.futuretools.io/tools/humva)
-- [9 1 places down since yesterday Claude Chat · Generative Code](https://www.futuretools.io/tools/claude)
-- [8 1 places up since yesterday ChatGPT Chat · Generative Code](https://www.futuretools.io/tools/chatgpt-openai)
+- [11 1 places down since yesterday Humva Avatar](https://www.futuretools.io/tools/humva)
+- [10 1 places up since yesterday Motionleap Image Improvement](https://www.futuretools.io/tools/motionleap)
+- [9 – Claude Chat · Generative Code](https://www.futuretools.io/tools/claude)
+- [8 – ChatGPT Chat · Generative Code](https://www.futuretools.io/tools/chatgpt-openai)
 - [7 – Flora AI Generative Art](https://www.futuretools.io/tools/flora-ai)
 - [6 – Cliphi Social Media](https://www.futuretools.io/tools/cliphi-w0gfbv)
 - [5 – Jason AI Marketing](https://www.futuretools.io/tools/jason-ai)
@@ -151,51 +151,53 @@
 
 ## Hacker News
 
-- [Cloud in a Bottle: making self-hosting accessible to everyone](https://cloudinabottle.org/blog/launch-post) — 2026-09-06 08:03:29
+- [Isar Aerospace reaches orbit and deploys payloads on second flight](https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight) — 2026-09-06 15:21:06
   - 摘要：Comments
-- [GPT-6 Astra on robot arms](https://openai.robocurve.org/gpt-6-astra/) — 2026-09-06 09:52:45
+- [I Changed My License](https://bergie.iki.fi/blog/eupl/) — 2026-09-06 18:39:44
   - 摘要：Comments
-- [Chrome again exempts Google from user site data settings](https://lapcatsoftware.com/articles/2026/9/1.html) — 2026-09-06 07:39:47
-  - 摘要：Comments
-- [Vancouver strip club's Instagram taken down over sign featuring lake joke](https://www.vancouverisawesome.com/local-news/vancouver-strip-club-instagram-taken-down-sign-calls-out-trump-12725993) — 2026-09-06 12:07:40
-  - 摘要：Comments
-- [AI, Tools and Transformation](https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation) — 2026-09-06 10:12:46
+- [You Don't Have a Right to Safe Drinking Water, US Court Rules](https://www.motherjones.com/politics/2026/09/drinking-water-mississippi-lawsuit/) — 2026-09-06 17:14:22
   - 摘要：Comments
 
 ## Dev.to AI
 
-- [MIT License Enterprise AI: Essential Guide for 2026](https://dev.to/vladimir_lialine_b2e67374/mit-license-enterprise-ai-essential-guide-for-2026-3lmj) — 2026-09-06 13:02:20
-  - 摘要：Why MIT License Enterprise Adoption Is Accelerating In 2026, enterprise AI buyers want innovation without unpredictable legal obligations. That is why MIT License enterprise adoption matters: the license gives organizations broad permission to use, modify, distribute, sublicense,
-- [WebSocket vs Server-Sent Events (SSE) for token-by-token streaming in AI code generators](https://dev.to/achyut_srivastava_2a77b5d/websocket-vs-server-sent-events-sse-for-token-by-token-streaming-in-ai-code-generators-47o6) — 2026-09-06 13:01:26
-  - 摘要：WebSocket vs Server-Sent Events (SSE) for token-by-token streaming in AI code generators The Engineering Problem Modern AI paired programming and conversational UI generation struggle with context bloat and cascading syntax errors. When an AI generates monolithic files, single ta
-- [A First AI SOP Template That Starts With Exceptions](https://dev.to/moonshot_1341/a-first-ai-sop-template-that-starts-with-exceptions-l3l) — 2026-09-06 13:00:11
-  - 摘要：A first AI SOP template should begin with exceptions, not prompts. Before asking AI to draft anything, write one line each for the normal case, exceptions, owner, and stop condition in a free document. Then use AI only to organize that material into a procedure. Review the draft
-- [Start Content Repurposing by Turning One Article Into Three Useful Assets](https://dev.to/moonshot_1341/start-content-repurposing-by-turning-one-article-into-three-useful-assets-4099) — 2026-09-06 13:00:04
-  - 摘要：On 2026-09-03, this playbook was reviewed under one strict condition: no performance results, costs, audience figures, or time savings were available to validate. The useful answer is still simple. Start content repurposing with one published article, ask a free AI assistant for
-- [Quantization‑aware healing restores 4‑bit LLM accuracy](https://dev.to/olaughter/quantization-aware-healing-restores-4-bit-llm-accuracy-25m6) — 2026-09-06 13:00:00
-  - 摘要：4‑bit language models now approach full‑precision quality on most benchmarks without the weeks‑long hyper‑parameter hunts that have become the norm. The breakthrough comes from Quantization‑Aware Healing (QAH), a pipeline that fuses knowledge distillation with quantization instea
-- [You can now buy ads inside ChatGPT. You still cannot buy a citation.](https://dev.to/reidify/you-can-now-buy-ads-inside-chatgpt-you-still-cannot-buy-a-citation-1a73) — 2026-09-06 12:59:00
-  - 摘要：On 31 August OpenAI said its advertising business had reached a $1 billion annualized revenue run rate in under 200 days, and that self-service buying through Ads Manager was opening across India, Europe, the Middle East and North Africa. Ads Manager had already been open to smal
-- [AI-Native Software Delivery: Two Loops, One Product](https://dev.to/vladimirpanov/ai-native-software-delivery-two-loops-one-product-16mo) — 2026-09-06 12:58:35
-  - 摘要：The Owner shapes the desired product. The squad takes selected changes to production. AI performs a substantial share of the work in both loops. Imagine AI taking on a substantial share of the technical work: helping design solutions, writing code and tests, analyzing failures, a
-- [I Stopped Putting AI Inside My App — I Made AI a Client of My API](https://dev.to/fal3n4ngel/i-stopped-putting-ai-inside-my-app-i-made-ai-a-client-of-my-api-4c51) — 2026-09-06 12:58:11
-  - 摘要：I wanted to build a personal dashboard that could understand my data. Expenses. Movies. Books. Investments. The obvious approach would have been to build an AI layer directly into the application. I decided to do the opposite. What if AI wasn't part of the application at all? Wha
-- [NovaReach AI Authority Engine™ — wynik testu: wzrost widoczności o 15 600%](https://dev.to/krzysztof_gumiela_c601748/novareach-ai-authority-engine-wynik-testu-wzrost-widocznosci-o-15-600-59nm) — 2026-09-06 12:54:53
-  - 摘要：Pierwszy wynik testowy NovaReach AI Authority Engine™ NovaReach AI Authority Engine™ został zaprojektowany jako autorski system budowania, wzmacniania i dystrybucji autorytetu marki w środowisku SEO, GEO, AEO oraz AI Search . Jednym z najważniejszych elementów rozwoju systemu są
-- [Pin the CLI Tape Before You Edit a Messy Repo](https://dev.to/hackrs_6393/pin-the-cli-tape-before-you-edit-a-messy-repo-594e) — 2026-09-06 12:51:53
-  - 摘要：Do not refactor a messy repo by reading it. Record a CLI golden tape before any source change. Edit one file only after replay stays green. Hidden branches often survive a visual code review. Exit codes can drift without a failing test. A large cleanup then ships silent behavior
-- [The Agent Patched the Checkout. The Process Imported a Frozen Copy.](https://dev.to/codepy_1473/the-agent-patched-the-checkout-the-process-imported-a-frozen-copy-1cg3) — 2026-09-06 12:51:09
-  - 摘要：Have you ever stared at a perfectly reasonable patch and still watched the same exception roll by? I did, for two long days, on a small Python service that should have been easy. The function on disk looked corrected, my ad-hoc tests looked green, and the running process still ca
-- [Inventory Every Doc Claim Before a Model Writes a Sentence](https://dev.to/github_7727/inventory-every-doc-claim-before-a-model-writes-a-sentence-1n73) — 2026-09-06 12:47:26
-  - 摘要：Documentation generation fails at the sentence rather than the heading, because unfalsifiable promises hide inside otherwise ordinary paragraphs. A model that receives a blank section will often mix command examples with product intent, support scope, and architectural folklore.
+- [Chapter 56 — Secure AI Governance, Risk Management, Compliance, Policies, Controls, Model Inventory & Security Accountability](https://dev.to/black_shadow_team/chapter-56-secure-ai-governance-risk-management-compliance-policies-controls-model-inventory-41d0) — 2026-09-06 19:02:05
+  - 摘要：56.1 Introduction Technical security controls alone are not enough to operate a trustworthy AI platform. An AI system may have: authentication authorization encryption monitoring secure storage sandboxing model safety controls incident response Yet the organization can still have
+- [VIDRAFT: The Korean AI Foundry That Won Hugging Face's "Space of the Week" and a Google Challenge](https://dev.to/ai_openfree_b23025ef075cf/vidraft-the-korean-ai-foundry-that-won-hugging-faces-space-of-the-week-and-a-google-challenge-2j4a) — 2026-09-06 19:01:41
+  - 摘要：VIDRAFT: The Korean AI Foundry That Won Hugging Face's "Space of the Week" and a Google Challenge TL;DR: VIDRAFT is a Korean Pre-AGI AI startup that positions itself as an "AI Foundry" — diagnosing, combining, and fine-tuning existing LLMs into domain-specific models rather than
+- [Supercharging DeepSeek Harness: Bringing Claude Pro/Max with One-Click Google/Gmail OAuth Login and Real-Time Quota Tracking](https://dev.to/ofek_v_de88401ddceb10ae59/supercharging-deepseek-harness-bringing-claude-promax-with-one-click-googlegmail-oauth-login-and-253d) — 2026-09-06 19:01:15
+  - 摘要：By **grloper * ( GitHub @grloper )* 1. Introduction: The Subscription Dilemma in Modern Agent Frameworks DeepSeek Harness (DSH) has quickly established itself as one of the most capable, modular agent orchestration environments. Built on an extensible Cordis architecture where ev
+- [Prompt Injection in DevOps AI Agents: Defending Agents That Read Logs, PRs, and Alerts](https://dev.to/devtocash/prompt-injection-in-devops-ai-agents-defending-agents-that-read-logs-prs-and-alerts-4bjh) — 2026-09-06 19:00:34
+  - 摘要：💡 Originally published on devtocash.com — where this guide stays updated. I write hands-on DevOps/SRE deep-dives there weekly. The input your agent trusts is attacker-controlled Here's the uncomfortable part of shipping an AI agent into ops: almost everything it reads is written
+- [Building Structured Inter-Agent Communication: A Practical Guide](https://dev.to/albert_zhang_f468830cf0e6/building-structured-inter-agent-communication-a-practical-guide-5771) — 2026-09-06 19:00:12
+  - 摘要：Every multi-agent tutorial shows "Agent A talks to Agent B." None show how to keep that conversation reliable at scale. The Problem with String-Based Agent Chat # What most frameworks do: result = agent_a . run ( " Analyze this and tell agent_b what to do " ) agent_b . run ( resu
+- [Plots For Sale In Vagator Goa: A Flexible Property Investment Opportunity](https://dev.to/santwhitelisted/plots-for-sale-in-vagator-goa-a-flexible-property-investment-opportunity-118f) — 2026-09-06 18:58:08
+  - 摘要：Goa has long been admired for its beaches, relaxed lifestyle, vibrant culture, and natural beauty. Among the many destinations in North Goa, Vagator has developed a distinct appeal for homebuyers, investors, and people looking for a peaceful second-home destination. With its comb
+- [AI-Driven Risk Management for Crypto Traders](https://dev.to/rogt7/ai-driven-risk-management-for-crypto-traders-3i7e) — 2026-09-06 18:55:40
+  - 摘要：Volatility in the cryptocurrency market isn't just a feature; it's the default state. For traders, this presents a dual challenge: immense opportunity paired with existential risk. Traditional risk management, relying on fixed stop-losses or manual position sizing, often fails to
+- [Chapter 55 — Secure AI Observability, Logging, Monitoring, Detection & Incident Response](https://dev.to/black_shadow_team/chapter-55-secure-ai-observability-logging-monitoring-detection-incident-response-4hfh) — 2026-09-06 18:54:14
+  - 摘要：55.1 Introduction A secure AI application cannot rely only on preventive security controls. Even a well-designed system can experience: authentication failures authorization violations prompt injection attempts malicious file uploads abnormal API usage model abuse unexpected tool
+- [A free image-generation API with no key and no account — and the three failures that look like success](https://dev.to/kavel/a-free-image-generation-api-with-no-key-and-no-account-and-the-three-failures-that-look-like-f06) — 2026-09-06 18:53:43
+  - 摘要：A free image-generation API with no key and no account — and the three failures that look like success Every "free AI image API" tutorial starts the same way: create an account, verify a phone number, copy a key, put it in .env . This one skips all of that. There is nothing to ap
+- [Fintech Innovation 2026: Essential Portfolio Access](https://dev.to/vladimir_lialine_b2e67374/fintech-innovation-2026-essential-portfolio-access-1ppk) — 2026-09-06 18:53:11
+  - 摘要：Why Fintech Innovation 2026 Expands Portfolio Access For decades, sophisticated portfolio management was largely reserved for institutions and high-net-worth clients. Fintech innovation 2026 is changing that equation. Automated investment platforms can now translate professional
+- [Beyond Transcription: AI Tools That Polish, Edit, and Repurpose Audio Into Finished Content](https://dev.to/yaroslav_k/beyond-transcription-ai-tools-that-polish-edit-and-repurpose-audio-into-finished-content-4bl3) — 2026-09-06 18:52:55
+  - 摘要：Introduction Audio content is everywhere—podcasts, webinars, interviews, YouTube videos, voiceovers, and recorded meetings. But raw audio is rarely "finished" content. It has background noise, filler words, inconsistent pacing, and lives in only one format while your audience con
+- [🧠 AI Context Engineering (Part 5): Context Optimization - Give AI What It Needs, Not Everything You Have](https://dev.to/fazal_mansuri_/ai-context-engineering-part-5-context-optimization-give-ai-what-it-needs-not-everything-you-3lhl) — 2026-09-06 18:51:31
+  - 摘要：We've come a long way in this series. In Part 1 , we introduced Context Engineering and why it goes beyond writing better prompts. In Part 2 , we explored tokens, context windows and memory . In Part 3 , we looked at how AI applications get information through RAG, Tool Calling a
 
 ## Lobsters
 
-- [M2: Episode 1 (or, Asahi Linux on M3)](https://asahilinux.org/2026/09/m2-episode-1/) — 2026-09-06 08:52:57
+- [Debian Code Search: Fast TurboPFor with Go SIMD](https://michael.stapelberg.ch/posts/2026-09-06-dcs-fast-turbopfor-go-simd/) — 2026-09-06 15:03:41
   - 摘要：Comments
-- [Beyond ORMs](https://noteflakes.com/articles/2026-09-05-beyond-orms) — 2026-09-06 12:52:05
+- [Any Nix package, live in your browser](https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser) — 2026-09-06 15:09:11
   - 摘要：Comments
-- [There's No Limit to How Bad Code Can Get](https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/) — 2026-09-06 10:05:52
+- [How To: Federated Stars](https://domaindrivenarchitecture.org/blog/2024-06-05-howto-federated-stars/) — 2026-09-06 14:05:41
+  - 摘要：Comments
+- [Terence Tao on “prematurely solving [a maths] problem by purely AI-powered methods”](https://mathstodon.xyz/@tao/117207856734787448) — 2026-09-06 15:45:24
+  - 摘要：I recommend reading the whole thread, but I linked to the part I found the most relevant. I believe the same is true for programming. Comments
+- [Maybe We Shouldn't Be Reviewing All This Code](https://martinfowler.com/rachels-ramblings/code-review.html) — 2026-09-06 18:06:56
+  - 摘要：Comments
+- [See Windows CE Running On The N64](https://retrododo.com/see-windows-ce-running-on-the-n64/) — 2026-09-06 18:25:42
   - 摘要：Comments
 
 ## 人工分析提示
