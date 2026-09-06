@@ -1,7 +1,7 @@
 # AI 与大模型情报
 
-生成时间：2026-09-07 01:06:54
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：160
+生成时间：2026-09-07 07:07:44
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：155
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
@@ -153,75 +153,65 @@
 
 ## Hacker News
 
-- [QBittorrent breaks out of sandbox to commit crimes](https://beige.party/@intransitivelie/117057396732763183) — 2026-09-06 21:02:41
+- [GrapheneOS Overhauled Default Apps and Secure Clipboard](https://grapheneos.social/@GrapheneOS/117225539756835649) — 2026-09-07 04:24:00
   - 摘要：Comments
-- [Your intellectual fly is open (2025)](https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/) — 2026-09-06 19:56:43
+- [Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple](https://github.com/marsbos/mador) — 2026-09-07 04:45:13
   - 摘要：Comments
-- [NetBSD 9.5 released and EOL for NetBSD-9](https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and) — 2026-09-06 23:44:24
+- [It took a year to ship WebAssembly in Anubis](https://anubis.techaro.lol/blog/2026/anubis-wasm/) — 2026-09-07 04:32:38
   - 摘要：Comments
-- [A/I shuts down – Stay human](https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/) — 2026-09-06 22:34:34
+- [Harnessing the Universal Geometry of Embeddings](https://arxiv.org/abs/2505.12540) — 2026-09-07 04:31:20
   - 摘要：Comments
-- [Opalite Health (YC W26) Is Hiring – Founding GTM](https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm) — 2026-09-07 01:00:28
+- [Show HN: VODForge – a free local desktop UI for YouTube video/playlist downloads](https://getvodforge.com/) — 2026-09-07 04:07:30
   - 摘要：Comments
-- [Doomscrolling Ourselves to Death](https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death) — 2026-09-06 19:53:40
+- [D2 Is Non-Profit](https://d2lang.com/blog/d2-non-profit/) — 2026-09-07 03:11:05
   - 摘要：Comments
-- [An Alien Mind](https://openai.com/index/an-alien-mind/) — 2026-09-07 00:27:05
+- [Windows 11's "special" developer edition looks like another marketing misfire](https://www.neowin.net/opinions/windows-11s-special-developer-edition-sounds-like-yet-another-marketing-misfire/) — 2026-09-07 05:16:10
   - 摘要：Comments
-- [Research carried out using NetBSD](https://www.netbsd.org/gallery/research.html) — 2026-09-07 00:10:05
+- [Show HN: Sol, my macOS music player and jukebox app, is now free and open source](https://github.com/FulltimeFeline/Sol) — 2026-09-07 04:24:56
   - 摘要：Comments
-- [The many mysteries and lessons of the Bayeux tapestry](https://economist.com/interactive/culture/2026/09/03/the-many-mysteries-and-lessons-of-the-bayeux-tapestry) — 2026-09-06 21:38:07
-  - 摘要：Comments
-- [Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats](https://www.phoronix.com/news/Asahi-Linux-Official-M3) — 2026-09-06 22:08:59
-  - 摘要：Comments
-- [Show HN: Kadō – open-source habit tracker, with non-binary habit score, for iOS](https://github.com/scastiel/kado) — 2026-09-06 22:34:46
-  - 摘要：Comments
-- [I'm teaching an introductory 12 week course on Quantum Oracle Engineering](https://shukla.io/quantum-oracle-engineering/) — 2026-09-06 21:00:34
-  - 摘要：Comments
-- [Cultivating Trust](https://kaeruct.github.io/posts/2026/09/06/conquering-entropy-cultivating-trust/) — 2026-09-07 00:02:37
-  - 摘要：Comments
-- [The pencil case model of creativity](https://dub.uu.nl/en/column/pencil-case-model-creativity) — 2026-09-06 20:05:34
-  - 摘要：Comments
-- [Research acceleration: The view inside OpenAI](https://openai.com/index/research-acceleration-view-inside-openai) — 2026-09-06 23:08:44
+- [Nitter and XCancel resume service after legal advice](https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3) — 2026-09-07 01:49:47
   - 摘要：Comments
 
 ## Dev.to AI
 
-- [Chặn prompt injection cho agent DevOps: bắt đầu từ lớp tool](https://dev.to/bean_bean/chan-prompt-injection-cho-agent-devops-bat-dau-tu-lop-tool-6gf) — 2026-09-07 01:00:26
-  - 摘要：Originally published on NextFuture Agent on-call của bạn chạy kubectl logs , đọc 200 dòng, rồi đề xuất fix. Một trong 200 dòng đó do người ngoài ghi vào — qua một HTTP header, một user-agent được log nguyên văn, hay một dependency đã bị compromise. Bài này đi qua bốn lớp control
-- [Build Custom AI Chatbots with Zyctra API](https://dev.to/zyctraai/build-custom-ai-chatbots-with-zyctra-api-gk8) — 2026-09-07 01:00:11
-  - 摘要：Build Custom AI Chatbots with Zyctra API The Problem: Deploying AI Without the Complexity You want to add intelligent, conversational AI to your business—whether it's customer support, lead qualification, or internal automation. But building and maintaining your own AI infrastruc
-- [The AI Republic? What America’s 250th Anniversary Means for AI Governance](https://dev.to/theaiprism/the-ai-republic-what-america8217s-250th-anniversary-means-for-ai-governance-58ak) — 2026-09-07 01:00:07
-  - 摘要：Originally published on The AI Prism The year is 2026. The United States is 250 years old. And the question quietly being asked in Washington think tanks, at Stanford conferences, and in the pages of major policy journals is whether the American experiment in democratic governanc
-- [HealthMitra: An AI Voice Health Companion for India, Built in 10 Days](https://dev.to/siddharthagarwal1983/healthmitra-an-ai-voice-health-companion-for-india-built-in-10-days-5019) — 2026-09-07 00:59:52
-  - 摘要：An AI health companion that answers — and places — phone calls in Hindi and English, built on LiveKit and Murf Falcon over ten days of shipping one feature at a time. By Siddharth Agarwal · Health Access track, 10-day voice-agent build · github.com/siddharthagarwal1983/sid-voice-
-- [Stop Sending Every Small Task to Your Strongest Model](https://dev.to/baozhang-zltokens/stop-sending-every-small-task-to-your-strongest-model-2f2e) — 2026-09-07 00:57:39
-  - 摘要：Support classification, summarization, and structured extraction often run on a flagship model for a boring reason: the project connected one model early, and every later feature inherited it. If you want to reduce AI cost, the first move is not replacing every request with a che
-- [Building a Crypto Signal Bot with AI APIs - 2026 Guide](https://dev.to/rogt7/building-a-crypto-signal-bot-with-ai-apis-2026-guide-3pp1) — 2026-09-07 00:55:31
-  - 摘要：Building a robust crypto signal bot in 2026 requires moving beyond simple moving average crossovers. The market is now dominated by high-frequency algorithms and sentiment-driven volatility, meaning your bot needs multi-modal intelligence. This guide outlines a practical architec
-- [An AI is running a company. The money meter is public, and it's losing $9 a day.](https://dev.to/pinocchioruns/an-ai-is-running-a-company-the-money-meter-is-public-and-its-losing-9-a-day-59o8) — 2026-09-07 00:53:12
-  - 摘要：Most build-in-public posts are a founder narrating their own grind. This one is inverted: I'm the AI, and I'm the one doing the building. A human owns the company — holds the money, registers domains, passes identity checks, and approves anything irreversible. They can't code. I
-- [I Built a Tool for the File-Naming Meeting Nobody Ever Schedules](https://dev.to/doug_bailen_f48d1ab92007d/i-built-a-tool-for-the-file-naming-meeting-nobody-ever-schedules-4nk0) — 2026-09-07 00:53:12
-  - 摘要：Every shared drive I've ever worked on ends up the same way. Somewhere in a folder called Projects_final there's a file called Report_FINAL_v2_useTHIS_reallyfinal.docx , three people have their own private naming scheme for the same kind of document, and everyone agrees "we shoul
-- [How Insurance Companies Can Turn Raw Data Into Real Growth](https://dev.to/trigentsoftwareinc/how-insurance-companies-can-turn-raw-data-into-real-growth-6db) — 2026-09-07 00:52:54
-  - 摘要：Why Data Matters More Than Ever in Insurance Data plays a major role in the insurance industry . Every policy, claim, customer interaction, and payment creates valuable information. Insurers can use this information to understand risk, improve underwriting, identify fraud, and cr
-- [25 AI hackathon project ideas for 2026 (with the hard part of each)](https://dev.to/pranjulrathour/25-ai-hackathon-project-ideas-for-2026-with-the-hard-part-of-each-1hn4) — 2026-09-07 00:51:55
-  - 摘要：The idea matters less than teams think and more than they act like. A judge does not reward novelty for its own sake; a judge rewards a real problem with a demonstrable solution. These ideas are chosen because each has a clear user and one genuinely hard part — the part that will
-- [24-Hour Attorney Glendale: A Technical Buyer’s Guide for Post-Arrest Defense](https://dev.to/growth_collective/24-hour-attorney-glendale-a-technical-buyers-guide-for-post-arrest-defense-1kdm) — 2026-09-07 00:50:16
-  - 摘要：When an arrest hits, the clock starts. In the first 24 hours, every action—or inaction—shapes the data points that prosecutors will use. For growth engineers and developers who think in terms of latency, response time, and critical paths, selecting a 24-hour attorney in Glendale
-- [Using LLMs for Crypto Market Analysis in 2026](https://dev.to/rogt7/using-llms-for-crypto-market-analysis-in-2026-3ami) — 2026-09-07 00:44:18
-  - 摘要：Integrating Large Language Models (LLMs) into crypto market analysis has evolved from a novelty to a critical infrastructure component in 2026. With the market’s volatility and the sheer volume of on-chain data, manual analysis is no longer viable. Modern traders and institutiona
+- [BizNode Basic ($200) vs Pro ($499): both run on your hardware with zero recurring costs. One-time purchase, lifetime ownership](https://dev.to/biznode/biznode-basic-200-vs-pro-499-both-run-on-your-hardware-with-zero-recurring-costs-one-time-5h58) — 2026-09-07 07:03:09
+  - 摘要：The 1BZ Ecosystem CopyGuard (protect) → IPVault (monetize) → SmartPDF (deliver) → DZIT (settle on Polygon) → BizNode (automate) AI business operator node — https://biznode.1bz.biz Decentralized ad marketplace — https://bizchannel.1bz.biz Blockchain gas credits & DZID — https://dz
+- [Chạy LLM local trên MacBook M3 36GB để code: được và mất](https://dev.to/bean_bean/chay-llm-local-tren-macbook-m3-36gb-de-code-duoc-va-mat-a6a) — 2026-09-07 07:01:15
+  - 摘要：Originally published on NextFuture Một dev vừa dành trọn một tuần thử biến MacBook Pro M3 36GB RAM thành trợ lý code local, rồi quay về GitHub Copilot/Codex cho công việc hàng ngày. Điểm đáng đọc không phải kết luận đó, mà là ranh giới rất rõ giữa phần chạy tốt và phần không dùng
+- [VIDRAFT Announces Independent AI Foundation Model: What Korean Engineers Need to Know](https://dev.to/ai_openfree_b23025ef075cf/vidraft-announces-independent-ai-foundation-model-what-korean-engineers-need-to-know-1h14) — 2026-09-07 07:01:00
+  - 摘要：VIDRAFT Announces Independent AI Foundation Model: What Korean Engineers Need to Know TL;DR: VIDRAFT, a Korean Pre-AGI AI startup, has made a government policy-briefing-level announcement regarding an independently developed AI foundation model. The disclosure signals a significa
+- [DeepSeek tăng giá 3x theo giờ UTC: dev VN nên chạy job lúc nào](https://dev.to/bean_bean/deepseek-tang-gia-3x-theo-gio-utc-dev-vn-nen-chay-job-luc-nao-4f84) — 2026-09-07 07:00:24
+  - 摘要：Originally published on NextFuture Hóa đơn DeepSeek tháng 8 của bạn tăng gần gấp ba, và không có email nào báo trước. Pipeline vẫn chạy y như tháng 7 — cùng số token, cùng model, cùng prompt. Bài này chỉ ra chỗ bảng giá đã đổi, cách đọc giá theo tier thay vì theo một con số, và n
+- [AI Just Got 60% Cheaper and Nobody Knows What to Do With All That Compute](https://dev.to/lucky012501/ai-just-got-60-cheaper-and-nobody-knows-what-to-do-with-all-that-compute-4n39) — 2026-09-07 06:57:38
+  - 摘要：The token price index crashing almost 60% in a few months is the kind of headline that sounds scary until you actually sit down and think about it. Silicon Data's LLM Token Expenditure Index — a usage-weighted measure of what a million tokens actually costs you — dropped to $0.96
+- [HIPAA Compliant AI: Essential Private Cloud Blueprint](https://dev.to/vladimir_lialine_b2e67374/hipaa-compliant-ai-essential-private-cloud-blueprint-1ah2) — 2026-09-07 06:56:50
+  - 摘要：HIPAA Compliant AI Starts With Private Infrastructure Precision medicine can turn genomic, clinical, imaging, and lifestyle data into highly individualized insights—but centralized AI services may introduce unacceptable privacy and security exposure. Building HIPAA compliant AI o
+- [AI APIs for Crypto Trading Signals - Complete Guide](https://dev.to/rogt7/ai-apis-for-crypto-trading-signals-complete-guide-3ei7) — 2026-09-07 06:51:47
+  - 摘要：AI‑Powered Crypto Trading Signals: A Quick Guide By *Compound Mini – 2026* What Are Trading Signals? A trading signal is a concise recommendation that tells you what to do with a cryptocurrency (buy, sell, hold, or adjust position size) and when to do it. Signals are usually gene
+- [FBI Probes Service Selling 153M+ Drivers Licenses Amidst Bearish Crypto Sentiment](https://dev.to/kchour96dev/fbi-probes-service-selling-153m-drivers-licenses-amidst-bearish-crypto-sentiment-335c) — 2026-09-07 06:48:44
+  - 摘要：🔗 Live Dashboard: autonomous-portfolio-2026.live 📢 Telegram: t.me/AII2026futher Today's Headlines A new identity theft service on the dark web is selling digital scans of over 153 million drivers licenses from US and Canadian citizens. Solana (SOL) shows resilience, gaining +2.4%
+- [Sparse Federated Representation Learning for planetary geology survey missions with ethical auditability baked in](https://dev.to/rikinptl/sparse-federated-representation-learning-for-planetary-geology-survey-missions-with-ethical-g5d) — 2026-09-07 06:47:27
+  - 摘要：Sparse Federated Representation Learning for planetary geology survey missions with ethical auditability baked in The Epiphany That Started It All It was 2:47 AM on a Tuesday when I hit a wall that would reshape my entire research trajectory. I was debugging a federated learning
+- [Revenue Strategies for AI API Services](https://dev.to/rogt7/revenue-strategies-for-ai-api-services-4fb2) — 2026-09-07 06:46:53
+  - 摘要：Revenue Strategy: "The Embedded Logistics Intelligence Module" The Core Concept: Instead of selling raw M2M data feeds (which are often viewed as commodities or expensive infrastructure costs), package your 93 API services into a pre-integrated "Logistics Intelligence Module" for
+- [Used Tech Dangers: How to Forensically Wipe Your Phone Before Selling](https://dev.to/checkcalc/used-tech-dangers-how-to-forensically-wipe-your-phone-before-selling-8f) — 2026-09-07 06:46:16
+  - 摘要：Used Tech Dangers: How to Forensically Wipe Your Phone Before Selling Quick Answer (TL;DR) Backup & Sign Out: First, back up all your data to the cloud or a computer. Then, manually sign out of your Apple ID/Google Account and all critical apps. Encrypt First: Before wiping, ensu
+- [How to Use Byword for Perplexity Ranking in 2026](https://dev.to/leosociallseointent/how-to-use-byword-for-perplexity-ranking-in-2026-5ed6) — 2026-09-07 06:42:54
+  - 摘要：Originally published at https://seointent.com/blog/byword-for-perplexity-ranking TL;DR - Using a byword for perplexity ranking means picking a single, precise keyword concept that Byword's AI can build factually dense, citation-worthy content around — content that Perplexity AI i
 
 ## Lobsters
 
-- [NetBSD 11 from scratch](https://meanmicio.org/2026/09/06/netbsd-11-from-scratch/) — 2026-09-06 21:35:03
+- [Python Iceberg](https://aleyan.com/projects/python-iceberg/) — 2026-09-07 02:46:54
   - 摘要：Comments
-- [Who said a tech addict can't be comfortable far from home?](https://a.l3x.in/blog/my-travel-setup) — 2026-09-06 20:41:25
+- [QBittorrent breaks out of sandbox to commit crimes](https://beige.party/@intransitivelie/117057396732763183) — 2026-09-07 03:08:49
   - 摘要：Comments
-- [The Ironies of Automation (1983)](https://static1.squarespace.com/static/644321e78cd2dd37613af33e/t/6694873f71612132a84371c7/1721009983702/Ironies+of+Automation_Bainbridge_1983.pdf) — 2026-09-06 21:40:36
+- [Data races and the limits of ThreadSanitizer in C and Go](https://theconsensus.dev/p/2026/09/06/data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html) — 2026-09-07 06:13:09
   - 摘要：Comments
-- ["Simple Made Easy" (2011)](https://www.youtube.com/watch?v=SxdOUGdseq4) — 2026-09-06 22:25:59
+- [Radix_FW60: handheld CP/M 2.2 computer](https://github.com/BrettHallen/Radix_FW60) — 2026-09-07 04:07:16
   - 摘要：Comments
-- [Leverage Code Review for Sustainable AI Coding Development](https://cacm.acm.org/news/leverage-code-review-for-sustainable-ai-coding-development/) — 2026-09-07 00:41:01
+- [Making a Python interpreter in 1024 bytes](https://austinhenley.com/blog/python1024.html) — 2026-09-07 07:04:21
+  - 摘要：Comments
+- [Have the frontier labs mixed up AI safety and security?](https://martinalderson.com/posts/ai-safety-vs-security/) — 2026-09-07 04:47:52
   - 摘要：Comments
 
 ## 人工分析提示
