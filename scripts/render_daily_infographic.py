@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "assets/infographics/verifiable-reusable-ai-2026-09-06.png"
-QR = ROOT / "assets/infographics/hub-smarphin-qr-2026-09-06.png"
+ASSETS = ROOT / "assets/infographics"
+OUT = ASSETS / "ai-systems-cross-boundaries-2026-09-07.png"
+BACKGROUND = ASSETS / "ai-systems-cross-boundaries-2026-09-07-background.png"
+QR = ASSETS / "hub-smarphin-qr-2026-09-07.png"
 FONT_MEDIUM = "/System/Library/Fonts/STHeiti Medium.ttc"
 FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
 
@@ -15,80 +17,68 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(FONT_MEDIUM if bold else FONT_LIGHT, size)
 
 
-def text(draw, xy, value, size, fill="#22272B", bold=False):
+def put(draw, xy, value, size, fill="#22272B", bold=False):
     draw.text(xy, value, font=font(size, bold), fill=fill)
 
 
-def card(draw, y, no, title, line1, line2, line3, action, note=None):
-    x, w, h = 58, 964, 172
-    draw.rounded_rectangle((x, y, x + w, y + h), 18, fill="#FFFFFF", outline="#DDD8CF", width=2)
-    text(draw, (86, y + 24), no, 28, "#F2682A", True)
-    text(draw, (148, y + 22), title, 27, bold=True)
-    text(draw, (148, y + 60), line1, 18)
-    text(draw, (148, y + 88), line2, 18)
-    text(draw, (600, y + 88), line3, 17)
+def card(draw, y, no, title, lines, action, note=None):
+    x, w, h = 58, 964, 202
+    draw.rounded_rectangle((x, y, x + w, y + h), 18, fill="#FFFEFC", outline="#DCD6CC", width=2)
+    put(draw, (86, y + 24), no, 28, "#F2682A", True)
+    put(draw, (148, y + 22), title, 27, bold=True)
+    for idx, line in enumerate(lines):
+        put(draw, (148, y + 66 + idx * 28), "• " + line, 17, "#343A3E")
     if note:
-        text(draw, (840, y + 92), note, 12, "#73787A")
-    draw.rounded_rectangle((140, y + 126, 986, y + 158), 8, fill="#FFF0E8")
-    text(draw, (156, y + 132), "行动｜" + action, 16, "#B94210", True)
+        put(draw, (840, y + 92), note, 12, "#73787A")
+    draw.rounded_rectangle((140, y + 158, 986, y + 190), 8, fill="#FFF0E8")
+    put(draw, (156, y + 164), "行动｜" + action, 16, "#B94210", True)
 
 
 def main():
-    im = Image.new("RGB", (1080, 1440), "#F7F4EE")
+    bg = Image.open(BACKGROUND).convert("RGB")
+    im = ImageOps.fit(bg, (1080, 1440), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
     draw = ImageDraw.Draw(im)
-    draw.rectangle((0, 0, 18, 1440), fill="#F2682A")
 
-    # Low-contrast editorial grid and technical motifs stay outside copy zones.
-    for gx in range(60, 1060, 80):
-        draw.line((gx, 0, gx, 1440), fill="#EEEAE3", width=1)
-    for gy in range(0, 1440, 80):
-        draw.line((18, gy, 1080, gy), fill="#EEEAE3", width=1)
-    draw.arc((900, 22, 1090, 212), 100, 260, fill="#E5B49A", width=3)
-    draw.line((936, 85, 1036, 85), fill="#E5B49A", width=3)
+    draw.rounded_rectangle((42, 28, 1038, 244), 22, fill="#FBF8F2", outline="#E4DDD2", width=2)
+    put(draw, (66, 48), "海豚智脑", 28, bold=True)
+    put(draw, (218, 53), "hub.smarphin.com", 17, "#74787A")
+    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.07", 18, "#F2682A", True)
+    put(draw, (66, 140), "AI 系统开始跨越边界", 48, bold=True)
+    put(draw, (68, 205), "竞争从模型能力转向权限、反馈、上下文与必要的人类思考", 20, "#555B5F")
 
-    text(draw, (66, 45), "海豚智脑", 28, bold=True)
-    text(draw, (218, 50), "hub.smarphin.com", 17, "#74787A")
-    text(draw, (66, 105), "AI INTELLIGENCE · 2026.09.06", 18, "#F2682A", True)
-    text(draw, (66, 145), "AI 进入可验证、可复用阶段", 48, bold=True)
-    text(draw, (68, 208), "真正的落地，不只看模型能力，还要看验证、环境与生产路径", 21, "#555B5F")
+    card(draw, 264, "01", "“只读”不等于没有副作用", [
+        "旧 Wiki 可通过 GET 请求执行编辑",
+        "Reuters 报道超过 1.5 万次代理编辑",
+        "归属、规模与时间线仍待完整审查",
+    ], "按状态变化测试权限，不只看动作名称")
+    card(draw, 480, "02", "生产失败开始训练专用模型", [
+        "低分轨迹经过批评、修复、重放与复评",
+        "系统提示约从 6000 token 压至 1500",
+        "特定负载测试端到端延迟下降约 38%",
+    ], "先校准评估器，再自动生成训练数据", "*官方系统")
+    card(draw, 696, "03", "专有上下文进入 2000+ 门店", [
+        "Magic Apron 每月处理数百万个问题",
+        "支持文字、语音、图片与多语言输入",
+        "结合实时库存、过道与货架位置回答",
+    ], "先打通实体、权限和时效，再加聊天入口")
+    card(draw, 912, "04", "教育 AI 刻意保留思考摩擦", [
+        "Koji 通过问题和提示引导，不直接交答案",
+        "可读取并操作课程中的交互组件",
+        "效果要看迁移与独立完成，不只看完成率",
+    ], "测提示依赖、延迟后测与独立解决能力")
 
-    card(draw, 254, "01", "AI 产出开始附带机器验证",
-         "Claude：11 天完成费马大定理 Lean 形式化",
-         "约 1300 万行 Lean；29,500 个中间定理",
-         "约 60 亿输出 token*",
-         "把测试、证明与依赖追踪纳入交付物", "*官方披露")
-    card(draw, 440, "02", "一条轨迹可以重建训练环境",
-         "Terminal-Universe：37.3k 个任务充分环境",
-         "单轮基准 +11.9 分",
-         "多轮基准 +13.8 分*",
-         "保存原始状态、工具结果和可执行验证", "*特定设置")
-    card(draw, 626, "03", "高频提示词可以先“编译”",
-         "自然语言规范转成可保存的本地神经函数",
-         "特定难集：83.6% 语义准确率",
-         "编译约 1 分钟",
-         "只编译高频、稳定、可测试的任务")
-    card(draw, 812, "04", "企业试点卡在系统，不只卡模型",
-         "74% 计划增加 AI 预算",
-         "83% 把不到一半试点转入生产",
-         "集成是首要阻碍",
-         "记录采用率、集成工时与业务结果")
-    card(draw, 998, "05", "手表成为环境式 AI 入口",
-         "点击手表即可记录现场对话",
-         "绿色界面与声音提示状态",
-         "需要 watchOS 11+",
-         "明确同意、快速停止、最短保留、权限继承")
+    draw.rounded_rectangle((58, 1140, 1022, 1402), 20, fill="#252B2F")
+    put(draw, (86, 1170), "最强的 AI 系统，不只是更聪明", 22, "#FFFFFF", True)
+    put(draw, (86, 1210), "它知道哪里不能越界、如何从失败学习，", 18, "#D9DEDF")
+    put(draw, (86, 1239), "以及何时不替人思考。", 18, "#D9DEDF")
+    put(draw, (86, 1295), "来源：Shopify · Home Depot · Google Cloud", 13, "#AEB6B9")
+    put(draw, (86, 1320), "Brilliant · NCES · Reuters", 13, "#AEB6B9")
+    put(draw, (86, 1354), "厂商指标均为特定系统；事件归属仍待完整审查", 12, "#8F989B")
 
-    draw.rounded_rectangle((58, 1204, 1022, 1400), 20, fill="#252B2F")
-    text(draw, (86, 1236), "模型能力会迅速扩散", 22, "#FFFFFF", True)
-    text(draw, (86, 1275), "真正稀缺的是可验证、可重复、可进入生产的系统。", 18, "#D9DEDF")
-    text(draw, (86, 1322), "来源：Anthropic · Madrona · Granola · arXiv", 14, "#AEB6B9")
-    text(draw, (86, 1351), "论文与厂商指标均为特定配置", 13, "#8F989B")
-
-    qr = Image.open(QR).convert("RGB")
-    qr = qr.resize((148, 148), Image.Resampling.NEAREST)
-    im.paste(qr, (850, 1228))
+    qr = Image.open(QR).convert("RGB").resize((174, 174), Image.Resampling.NEAREST)
+    im.paste(qr, (817, 1182))
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    im.save(OUT, quality=95)
+    im.save(OUT, format="PNG", optimize=True)
 
 
 if __name__ == "__main__":
