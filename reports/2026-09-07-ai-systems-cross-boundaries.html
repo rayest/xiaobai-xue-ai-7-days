@@ -34,7 +34,7 @@
     a { color: #a83e14; text-decoration-thickness: 1px; text-underline-offset: 3px; }
     a:hover { color: var(--accent); }
     .page { width: min(920px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 72px; }
-    .hero, .card, .notice, .method, .status { border: 1px solid var(--line); box-shadow: var(--shadow); }
+    .hero, .card { border: 1px solid var(--line); box-shadow: var(--shadow); }
     .hero {
       background: var(--surface);
       border-radius: 28px;
@@ -56,12 +56,6 @@
     .label { font-weight: 750; color: #31383d; }
     .action { margin: 24px 0 0 70px; padding: 13px 16px; border-radius: 12px; background: var(--accent-soft); color: #9e390f; }
     .sources { margin: 20px 0 0 70px; color: var(--muted); font-size: .88rem; }
-    .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 28px; }
-    .notice, .method, .status { border-radius: 22px; padding: 28px; }
-    .notice { background: #fff8ed; border-color: #ead5b9; }
-    .method, .status { background: var(--surface); }
-    .status { grid-column: 1 / -1; }
-    h3 { margin: 0 0 14px; font-size: 1.08rem; }
     ul { margin: 0; padding-left: 1.2rem; }
     li + li { margin-top: 9px; }
     code { padding: .14em .38em; border-radius: 5px; background: #ece8df; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; }
@@ -73,13 +67,11 @@
       .brand { margin-bottom: 24px; }
       .card-head { grid-template-columns: 42px 1fr; gap: 6px; }
       .action, .sources { margin-left: 48px; }
-      .meta-grid { grid-template-columns: 1fr; }
-      .status { grid-column: auto; }
     }
     @media print {
       body { background: #fff; }
       .page { width: 100%; padding: 0; }
-      .hero, .card, .notice, .method, .status { box-shadow: none; break-inside: avoid; }
+      .hero, .card { box-shadow: none; break-inside: avoid; }
       a { color: inherit; }
     }
   </style>
@@ -138,26 +130,6 @@
         <p class="sources">来源：<a href="https://brilliant.org/help/features/how-does-koji-work/">Brilliant：Koji 工作方式</a>、<a href="https://nces.ed.gov/learn/blog/ai-k-12-education-good-bad-and-guardrails-consider">美国国家教育统计中心</a></p>
       </article>
     </div>
-
-    <section class="meta-grid">
-      <aside class="notice">
-        <h3>需要注意</h3>
-        <ul>
-          <li>一项第三方 API 服务发来了额度即将耗尽提醒；公开简报不保留服务账号、余额或具体用量，建议在对应控制台手动核对。</li>
-          <li>日历连接器本次仍不可用，不能据此推断“今日无日程”；公开版本不包含个人日历内容。</li>
-          <li>一条部署平台通知提示有项目可导入，但没有明确截止日期，本次未执行部署操作。</li>
-        </ul>
-      </aside>
-      <section class="method">
-        <h3>来源与方法</h3>
-        <p>本简报读取上次运行后进入收件箱的 13 封未读候选邮件正文，合并重复报道，并分离推广、个人日程摘要、账户通知与实质订阅内容。最终纳入 4 封实质订阅邮件；重要结论以官方工程博客、产品文档、政府教育机构及可靠媒体核验，未直接打开邮件内链接。</p>
-        <p>公开内容已删除邮箱、订单或发票、金额、账号、验证码、令牌、内部域名、私人链接、个人日历与未读状态。</p>
-      </section>
-      <section class="status">
-        <h3>发布状态</h3>
-        <p>本次报告与信息图已纳入 Git 提交 <code>4cd25d6</code>，HTML 格式调整已纳入提交 <code>6f6f8aa</code>。在保留远端新增提交的前提下完成 rebase，并已成功同步到用户明确授权的 GitHub 仓库 <code>rayest/xiaobai-xue-ai-7-days</code> 的 <code>main</code> 分支。</p>
-      </section>
-    </section>
 
     <footer><strong>一句话总结：</strong>最强的 AI 系统，不只是更聪明；它知道哪里不能越界、如何从失败学习，以及何时不替人思考。</footer>
   </main>
