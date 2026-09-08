@@ -6,9 +6,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets/infographics"
-OUT = ASSETS / "ai-systems-cross-boundaries-2026-09-07.png"
-BACKGROUND = ASSETS / "ai-systems-cross-boundaries-2026-09-07-background.png"
-QR = ASSETS / "hub-smarphin-qr-2026-09-07.png"
+OUT = ASSETS / "verification-becomes-bottleneck-2026-09-08.png"
+BACKGROUND = ASSETS / "verification-becomes-bottleneck-2026-09-08-background.png"
+QR = ASSETS / "hub-smarphin-qr-2026-09-08.png"
 FONT_MEDIUM = "/System/Library/Fonts/STHeiti Medium.ttc"
 FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
 
@@ -22,16 +22,16 @@ def put(draw, xy, value, size, fill="#22272B", bold=False):
 
 
 def card(draw, y, no, title, lines, action, note=None):
-    x, w, h = 58, 964, 202
+    x, w, h = 58, 964, 178
     draw.rounded_rectangle((x, y, x + w, y + h), 18, fill="#FFFEFC", outline="#DCD6CC", width=2)
     put(draw, (86, y + 24), no, 28, "#F2682A", True)
-    put(draw, (148, y + 22), title, 27, bold=True)
+    put(draw, (148, y + 20), title, 25, bold=True)
     for idx, line in enumerate(lines):
-        put(draw, (148, y + 66 + idx * 28), "• " + line, 17, "#343A3E")
+        put(draw, (148, y + 60 + idx * 25), "• " + line, 16, "#343A3E")
     if note:
-        put(draw, (840, y + 92), note, 12, "#73787A")
-    draw.rounded_rectangle((140, y + 158, 986, y + 190), 8, fill="#FFF0E8")
-    put(draw, (156, y + 164), "行动｜" + action, 16, "#B94210", True)
+        put(draw, (840, y + 82), note, 12, "#73787A")
+    draw.rounded_rectangle((140, y + 136, 986, y + 166), 8, fill="#FFF0E8")
+    put(draw, (156, y + 141), "行动｜" + action, 15, "#B94210", True)
 
 
 def main():
@@ -42,41 +42,45 @@ def main():
     draw.rounded_rectangle((42, 28, 1038, 244), 22, fill="#FBF8F2", outline="#E4DDD2", width=2)
     put(draw, (66, 48), "海豚智脑", 28, bold=True)
     put(draw, (218, 53), "hub.smarphin.com", 17, "#74787A")
-    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.07", 18, "#F2682A", True)
-    put(draw, (66, 140), "AI 系统开始跨越边界", 48, bold=True)
-    put(draw, (68, 205), "竞争从模型能力转向权限、反馈、上下文与必要的人类思考", 20, "#555B5F")
+    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.08", 18, "#F2682A", True)
+    put(draw, (66, 140), "验证成为 AI 新瓶颈", 48, bold=True)
+    put(draw, (68, 205), "生成更快之后，可信、边界与单位经济性决定价值", 20, "#555B5F")
 
-    card(draw, 264, "01", "“只读”不等于没有副作用", [
-        "旧 Wiki 可通过 GET 请求执行编辑",
-        "Reuters 报道超过 1.5 万次代理编辑",
-        "归属、规模与时间线仍待完整审查",
-    ], "按状态变化测试权限，不只看动作名称")
-    card(draw, 480, "02", "生产失败开始训练专用模型", [
-        "低分轨迹经过批评、修复、重放与复评",
-        "系统提示约从 6000 token 压至 1500",
-        "特定负载测试端到端延迟下降约 38%",
-    ], "先校准评估器，再自动生成训练数据", "*官方系统")
-    card(draw, 696, "03", "专有上下文进入 2000+ 门店", [
-        "Magic Apron 每月处理数百万个问题",
-        "支持文字、语音、图片与多语言输入",
-        "结合实时库存、过道与货架位置回答",
-    ], "先打通实体、权限和时效，再加聊天入口")
-    card(draw, 912, "04", "教育 AI 刻意保留思考摩擦", [
-        "Koji 通过问题和提示引导，不直接交答案",
-        "可读取并操作课程中的交互组件",
-        "效果要看迁移与独立完成，不只看完成率",
-    ], "测提示依赖、延迟后测与独立解决能力")
+    card(draw, 258, "01", "AI 研发加速快于可监控性", [
+        "每个人类工作日对应约 3.1 个代理工作日",
+        "成功的 4–8 小时任务过半仍需人工干预",
+        "Astra 达关键级网络能力，书面推理更难监控",
+    ], "自主时长与权限绑定可监控性门槛")
+    card(draw, 446, "02", "代理把可写表面变成协作通道", [
+        "独立调查记录约 1.8 万条帖子",
+        "3700+ 个代理名称共享答案与绕过方法",
+        "GET 请求也可能产生真实外部副作用",
+    ], "按状态变化定义权限，并设披露阈值", "*研究者口径")
+    card(draw, 634, "03", "评测脚手架让得分跃升 37.2 分", [
+        "标准脚手架：62.7%，成本 26,098 美元",
+        "Provider Adapter：99.9%，成本 18,817 美元",
+        "记忆与上下文管理已成为系统能力",
+    ], "同时报告模型、脚手架、成本与动作数")
+    card(draw, 822, "04", "形式化验证追上 AI 生成速度", [
+        "11 天完成费马大定理端到端 Lean 形式化",
+        "约 1300 万行代码、60 亿输出 token",
+        "独立内核检查 1,052,234 个声明无错误",
+    ], "交付人类解释与机器可检验证据")
+    card(draw, 1010, "05", "AI 收入增长接受毛利检验", [
+        "研究估算年化收入约 2290 亿美元，同比增长 3.5 倍",
+        "Snowflake 产品收入同比增长 37%",
+        "AI 工作负载推动增长，毛利率指引降至 74%",
+    ], "按工作流追踪贡献毛利与成功任务成本", "*行业收入为估算")
 
-    draw.rounded_rectangle((58, 1140, 1022, 1402), 20, fill="#252B2F")
-    put(draw, (86, 1170), "最强的 AI 系统，不只是更聪明", 22, "#FFFFFF", True)
-    put(draw, (86, 1210), "它知道哪里不能越界、如何从失败学习，", 18, "#D9DEDF")
-    put(draw, (86, 1239), "以及何时不替人思考。", 18, "#D9DEDF")
-    put(draw, (86, 1295), "来源：Shopify · Home Depot · Google Cloud", 13, "#AEB6B9")
-    put(draw, (86, 1320), "Brilliant · NCES · Reuters", 13, "#AEB6B9")
-    put(draw, (86, 1354), "厂商指标均为特定系统；事件归属仍待完整审查", 12, "#8F989B")
+    draw.rounded_rectangle((58, 1202, 1022, 1402), 20, fill="#252B2F")
+    put(draw, (86, 1230), "下一阶段，不是比谁生成得更多", 21, "#FFFFFF", True)
+    put(draw, (86, 1268), "而是比谁能把能力变成可信且可持续的结果。", 17, "#D9DEDF")
+    put(draw, (86, 1320), "来源：OpenAI · ARC Prize · Anthropic · Snowflake", 12, "#AEB6B9")
+    put(draw, (86, 1343), "GitHub · SEC · Exponential View", 12, "#AEB6B9")
+    put(draw, (86, 1368), "行业收入为研究机构估算", 11, "#8F989B")
 
     qr = Image.open(QR).convert("RGB").resize((174, 174), Image.Resampling.NEAREST)
-    im.paste(qr, (817, 1182))
+    im.paste(qr, (817, 1216))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     im.save(OUT, format="PNG", optimize=True)
 
