@@ -6,8 +6,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets/infographics"
-OUT = ASSETS / "ai-workflows-threshold-2026-09-10.png"
-QR = ASSETS / "hub-smarphin-qr-2026-09-10.png"
+OUT = ASSETS / "verifiable-operations-2026-09-11.png"
+BACKGROUND = ASSETS / "verifiable-operations-2026-09-11-background.png"
+QR = ASSETS / "hub-smarphin-qr-2026-09-11.png"
 FONT_MEDIUM = "/System/Library/Fonts/STHeiti Medium.ttc"
 FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
 
@@ -31,59 +32,46 @@ def card(draw, y, no, title, lines, action):
     put(draw, (156, y + 174), "行动｜" + action, 15, "#B94210", True)
 
 
-def background():
-    im = Image.new("RGB", (1080, 1440), "#F4F0E7")
-    draw = ImageDraw.Draw(im)
-    for x in range(42, 1080, 58):
-        draw.line((x, 0, x, 1440), fill="#EAE4DA", width=1)
-    for y in range(34, 1440, 58):
-        draw.line((0, y, 1080, y), fill="#ECE6DD", width=1)
-    draw.line((26, 0, 26, 1440), fill="#F2682A", width=3)
-    for cx, cy in [(1015, 84), (978, 116), (1030, 154), (994, 190)]:
-        draw.ellipse((cx - 5, cy - 5, cx + 5, cy + 5), fill="#E7B39C")
-    draw.line((1015, 84, 978, 116, 1030, 154, 994, 190), fill="#E7B39C", width=2)
-    for y in range(300, 1100, 36):
-        draw.arc((12, y, 62, y + 60), 270, 90, fill="#E5BBA8", width=2)
-        draw.arc((-12, y + 18, 38, y + 78), 90, 270, fill="#C9CED0", width=2)
-    return im
-
-
 def main():
-    im = background()
+    im = Image.open(BACKGROUND).convert("RGB").resize((1080, 1440), Image.Resampling.LANCZOS)
+    overlay = Image.new("RGBA", im.size, (255, 255, 255, 0))
+    ImageDraw.Draw(overlay).rectangle((0, 0, 1080, 1440), fill=(244, 240, 231, 74))
+    im = Image.alpha_composite(im.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(im)
+
     draw.rounded_rectangle((42, 28, 1038, 244), 22, fill="#FBF8F2", outline="#E4DDD2", width=2)
     put(draw, (66, 48), "海豚智脑", 28, bold=True)
     put(draw, (218, 53), "hub.smarphin.com", 17, "#74787A")
-    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.10", 18, "#F2682A", True)
-    put(draw, (66, 140), "AI 工作流跨过实验门槛", 43, bold=True)
-    put(draw, (68, 205), "验证、权限与单位任务成本成为新的系统瓶颈", 20, "#555B5F")
+    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.11", 18, "#F2682A", True)
+    put(draw, (66, 140), "AI 系统进入可验证运营期", 43, bold=True)
+    put(draw, (68, 205), "真正的分水岭：接口、证据、审计与风险边界", 20, "#555B5F")
 
-    card(draw, 258, "01", "多代理科研成为生产线", [
-        "约 1 万个并发代理探索 Navier–Stokes 问题",
-        "约 88 小时形成结果，17 小时完成 Lean 验证",
-        "Clay 认定仍要求发表、两年等待与学界接受",
-    ], "把探索、验证、复核和归属分开记录")
-    card(draw, 480, "02", "基因数据库升级为预测地图", [
-        "AlphaGenome Atlas 覆盖约 90 亿种单碱基变异",
-        "约 1 PB 数据，同时覆盖编码区与非编码区",
-        "预测用于科研排序，不能替代临床与实验确认",
-    ], "先排序、再解释机制、最后独立验证")
-    card(draw, 702, "03", "代理采用快于治理成熟度", [
-        "Deloitte 调查覆盖 24 国、3235 名负责人",
-        "仅 21% 称治理成熟，74% 预计 2027 年广泛采用",
-        "写权限需要边界、人工确认、监控与审计链",
-    ], "每增加一种工具，就同步增加四类控制")
-    card(draw, 924, "04", "模型选择成为单位任务工程", [
-        "Astra 支持 105 万上下文、12.8 万最大输出",
-        "标准 API 的输出 token 单价是输入的 5 倍",
-        "推测解码原始论文报告 2–3 倍加速",
-    ], "按成功率、时延与单次完成成本路由")
+    card(draw, 258, "01", "代理接口为可验证执行重构", [
+        "MCP 新版移除会话握手，每次请求携带完整上下文",
+        "OpenDiscoveryTrace 记录 558 条完整科学代理轨迹",
+        "相近成功率仍可能掩盖 30 倍的错误数差异",
+    ], "把机器可判定的成功条件设计成接口契约")
+    card(draw, 480, "02", "企业学习从完课转向能力证据", [
+        "Project Helix 用自然语言生成自适应学习路径",
+        "路径映射岗位、技能与组织数据，而非只推荐课程",
+        "重点从完成徽章转向能否把知识用于真实工作",
+    ], "用岗位任务与可验证产出定义学习成效")
+    card(draw, 702, "03", "AI 安全从概率口号回到事故审计", [
+        "Anthropic 扩大扫描约 4.81 亿条记录并确认第 4 起事故",
+        "官方强调这些是受控网络评测，不等于现实自主攻击",
+        "新增监控、环境加固与第三方评测准入要求",
+    ], "用事故证据、触发条件和缓解措施讨论风险")
+    card(draw, 924, "04", "AI 开始进入强监管后台流程", [
+        "美国雇主医疗保险覆盖约 1.54 亿名 65 岁以下人群",
+        "2025 年家庭保费同比上升 6%，成本压力持续",
+        "AI 可降客服与理赔管理成本，但不能替代责任边界",
+    ], "先自动化低风险环节，再逐步扩大决策权限")
 
     draw.rounded_rectangle((58, 1202, 1022, 1402), 20, fill="#252B2F")
-    put(draw, (86, 1228), "AI 正从“生成答案”进入“运行流程”", 21, "#FFFFFF", True)
-    put(draw, (86, 1266), "可信度由验证、权限与单位经济性共同决定。", 17, "#D9DEDF")
-    put(draw, (86, 1324), "来源：OpenAI · Clay · Google DeepMind", 12, "#AEB6B9")
-    put(draw, (86, 1347), "Deloitte · Meta · ICML / PMLR", 12, "#AEB6B9")
+    put(draw, (86, 1228), "真正可扩展的 AI，不只会回答", 21, "#FFFFFF", True)
+    put(draw, (86, 1266), "还要让每一步可判定、可证明、可追溯。", 17, "#D9DEDF")
+    put(draw, (86, 1324), "来源：MCP · Apify · arXiv · Coursera", 12, "#AEB6B9")
+    put(draw, (86, 1347), "Anthropic · KFF · a16z", 12, "#AEB6B9")
 
     qr = Image.open(QR).convert("RGB").resize((174, 174), Image.Resampling.NEAREST)
     im.paste(qr, (817, 1216))
