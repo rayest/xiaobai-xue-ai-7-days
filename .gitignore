@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Node / frontend build artifacts
+node_modules/
+dist/
+build/
+.vite/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated presentation workspace
+.frontend-slides/
+
+# Local editor files
+.idea/
+.vscode/
+*.swp
