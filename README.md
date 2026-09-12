@@ -50,6 +50,8 @@
 └── scripts/    AI 情报采集与自动化脚本
 ```
 
+AI 学习材料整理请使用 [`ai-learning-knowledge-builder`](skills/ai-learning-knowledge-builder/SKILL.md)，产物统一进入 [`docs/ai-learning/`](docs/ai-learning/)。
+
 ## 使用说明
 
 课程示例中的工具名称和功能会随产品更新变化。学习时优先掌握任务拆解、信息核验、结果检查和权限控制等稳定方法，再根据自己能访问的工具完成练习。

@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 学习知识构建器"
+  short_description: "把 AI 学习材料整理成可复习、可实践的仓库知识"
+  default_prompt: "使用 $ai-learning-knowledge-builder 整理这份 AI 学习材料，并保存到当前项目的 docs/ai-learning/。"
+
+policy:
+  allow_implicit_invocation: true
