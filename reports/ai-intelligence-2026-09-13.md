@@ -1,42 +1,42 @@
 # AI 与大模型情报
 
-生成时间：2026-09-13 07:23:07
-抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：154
+生成时间：2026-09-13 13:24:47
+抓取窗口：最近 6 小时；每个来源最多 30 条；来源条目：150
 
 > 官方发布、平台热度、社区观点和分析判断分开记录。点赞、投票、评论、Star、下载量只是公开信号，不等于真实用户规模、产品质量或商业成功。
 
 ## AIxploria
 
-- [TalkPix AI](https://www.aixploria.com/talkpix-ai/)
-- [Continua AI](https://www.aixploria.com/continua-ai/)
-- [Wistia Remix](https://www.aixploria.com/wistia-remix/)
-- [Coool AI](https://www.aixploria.com/coool-ai/)
-- [GrokBot](https://www.aixploria.com/grokbot/)
-- [Manyface](https://www.aixploria.com/manyface/)
-- [MenuForma](https://www.aixploria.com/menuforma/)
-- [Makiverse](https://www.aixploria.com/makiverse/)
-- [VidMage Video Face Swap](https://www.aixploria.com/vidmage-video-face-swap/)
-- [Landscape Design AI](https://www.aixploria.com/landscape-design-ai/)
-- [Claude Fable 5.1](https://www.aixploria.com/claude-fable-5-1/)
-- [Spytrend](https://www.aixploria.com/spytrend/)
-- [GMPlus](https://www.aixploria.com/gmplus-ai/)
-- [Gemini 3.8 Flash](https://www.aixploria.com/gemini-3-8-flash-google/)
-- [Telegram Video Downloader](https://www.aixploria.com/telegram-video-downloader/)
-- [MixVio AI](https://www.aixploria.com/mixvio-ai/)
-- [Weather Next 3](https://www.aixploria.com/weather-next-3-google-deepmind/)
-- [Wikis.ai](https://www.aixploria.com/wikis-ai/)
-- [fal.live](https://www.aixploria.com/fal-live/)
-- [Wispaper](https://www.aixploria.com/wispaper/)
-- [Lyria 3.5](https://www.aixploria.com/lyria-3-5-google-deepmind/)
-- [GPT-6 Astra](https://www.aixploria.com/gpt-6-astra-openai-model/)
-- [Papaya](https://www.aixploria.com/papaya/)
-- [InterviewCue](https://www.aixploria.com/interviewcue/)
-- [BeMusic AI](https://www.aixploria.com/bemusic-ai/)
-- [AIEnhance.io](https://www.aixploria.com/aienhance-io/)
-- [ChatGPT Image 2.5](https://www.aixploria.com/chatgpt-image-2-5-openai/)
-- [Suno V6](https://www.aixploria.com/suno-v6-ai-music/)
-- [Anyvids](https://www.aixploria.com/anyvids-ai/)
-- [Bons plans IA](https://www.aixploria.com/codes-promo-ia/)
+- [MenuForma](https://www.aixploria.com/en/menuforma/)
+- [Makiverse](https://www.aixploria.com/en/makiverse/)
+- [VidMage Video Face Swap](https://www.aixploria.com/en/vidmage-video-face-swap/)
+- [Landscape Design AI](https://www.aixploria.com/en/landscape-design-ai/)
+- [Claude Fable 5.1](https://www.aixploria.com/en/claude-fable-5-1/)
+- [Spytrend](https://www.aixploria.com/en/spytrend/)
+- [GMPlus](https://www.aixploria.com/en/gmplus-ai/)
+- [Gemini 3.8 Flash](https://www.aixploria.com/en/gemini-3-8-flash-google/)
+- [Telegram Video Downloader](https://www.aixploria.com/en/telegram-video-downloader/)
+- [MixVio AI](https://www.aixploria.com/en/mixvio-ai/)
+- [Weather Next 3](https://www.aixploria.com/en/weather-next-3-google-deepmind/)
+- [Wikis.ai](https://www.aixploria.com/en/wikis-ai/)
+- [fal.live](https://www.aixploria.com/en/fal-live/)
+- [Wispaper](https://www.aixploria.com/en/wispaper/)
+- [Lyria 3.5](https://www.aixploria.com/en/lyria-3-5-google-deepmind/)
+- [GPT-6 Astra](https://www.aixploria.com/en/gpt-6-astra-openai-model/)
+- [Papaya](https://www.aixploria.com/en/papaya/)
+- [InterviewCue](https://www.aixploria.com/en/interviewcue/)
+- [BeMusic AI](https://www.aixploria.com/en/bemusic-ai/)
+- [AIEnhance.io](https://www.aixploria.com/en/aienhance-io/)
+- [ChatGPT Image 2.5](https://www.aixploria.com/en/chatgpt-image-2-5-openai/)
+- [Suno V6](https://www.aixploria.com/en/suno-v6-ai-music/)
+- [Anyvids](https://www.aixploria.com/en/anyvids-ai/)
+- [Free Trial](https://www.aixploria.com/en/ai-free-trial/)
+- [Paid](https://www.aixploria.com/en/ai-paid/)
+- [AI Deals](https://www.aixploria.com/en/ai-deals/)
+- [AI News Today](https://www.aixploria.com/en/ai-news-today/)
+- [Free AI Tools](https://www.aixploria.com/en/free-ai/)
+- [AI Tutorials](https://www.aixploria.com/en/tutorials-video-ai-free-lessons/)
+- [Full List](https://www.aixploria.com/en/ultimate-list-ai/)
 
 ## FutureTools
 
@@ -153,67 +153,59 @@
 
 ## Hacker News
 
-- [Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases](https://withspecific.com/benchmarks/real-swe) — 2026-09-13 04:25:48
+- [The Interim Computer Museum](https://icm.museum/) — 2026-09-13 10:43:57
   - 摘要：Comments
-- [Benchmark: CadQuery vs. OpenSCAD for agentic CAD work](https://modelrift.com/blog/cadquery-vs-openscad/) — 2026-09-13 03:57:19
+- [The Succession Crisis That Tore England Apart](https://www.historytoday.com/archive/feature/succession-crisis-tore-england-apart) — 2026-09-13 11:18:29
   - 摘要：Comments
-- [Linux Zoom client proactively reading everything written to X11 clipboard](https://hachyderm.io/@simontatham/117201594980991062) — 2026-09-13 02:58:57
+- [Everyone should slow down AI development except for me](https://xeiaso.net/notes/2026/everyone-slowdown-but-me/) — 2026-09-13 08:30:44
   - 摘要：Comments
-- [OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026](https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/) — 2026-09-13 04:28:29
+- [Don't call yourself an artisanal programmer](https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/) — 2026-09-13 10:29:39
   - 摘要：Comments
-- [LG Says We're Fake News [video]](https://www.youtube.com/watch?v=ToP9xfLDSME) — 2026-09-13 03:35:36
+- [AgentsDock: An IDE designed for agentic AI research](https://agentsdock.net/) — 2026-09-13 07:45:58
   - 摘要：Comments
-- [StarCraft returns in 2030 as an open-world shooter](https://www.theverge.com/games/994371/starcraft-returns-in-2030-as-an-open-world-shooter) — 2026-09-13 06:07:19
+
+## Lobsters
+
+- [A Dick Smith VZ200 without the Dick Smith](http://oldvcr.blogspot.com/2026/09/a-dick-smith-vz200-without-dick-smith.html) — 2026-09-13 10:31:35
   - 摘要：Comments
-- [Killing with a car costs $1.6M, California requires drivers to carry $30K](https://maxmautner.com/2026/09/11/liability-coverage.html) — 2026-09-13 06:22:31
+- [a better way of blocking macOS updates](https://zoey-on-github.github.io/blog/updates.html) — 2026-09-13 09:12:07
   - 摘要：Comments
+- [Lua Pattern Tester](https://iamreiyn.github.io/lua-pattern-tester/) — 2026-09-13 10:35:51
+  - 摘要：Comments
+- [Metacarp](https://blog.veitheller.de/Metacarp.html) — 2026-09-13 10:19:07
+  - 摘要：Comments
+
+## Dev.to AI
+
+- [Revamping...](https://dev.to/isocyanideisgood/revamping-318f) — 2026-09-13 13:16:40
+  - 摘要：8–9 months ago, I wrote this code. Today, I look at it differently. Coming back to an old project after months of learning, building, and working through internships feels surprisingly different. At the time, this code worked. I was focused on: → Making the feature functional → G
+- [OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์](https://dev.to/sarantoon/openmontage-kabaiediiythiiwaa-ai-khwrhyudrnumatiknernedr-5aef) — 2026-09-13 13:16:08
+  - 摘要：OpenMontage กับไอเดียที่ว่า AI ควรหยุดรออนุมัติก่อนเรนเดอร์ โดย Nokka (นก-กา) | 13 กันยายน 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash) ผ่าน Hermes Agent ตรวจสอบและเรียบเรียงโดย Nokka มีโปรเจกต์หนึ่งบน GitHub ที่มีคนกดดาวไปแล้ว 57,900 ดวง และ 7,300 ฟอร์ก [1] คำโปรยของมันสั้นแล
+- [Enterprise AI Governance Framework: Essential for 2026](https://dev.to/vladimir_lialine_b2e67374/enterprise-ai-governance-framework-essential-for-2026-439g) — 2026-09-13 13:13:14
+  - 摘要：Autonomous AI agents can approve transactions, access sensitive records, call external tools, and delegate work to other agents. Traditional access controls confirm identity, but they do not reveal whether an agent remains trustworthy after deployment. In 2026, an enterprise AI g
+- [I Sell Memory APIs. I'm Also Building the Benchmark. Here's How I'm Trying Not to Rig It.](https://dev.to/woochan/i-sell-memory-apis-im-also-building-the-benchmark-heres-how-im-trying-not-to-rig-it-481e) — 2026-09-13 13:09:24
+  - 摘要：Hey everyone. This time I'll go through what got me started on this benchmark, and the core of how it's actually built. It started from reading complaints, not from an idea. The same ones kept coming up: numbers a vendor publishes don't match numbers someone else measures, swappi
+- [Your crypto product is invisible to AI search, and your docs are the reason](https://dev.to/remotestackin/your-crypto-product-is-invisible-to-ai-search-and-your-docs-are-the-reason-3b5n) — 2026-09-13 13:09:00
+  - 摘要：I run Kunzum , a one-person studio doing AI search visibility for crypto companies. Before that I spent six years writing crypto content and running marketing for protocols. This post is the argument for why the studio exists, plus the two research findings behind it. Both studie
+- [Claude Sonnet 4.5's Memory Tools vs a Real Memory Layer: What's Actually Missing](https://dev.to/abdeljabbar_elassali_78e/claude-sonnet-45s-memory-tools-vs-a-real-memory-layer-whats-actually-missing-43h) — 2026-09-13 13:03:12
+  - 摘要：Claude Sonnet 4.5's Memory Tools vs a Real Memory Layer: What's Actually Missing Anthropic's Claude Sonnet 4.5 release made noise in developer circles: better reasoning, a native VS Code extension, checkpoints in Claude Code, and sessions that can run up to 30 hours without losin
+- [The Rights Gate: A Responsible Test Plan for AI Dubbing Your Own Video](https://dev.to/easesu/the-rights-gate-a-responsible-test-plan-for-ai-dubbing-your-own-video-1hbp) — 2026-09-13 13:02:38
+  - 摘要：Disclosure: This article is product marketing material prepared for AIDubbing. The first question in an AI dubbing test should not be, “Does this new language sound good?” It should be, “Do we have the right to put this video through this workflow, and who can approve the result
+- [AI Coding Agents Raised Billions but Still Forget Your Project Between Sessions](https://dev.to/abdeljabbar_elassali_78e/ai-coding-agents-raised-billions-but-still-forget-your-project-between-sessions-4pkb) — 2026-09-13 13:02:25
+  - 摘要：AI Coding Agents Raised Billions but Still Forget Your Project Between Sessions Cognition AI just raised $2 billion at a $48 billion valuation. The round was led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir, nearly doubling the company's valuation fr
+- [Meta Just Launched Muse: Does It Actually Remember You?](https://dev.to/abdeljabbar_elassali_78e/meta-just-launched-muse-does-it-actually-remember-you-2anc) — 2026-09-13 13:02:24
+  - 摘要：Meta Just Launched Muse: Does It Actually Remember You? On September 8, Meta launched Muse, a personal AI agent that can shop online, manage your email, book travel, and even make payments on your behalf. It is the centerpiece of Meta's push into what Mark Zuckerberg calls "perso
+- [Building zero-storage ephemeral authentication with 384-bit single-use cryptographic tokens](https://dev.to/achyut_srivastava_2a77b5d/building-zero-storage-ephemeral-authentication-with-384-bit-single-use-cryptographic-tokens-33gm) — 2026-09-13 13:01:03
+  - 摘要：Building zero-storage ephemeral authentication with 384-bit single-use cryptographic tokens The Engineering Problem Modern AI paired programming and conversational UI generation struggle with context bloat and cascading syntax errors. When an AI generates monolithic files, single
+- [Korean Saju Web App Source: Start Locally Before Cloudflare D1](https://dev.to/moonshot_1341/korean-saju-web-app-source-start-locally-before-cloudflare-d1-48ml) — 2026-09-13 13:00:13
+  - 摘要：If you are evaluating a Korean Saju web app source, begin with a local run. The delivered package uses Node.js 22.13 or newer, installs with npm ci, and starts with npm run dev. That local path uses an isolated Miniflare D1 binding. A public deployment is a separate buyer-owned C
+- [Before a Digital Product Launch, Check Whether Your Template Needs Its Creator](https://dev.to/moonshot_1341/before-a-digital-product-launch-check-whether-your-template-needs-its-creator-5e17) — 2026-09-13 13:00:07
+  - 摘要：A template can look finished while leaving its buyer unable to tell what to enter, what to preserve, or whether the output is correct. Before a digital product launch, check the copy a buyer would receive: clear its example inputs, add fictional customer material, and follow only
 
 ## OpenAI
 
 - [Perplexity trusts GPT-6 Astra with end-to-end systems](https://openai.com/index/perplexity-improving-accuracy-with-astra) — 2026-09-14 08:00:00
   - 摘要：Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
-
-## Dev.to AI
-
-- [Support Vector Regression — Deep Dive + Problem: Batch Normalization Forward Pass](https://dev.to/pixelbank_dev_a810d06e3e1/support-vector-regression-deep-dive-problem-batch-normalization-forward-pass-47b) — 2026-09-13 07:10:12
-  - 摘要：A daily deep dive into ml topics, coding problems, and platform features from PixelBank . Topic Deep Dive: Support Vector Regression From the Support Vector Machines chapter Support Vector Regression: Mastering Prediction with Margin-Based Learning Support Vector Regression (SVR)
-- [I built DUALAI Arena — an AI arena for early adopters](https://dev.to/raymond_thomas_b7fa91e5f1/i-built-dualai-arena-an-ai-arena-for-early-adopters-54e1) — 2026-09-13 07:04:38
-  - 摘要：What I Built DUALAI Arena turns code security into an active, autonomous AI hackathon right on your desktop. 4 AI models compete in a live local battle royale: Red Team (OpenAI & local Llama) relentlessly attacks and stress-tests your project, while Blue Team writes real-time rep
-- [VIDRAFT's PharmaOS Closes the Loop: AI Drug Discovery Gets Cell-Level Experimental Validation](https://dev.to/ai_openfree_b23025ef075cf/vidrafts-pharmaos-closes-the-loop-ai-drug-discovery-gets-cell-level-experimental-validation-f29) — 2026-09-13 07:01:25
-  - 摘要：VIDRAFT's PharmaOS Closes the Loop: AI Drug Discovery Gets Cell-Level Experimental Validation TL;DR: VIDRAFT has partnered with Pyo Biotech to connect its AI-driven drug candidate discovery platform, PharmaOS, to real wet-lab cell experiments — bridging the gap between in silico
-- [Aging Biomarkers Panel: Essential Longevity Protocol](https://dev.to/vladimir_lialine_b2e67374/aging-biomarkers-panel-essential-longevity-protocol-2hmf) — 2026-09-13 07:00:10
-  - 摘要：Building an Aging Biomarkers Panel That Clinicians Can Trust A single biological-age score may attract attention, but it rarely provides enough context for responsible clinical decisions. A comprehensive aging biomarkers panel should combine DNA methylation data with physiologica
-- [Chạy LLM on-device trong app Capacitor: iOS 26 và Gemini Nano](https://dev.to/bean_bean/chay-llm-on-device-trong-app-capacitor-ios-26-va-gemini-nano-2pf2) — 2026-09-13 07:00:08
-  - 摘要：Originally published on NextFuture Thêm tính năng AI vào app mobile lâu nay đồng nghĩa với việc gửi text của người dùng lên server: chọn nhà cung cấp, tìm chỗ giấu API key không nằm trong bundle, và chấp nhận một hoá đơn tăng theo từng token. Điện thoại hiện nay mở ra đường khác
-- [Prompt caching ghi mà không đọc: vì sao bill tăng 25%](https://dev.to/bean_bean/prompt-caching-ghi-ma-khong-doc-vi-sao-bill-tang-25-4b1j) — 2026-09-13 07:00:04
-  - 摘要：Originally published on NextFuture Bạn bật prompt caching cho một agent loop để cắt chi phí input, vì trong một tool loop thì input token là gần như toàn bộ hoá đơn. Một thời gian sau bill tăng chứ không giảm, trong khi mọi request đều trả 200, latency không đổi và log không báo
-- [The Week Everyone in AI Suddenly Started Saying "Slow Down"](https://dev.to/lucky012501/the-week-everyone-in-ai-suddenly-started-saying-slow-down-12bn) — 2026-09-13 06:57:02
-  - 摘要：The Week Everyone in AI Suddenly Started Saying "Slow Down" Saturday was a strange day in AI land. Dario Amodei, the CEO of Anthropic, published an essay titled We Must Pace the Frontier , and the short version of it is: the industry needs to stop sprinting. Not stop building — s
-- [I built an hourly newspaper for e-ink (and turned the pipeline into an MCP server)](https://dev.to/jshelley/i-built-an-hourly-newspaper-for-e-ink-and-turned-the-pipeline-into-an-mcp-server-1ebg) — 2026-09-13 06:54:03
-  - 摘要：Every hour, a Lambda pulls about 120 items from ~100 RSS feeds, asks a small model to act as an editor, and typesets the result as a 480x800 one-bit page for the Xteink X4 e-ink reader on my desk. The same pipeline now produces a multi-page "Morning Paper" PDF for reMarkable and
-- [Physics-Augmented Diffusion Modeling for bio-inspired soft robotics maintenance with ethical auditability baked in](https://dev.to/rikinptl/physics-augmented-diffusion-modeling-for-bio-inspired-soft-robotics-maintenance-with-ethical-3099) — 2026-09-13 06:53:55
-  - 摘要：Physics-Augmented Diffusion Modeling for bio-inspired soft robotics maintenance with ethical auditability baked in When I first started experimenting with diffusion models for robotic control, I was convinced that raw generative power would be enough. I had trained a vanilla deno
-- [How to Use Hypotenuse AI for Competitor Keyword Analysis in 2026](https://dev.to/leosociallseointent/how-to-use-hypotenuse-ai-for-competitor-keyword-analysis-in-2026-dck) — 2026-09-13 06:50:42
-  - 摘要：Originally published at https://seointent.com/blog/hypotenuse-ai-for-competitor-keyword-analysis TL;DR - Hypotenuse AI for competitor keyword analysis works best when you feed it structured prompts built around a specific competitor URL or brand name — vague inputs return vague o
-- [OBDA and Virtual Knowledge Graphs: A Practical Introduction](https://dev.to/aymane-belassiria/obda-and-virtual-knowledge-graphs-a-practical-introduction-pll) — 2026-09-13 06:45:05
-  - 摘要：When working with enterprise data, one problem appears again and again: the data is spread across different systems, but applications need to work with it as if it belonged to one coherent model. A company might have: PostgreSQL databases Oracle databases data warehouses legacy s
-- [Building a Self-Healing Autonomous System with Python](https://dev.to/rogt7/building-a-self-healing-autonomous-system-with-python-3oa1) — 2026-09-13 06:44:58
-  - 摘要：Building a Self-Healing Autonomous System The Vision What if your system could detect its own bugs, fix them, test the fixes, and deploy — all without human intervention? This is the architecture I built for Nexus Intelligence — an autonomous system that runs 24/7, self-repairs,
-
-## Lobsters
-
-- [A Few Good Ideas in Programming Languages](https://prydt.xyz/blog/a-few-good-ideas-in-pl/) — 2026-09-13 02:19:16
-  - 摘要：Comments
-- [Make it anyway](https://www.joelotter.com/posts/2026/09/make-it-anyway/) — 2026-09-13 01:24:07
-  - 摘要：Comments
-- [The gpg.fail aftermath: On responsible disclosure, GPG, and the state of security in 2026 [32:37]](https://media.ccc.de/v/2026-728-the-gpg-fail-aftermath-on-responsible-disclosure-gpg-and-the-state-of-security-in-2026) — 2026-09-13 01:24:59
-  - 摘要：slides In 2025, I [the speaker] found and disclosed a bunch of vulnerabilities in GPG, the most used PGP implementation, and held a talk at 39c3 about it. Some of the bugs ended up getting fixed. This talk describes the adventure and aftermath of getting there, shows some novel o
-- [Managing Complex Application State with Reactive Data Flows](https://yogthos.net/posts/2026-09-12-reactive-dataflow.html) — 2026-09-13 03:45:31
-  - 摘要：Comments
-- [Optimizing a single Rust Clippy lint by 3133X](https://blog.goose.love/posts/making-a-clippy-lint-faster-by-3133x/) — 2026-09-13 04:29:09
-  - 摘要：Comments
-- [Microcode in Intel's 8087 floating-point chip: the scale instruction](https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html) — 2026-09-13 04:55:56
-  - 摘要：Comments
 
 ## 人工分析提示
 
