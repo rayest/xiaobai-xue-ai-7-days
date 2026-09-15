@@ -6,9 +6,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets/infographics"
-OUT = ASSETS / "ai-operating-models-2026-09-14.png"
-BACKGROUND = ASSETS / "ai-operating-models-2026-09-14-background.png"
-QR = ASSETS / "hub-smarphin-qr-2026-09-14.png"
+OUT = ASSETS / "evidence-over-answers-2026-09-15.png"
+BACKGROUND = ASSETS / "evidence-over-answers-2026-09-15-background.png"
+QR = ASSETS / "hub-smarphin-qr-2026-09-15.png"
 FONT_MEDIUM = "/System/Library/Fonts/STHeiti Medium.ttc"
 FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
 
@@ -42,41 +42,41 @@ def main():
     draw.rounded_rectangle((42, 28, 1038, 244), 22, fill="#FBF8F2", outline="#E4DDD2", width=2)
     put(draw, (66, 48), "海豚智脑", 28, bold=True)
     put(draw, (218, 53), "hub.smarphin.com", 17, "#74787A")
-    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.14", 18, "#F2682A", True)
-    put(draw, (66, 140), "AI 系统需要新的运行体系", 41, bold=True)
-    put(draw, (68, 205), "记忆、岗位、开放与治理成为生产竞争力", 20, "#555B5F")
+    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.15", 18, "#F2682A", True)
+    put(draw, (66, 140), "AI 不只需要答案，更需要证据", 40, bold=True)
+    put(draw, (68, 205), "证据、边界与判断成为生产价值", 20, "#555B5F")
 
-    card(draw, 252, "01", "长上下文进入内存经济学", [
-        "V4.1 Flash 为 552B MoE 主干",
-        "输入仅激活 8B，输出激活 16B 参数",
-        "竞争点转向缓存、检索与恢复成本",
-    ], "压测真实长任务，再决定上下文策略")
-    card(draw, 436, "02", "代理管理开始像岗位设计", [
-        "每个代理对应岗位、技能、经理和预算",
-        "发现、执行、审批拆成不同角色",
-        "不确定性升级给人，而不是继续猜测",
-    ], "把升级条件写成系统规则")
-    card(draw, 620, "03", "开放模型不是二选一题", [
-        "模型发布至少存在六级访问梯度",
-        "权重开放不等于数据、代码、许可全开放",
-        "部署控制权与短期性能是两条决策轴",
-    ], "按五个维度审查开放程度")
-    card(draw, 804, "04", "安全转向系统级协作", [
-        "真实滥用跨越网络攻击、影响行动与监控",
-        "最终答案不足以覆盖长链路代理风险",
-        "完整轨迹、独立评估与威胁共享缺一不可",
-    ], "高权限代理必须可追踪、可中止")
-    card(draw, 988, "05", "脑图开放不等于数字生命", [
-        "果蝇连接图含 16.6 万+神经元",
-        "记录 1.25 亿个突触连接",
-        "结构地图不包含记忆或意识",
-    ], "区分结构、动力学与学习机制")
+    card(draw, 252, "01", "前沿治理走向可检查", [
+        "外部评估者需要内部级访问能力",
+        "30 天扫描发现约 35 项相关研究",
+        "500+ 恶意包被清理，AI 归因未证实",
+    ], "预设复核、披露与自动暂停门槛")
+    card(draw, 436, "02", "AI 科研进入证明与溯源阶段", [
+        "Navier–Stokes 项目约用一万个并发代理",
+        "产生 270 万条消息、1300 亿输出 token",
+        "Lean 验证不替代同行评议与贡献认定",
+    ], "同时交付轨迹、证明和贡献时间线")
+    card(draw, 620, "03", "长视频变成预算化证据搜索", [
+        "动态调整帧率、分辨率与模态",
+        "最高减少 88% token、降低 66% 成本",
+        "基准准确率最高提升 7%",
+    ], "组合采样、层级检索与按需重看")
+    card(draw, 804, "04", "金融 AI 竞争转向可信数据层", [
+        "内置 Daloopa、PitchBook、LSEG News",
+        "数字和结论可回到具体表格与段落",
+        "输出仍需独立专业判断",
+    ], "把数据权利、引用和复核列为硬指标")
+    card(draw, 988, "05", "构建变便宜，判断仍稀缺", [
+        "AI 大幅降低原型与实现成本",
+        "产品核心转向影响力与取舍",
+        "更快建造需要更严格的删除标准",
+    ], "用 AI 加速原型，不外包产品判断")
 
     draw.rounded_rectangle((58, 1178, 1022, 1402), 20, fill="#252B2F")
-    put(draw, (86, 1206), "更强模型只是起点", 21, "#FFFFFF", True)
-    put(draw, (86, 1244), "可靠运行体系才是生产竞争力。", 17, "#D9DEDF")
-    put(draw, (86, 1318), "来源：DeepSeek · Brex · FAccT", 12, "#AEB6B9")
-    put(draw, (86, 1341), "OpenAI · Anthropic · Google Research", 12, "#AEB6B9")
+    put(draw, (86, 1206), "生成能力趋于普及", 21, "#FFFFFF", True)
+    put(draw, (86, 1244), "证据、边界和判断才是生产价值。", 17, "#D9DEDF")
+    put(draw, (86, 1318), "来源：Dario Amodei · Anthropic · RubyGems", 12, "#AEB6B9")
+    put(draw, (86, 1341), "OpenAI · Google · a16z", 12, "#AEB6B9")
 
     qr = Image.open(QR).convert("RGB").resize((174, 174), Image.Resampling.NEAREST)
     im.paste(qr, (817, 1202))
