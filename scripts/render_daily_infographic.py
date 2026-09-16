@@ -6,9 +6,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets/infographics"
-OUT = ASSETS / "evidence-over-answers-2026-09-15.png"
-BACKGROUND = ASSETS / "evidence-over-answers-2026-09-15-background.png"
-QR = ASSETS / "hub-smarphin-qr-2026-09-15.png"
+OUT = ASSETS / "systems-competition-2026-09-16.png"
+BACKGROUND = ASSETS / "systems-competition-2026-09-16-background.png"
+QR = ASSETS / "hub-smarphin-qr-2026-09-16.png"
 FONT_MEDIUM = "/System/Library/Fonts/STHeiti Medium.ttc"
 FONT_LIGHT = "/System/Library/Fonts/STHeiti Light.ttc"
 
@@ -42,41 +42,41 @@ def main():
     draw.rounded_rectangle((42, 28, 1038, 244), 22, fill="#FBF8F2", outline="#E4DDD2", width=2)
     put(draw, (66, 48), "海豚智脑", 28, bold=True)
     put(draw, (218, 53), "hub.smarphin.com", 17, "#74787A")
-    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.15", 18, "#F2682A", True)
-    put(draw, (66, 140), "AI 不只需要答案，更需要证据", 40, bold=True)
-    put(draw, (68, 205), "证据、边界与判断成为生产价值", 20, "#555B5F")
+    put(draw, (66, 101), "AI INTELLIGENCE · 2026.09.16", 18, "#F2682A", True)
+    put(draw, (66, 140), "AI 竞争正在变成系统竞争", 40, bold=True)
+    put(draw, (68, 205), "控制、学习与基础设施决定真实能力", 20, "#555B5F")
 
-    card(draw, 252, "01", "前沿治理走向可检查", [
-        "外部评估者需要内部级访问能力",
-        "30 天扫描发现约 35 项相关研究",
-        "500+ 恶意包被清理，AI 归因未证实",
-    ], "预设复核、披露与自动暂停门槛")
-    card(draw, 436, "02", "AI 科研进入证明与溯源阶段", [
-        "Navier–Stokes 项目约用一万个并发代理",
-        "产生 270 万条消息、1300 亿输出 token",
-        "Lean 验证不替代同行评议与贡献认定",
-    ], "同时交付轨迹、证明和贡献时间线")
-    card(draw, 620, "03", "长视频变成预算化证据搜索", [
-        "动态调整帧率、分辨率与模态",
-        "最高减少 88% token、降低 66% 成本",
-        "基准准确率最高提升 7%",
-    ], "组合采样、层级检索与按需重看")
-    card(draw, 804, "04", "金融 AI 竞争转向可信数据层", [
-        "内置 Daloopa、PitchBook、LSEG News",
-        "数字和结论可回到具体表格与段落",
-        "输出仍需独立专业判断",
-    ], "把数据权利、引用和复核列为硬指标")
-    card(draw, 988, "05", "构建变便宜，判断仍稀缺", [
-        "AI 大幅降低原型与实现成本",
-        "产品核心转向影响力与取舍",
-        "更快建造需要更严格的删除标准",
-    ], "用 AI 加速原型，不外包产品判断")
+    card(draw, 252, "01", "控制规则变成可测试规格", [
+        "人类控制被写入模型最高目标",
+        "权限、暂停和关闭形成明确控制链",
+        "当前仍是咨询草案，并非现行能力",
+    ], "把权限继承与越权测试写入验收")
+    card(draw, 436, "02", "能力曲线要连同边界一起读", [
+        "2024 年以来 50% 时间跨度约 89 天翻倍",
+        "长期趋势更接近每 6–7 个月翻倍",
+        "超过 16 小时测量不可靠，任务域有限",
+    ], "同步标注任务域、成功率和置信区间")
+    card(draw, 620, "03", "学习过程成为优化对象", [
+        "递归改进路线图分为五级自治",
+        "RLT 让隐藏状态跨 token 循环延续",
+        "路线图与技术报告都不是规模化验证",
+    ], "区分提案、实验和生产收益")
+    card(draw, 804, "04", "连接组进入具身接口", [
+        "脑与腹神经索连接组约含一亿突触",
+        "开源实验接入 166,700 个神经元数据",
+        "传感器与运动解码仍由工程接口决定",
+    ], "检查接口假设、对照与可复现性")
+    card(draw, 988, "05", "算力合同也是融资结构", [
+        "六年 GPU 服务订单上限约 137 亿美元",
+        "第三批交付仍附带客户审查条件",
+        "50,808,408 股权证与实际采购挂钩",
+    ], "拆开订单、交付条件与客户归因")
 
     draw.rounded_rectangle((58, 1178, 1022, 1402), 20, fill="#252B2F")
-    put(draw, (86, 1206), "生成能力趋于普及", 21, "#FFFFFF", True)
-    put(draw, (86, 1244), "证据、边界和判断才是生产价值。", 17, "#D9DEDF")
-    put(draw, (86, 1318), "来源：Dario Amodei · Anthropic · RubyGems", 12, "#AEB6B9")
-    put(draw, (86, 1341), "OpenAI · Google · a16z", 12, "#AEB6B9")
+    put(draw, (86, 1206), "真正拉开差距的", 21, "#FFFFFF", True)
+    put(draw, (86, 1244), "是把模型连接成可验证系统的能力。", 17, "#D9DEDF")
+    put(draw, (86, 1318), "来源：Microsoft AI · METR · arXiv", 12, "#AEB6B9")
+    put(draw, (86, 1341), "Nature · SEC", 12, "#AEB6B9")
 
     qr = Image.open(QR).convert("RGB").resize((174, 174), Image.Resampling.NEAREST)
     im.paste(qr, (817, 1202))
